@@ -69,12 +69,9 @@
                 <input type="text" placeholder="LinkedIn Profile (URL)">
                 <input type="text" placeholder="Phone Number"> <br> 
                 <input type="text" placeholder="Role Type"> <br>
-                    <textarea cols="20" rows="10" placeholder="Your Message"></textarea>
                 <input type="text" placeholder="Chosen Position">
 
-            
-                
-                
+                <textarea cols="20" rows="10" placeholder="Your Message"></textarea>
                 
                 
                 
