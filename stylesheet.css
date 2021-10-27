@@ -1,5 +1,66 @@
- 
- /* SECTION 3 CSS */
+* {
+    font-family: system-ui, system-ui, sans-serif;
+}
+
+/* .wallpaper{
+    background-image: url("imgs/wallpaper-s1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} */
+
+/* SECTION 1 CSS */
+.s1-container{
+    background-image: url("imgs/wallpaper-s1.jpg");
+    width: 100%;
+    max-height: 0%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100vw 100vh; */
+
+} 
+
+  
+.text-Box {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered {
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.s1-1{
+ padding-top: 25%;
+ font-size: 50px;
+    min-width: 50%;
+}
+
+.s1-2{
+    padding-top:15%; 
+    font-size: 20px;
+    min-width: 20%;
+    color: #9AA0A6;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 750px) {
+    .s1-container {
+        max-height: 10%;
+        background-size: 100vw 100vh; 
+    }
+    .s1-1{
+        font-size: 25px;
+    }
+  }
+
+
+/* SECTION 3 CSS */
  .s3 {
     width:100%;
     display: inline-flex;
@@ -22,8 +83,7 @@
 }
 
 h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight:normal; 
+   font-weight:normal; 
     font-size: larger; 
     color:white;
 }
