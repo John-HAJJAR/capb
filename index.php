@@ -109,33 +109,6 @@
     <br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br>
 
-    <h1> SECTION 5 </h1>
-    <br><br><br>
-
-    <div class="s5">
-        <div class="s5-1">
-            <img src="imgs/wallpaper-s5-1.jpg" width="80%">
-            <h3 class="s51-text1"> INVESTOR RELATIONS </h3>
-            <h3 class="s51-text2"> PROPRIETARY INVESTMENTS </h3>
-            <h3 class="s51-text3"> PRIVATE DEALS </h3>
-
-        </div>
-        <div class="s5-2">
-            <img src="imgs/wallpaper-s5-2.jpg" width="80%">
-            <h3 class="s52-text1"> AFFILIATED ENTERPRISE </h3>
-            <h3 class="s52-text2"> CORPORATE VENTURES </h3>
-            <h3 class="s52-text3"> GENERAL SERVICES </h3>
-
-        </div>
-    </div>
-        <div class="s5-3">
-            <img src="imgs/wallpaper-s5-3.jpg" width="95%">
-            <h3 class="s53-text" align=center > OPPORTUNITY IS ALWAYS SOUGHT AFTER</h3>
-        </div>
-
-
-        <br><br><br><br><br>
-        <br><br><br><br><br><br>
 
         <h1>SECTION 7 : FORM </h1>
 
