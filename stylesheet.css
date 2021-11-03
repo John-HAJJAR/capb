@@ -18,7 +18,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-size: 100vw 100vh; */
+    background-size: 100vw 100vh;
 
 } 
 
@@ -61,120 +61,165 @@
 
 
 /* SECTION 3 CSS */
- .s3 {
-    width:100%;
+
+.s3{
+    width: 100%;
     display: inline-flex;
-    margin:auto;
+    margin: auto;
     text-align: center;
-}
-
-.s3-1{
-    width:40%;
-    position:relative; 
-}
-.s3-2{
-    width:40%;
-    position:relative;
-}
-
-.s3-1 > img , .s3-2 > img{
-    max-width: 500px;
-    max-height: 600px;
-}
-
-h3 {
-   font-weight:normal; 
-    font-size: larger; 
-    color:white;
-}
-
-
-.s3-text1{
-    margin-top: -90%;
-    color:white;
-}
-
-.s3-text2{
-    margin-top: 60%;
-    color:white;
-}
-
-@media only screen and (max-width: 600px) {
-    .s3-1 > h3, .s3-2 > h3 {
-        font-size: 75%;
-    }
-
-
+    justify-content: center;
+    align-items: center;
   }
 
-  /* SECTION 5 CSS*/
+  .s3-1 > p, .s3-2 > p {
+    color: #fff;
+    position: relative;
+    vertical-align: middle;  
+  
+  }
 
-  .s5 {
-    width:100%;
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+  .s3div {
+      border: 2px solid red;
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-}
-
-  .s5-1{
-      width:50%;
-      position:relative; 
+    margin: auto;
+  }
+  
+  .s3-1{
+    background-image: url('imgs/wallpaper-s3-1.jpg');
   }
 
-  .s5-2{
-    width:50%;
-    position:relative; 
+  .s3-2{
+    background-image: url('imgs/wallpaper-s3-2.jpg');
+  }
+
+  .text-ts3-1{
+      margin-top: 10%;
+      margin-bottom: 80%;
+  }
+
+  .text-ts3-2{
+      margin-bottom: 20%;
+  }
+
+ 
+@media only screen and (max-width: 500px) {
+    .s3-1 > p, .s3-2 > p {
+        font-size: smaller;
+    }
+  } 
+  @media only screen and (max-width: 380px) {
+    .s3-1 > p, .s3-2 > p {
+        font-size: 10px;
+    }
+  } 
+
+  /* MAX WIDTH FOR THE DIVS */
+  @media only screen and (min-width: 1200px) {
+    .s3div {
+        width: 35%;
+        font-size: 18px;
+    }
+  } 
+
+/* SECTION 5 CSS */
+.s5-table{
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid red;
 }
 
-.s5-3{
-    margin-top:5%;
-    margin-left:5%;
-    position:relative; 
+.s5-td1, .s5-td2, .s5-td3{
+    /* padding: 5%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
 }
 
-
-.s51-text1 {
-    margin-top: -65%;
+.s5-td1{
+    width:30%;
+    background-image: url('imgs/wallpaper-s5-1.jpg');
 }
 
-.s51-text2 {
-    margin-top: 15%;
+.s5-td2{
+    width: 30%;
+    background-image: url('imgs/wallpaper-s5-2.jpg');
 }
 
-.s51-text3 {
-    margin-top: 15%;
+.s5-td3{
+    background-image: url('imgs/wallpaper-s5-3.jpg');
 }
 
-.s52-text1 {
-    margin-top:-65%;
+.br-big-screen{
+    display: none;
 }
 
-.s52-text2 {
-    margin-top: 15%;
-}
-
-.s52-text3 {
-    margin-top: 15%;
-}
-
-.s53-text {
-    margin-top:-15%;
-}
+.s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
+    color: #fff;
+    font-size: 15px;
+    position: relative;  
+    vertical-align: middle;
+  }
 
 
-@media only screen and (max-width: 555px) {
-    .s5-1 > h3, .s5-2 > h3, .s5-3 > h3{
-        font-size: 75%;
+  @media only screen and (max-width: 525px) {
+    .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
+        font-size: 11px;
+    }
+    .s5-td1, .s5-td2, .s5-td3 {
+    padding: 5%;
+    padding-bottom: 6%;
+    }
+  } 
+
+  @media only screen and (min-width: 526px) {
+    .s5-td1, .s5-td2, .s5-td3 {
+        padding: 6.5%;
+        padding-bottom: 7.5%;
+        }
+  }
+
+  @media only screen and (min-width: 650px) {
+    .s5-td1, .s5-td2, .s5-td3 {
+        padding: 8%;
+        padding-bottom: 9%;
+        }
+  }
+
+  @media only screen and (min-width: 900px) {
+    .s5-td1, .s5-td2, .s5-td3 {
+        width:15%;
+        }
+    .br-big-screen{
+        display: block;
     }
   }
 
-@media only screen and (max-width: 385px) {
-    .s5-1 > h3, .s5-2 > h3, .s5-3 > h3{
-        font-size: 57%;
+  @media only screen and (min-width: 1200px) {
+    .s5-td1, .s5-td2, .s5-td3 {
+        width:10%;
     }
-}
+  }
+
+    
+  @media only screen and (min-width: 1400px) {
+    .s5-td1, .s5-td2, .s5-td3 {
+        width:8%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
+        font-size: 8.5px;
+    }
+  } 
+
 
 /* SECTION 7  */
 .s7 {

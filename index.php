@@ -58,26 +58,57 @@
 
 
 
-    <!-- SECTION 3 -->
-<br><br>
-<br><br><br><br><br><br><br>
-
+ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <!-- SECTION 3  --> 
     <div class="s3">
-        <div class="s3-1">
-            <img src="imgs/wallpaper-s3-1.jpg" width="90%" height="110%">
-            <h3 class="s3-text1"> SEEKING OPPORTUNITY</h3>
-            <h3 class="s3-text2"> PRESERVING VISION </h3>
+        <div class="s3div s3-1">
+        <p class="text-ts3-1"> SEEKING OPPORTUNITY</p>
+        <p  class="text-ts3-2"> PRESERVING VISION</p>
         </div>
-
-        <div class="s3-2">
-            <img src="imgs/wallpaper-s3-2.jpg" width="90%" height="110%">
-            <h3 class="s3-text1"> MITIGATING RISK </h3>
-            <h3 class="s3-text2"> EVALUATING PROSPECTS </h3>
+        <div class="s3div s3-2">
+        <p class="text-ts3-1"> MITIGATING RISK </p>
+        <p  class="text-ts3-2">  EVALUATING PROSPECTS</p>
         </div>
+    </div>
 
-    </div>  
+
     <br>
     <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <!-- SECTION 5 -->
+    <table class="s5-table">
+        <tr style=" border: 2px solid red;">
+            <td class="s5-td1" style=" border: 2px solid red;">
+                <p>INVESTOR RELATIONS</p><br><br class="br-big-screen">
+                <p>PROPRIETARY INVESTMENT</p><br><br class="br-big-screen">
+                <p>PRIVATE DEALS</p>
+            </td>
+            <td style="width:10%"></td>
+            <td class="s5-td2" style="border: 2px solid red;">
+                <p>AFFILIATED ENTERPRISE</p><br><br class="br-big-screen">
+                <p>CORPORATE VENTURES</p><br><br class="br-big-screen">
+                <p>GENERAL SERVICES</p>
+            </td>
+        </tr>
+        <tr class="s5-tr2" style=" border-top: 15px solid white;">
+            <td class="s5-td3" colspan="3" style="border: 2px solid red;"> 
+           <br><p>OPPORTUNITY IS ALWAYS SOUGHT AFTER</p>
+            </td>
+        </tr>
+    </table>
+
+
+
+    
+    <br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+
     <h1> SECTION 5 </h1>
     <br><br><br>
 
