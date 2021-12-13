@@ -1,12 +1,46 @@
 * {
     font-family: system-ui, system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+body{
+    overflow-x: hidden;
+  }
+
+@media only screen and (max-width: 750px) {
+body {
+  font-size:25px;
+  }
+} 
+ 
+@media only screen and (min-width: 900px) {
+  .fontsize-bs {
+    font-size:30px;
+    }
+  }
+
+
+    
+/* NAVBAR CSS */
+
+#navbar a {
+  text-decoration: none;
+  color: inherit;
 }
 
-/* .wallpaper{
-    background-image: url("imgs/wallpaper-s1.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-} */
+#navbar .navbar .navbar-collapse {
+  text-align: center;
+}
+nav.navbar {
+  color: white;
+}
+.navbar.scrolled {
+  background-color: #001C57;
+  transition: background-color 200ms linear;
+}
+
+/* END OF NAVBAR CSS */
+
 
 /* SECTION 1 CSS */
 .s1-container{
@@ -20,7 +54,9 @@
     background-size: cover;
     background-size: 100vw 100vh;
 
-} 
+}
+
+
 
   
 .text-Box {
@@ -54,11 +90,71 @@
         max-height: 10%;
         background-size: 100vw 100vh; 
     }
+
     .s1-1{
         font-size: 25px;
     }
   }
+/* SECTION 2 CSS */
 
+.container-fluid{
+  background-image: url(imgs/logo-blue.png);
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* width: fit-content; */
+  opacity: 1;
+  text-align: center;
+  padding-bottom: 10%;
+  /* padding-top: 5%; */
+}
+
+.head-title{
+  padding-top: 10%;
+  font-weight: bold;
+  color:#0a1867;
+  font-size: 30px;
+
+}
+
+.details{
+   margin-top: 5%;
+   margin-left: 30%; 
+   margin-right: 30%; 
+  /* color:#416da3; */
+  color:whitesmoke;
+
+  font-size: 20px;
+
+}
+
+.key-word{
+  font-weight: bold;
+  color:#0a1867;
+  
+}
+
+.professional-careers{
+  background-image: url(aboutWallpaper.jpg);
+  
+  /* background-repeat: no-repeat; */
+  /* padding-bottom: 10%; */
+
+
+}
+
+.prof-career-text{
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  color:#416da3;
+  font-size: 20px;
+}
+
+
+/* END SECTION 2 CSS */
 
 /* SECTION 3 CSS */
 
@@ -69,6 +165,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
   }
 
   .s3-1 > p, .s3-2 > p {
@@ -79,7 +176,7 @@
   }
 
   .s3div {
-      border: 2px solid red;
+      /* border: 2px solid red; */
     width: 40%;
     height: 100%;
     background-size: cover;
@@ -120,121 +217,433 @@
   /* MAX WIDTH FOR THE DIVS */
   @media only screen and (min-width: 1200px) {
     .s3div {
-        width: 35%;
+        /* width: 35%; */
+        width: 30%; 
         font-size: 18px;
     }
   } 
 
+/* SECTION 4 CSS */
+
+#financeEnterprise .finance p {
+  padding-top: 50%;
+  transform: translateY(-50%);
+}
+
+
+#financeEnterprise div {
+  position: relative;
+}
+#financeEnterprise h1 {
+  padding: 4rem;
+}
+
+#financeEnterprise img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 4rem;
+  top: 50%;
+  text-align: center;
+  z-index: -1;
+  height: 20rem;
+  transform: translate(0, -50%);
+}
+#financeEnterprise div.col-lg-6 {
+  padding: 0 4rem;
+}
+#financeEnterprise .vertical-line {
+  border-left: 6px solid darkblue;
+  position: absolute;
+  top: 50%;
+  height: 15rem;
+  margin-top: -4rem;
+  left: 50%;
+  margin-left: -3px;
+}
+
+
+/* END SECTION 4  */
+
+
+/* SECTION 5 CSS */
+
+
+
 /* SECTION 5 CSS */
 .s5-table{
-    width: 90%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 2px solid red;
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15%;
+  /* border: 2px solid red; */
 }
 
 .s5-td1, .s5-td2, .s5-td3{
-    /* padding: 5%; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:100%;
+  /* padding: 5%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100%;
 }
 
 .s5-td1{
-    width:30%;
-    background-image: url('imgs/wallpaper-s5-1.jpg');
+  width: 35%;
+  background-image: url('imgs/wallpaper-s5-1.jpg');
+  background-position: center;
 }
 
 .s5-td2{
-    width: 30%;
-    background-image: url('imgs/wallpaper-s5-2.jpg');
+  width: 35%;
+  background-image: url('imgs/wallpaper-s5-2.jpg');
 }
 
 .s5-td3{
-    background-image: url('imgs/wallpaper-s5-3.jpg');
+  background-image: url('imgs/wallpaper-s5-3.jpg');
 }
 
 .br-big-screen{
-    display: none;
+  display: none;
 }
 
 .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
-    color: #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: lighter;
+  position: relative;  
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 1105px) {
+  .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
     font-size: 15px;
-    position: relative;  
-    vertical-align: middle;
   }
+}
 
-
-  @media only screen and (max-width: 525px) {
-    .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
-        font-size: 11px;
-    }
-    .s5-td1, .s5-td2, .s5-td3 {
-    padding: 5%;
-    padding-bottom: 6%;
-    }
-  } 
-
-  @media only screen and (min-width: 526px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        padding: 6.5%;
-        padding-bottom: 7.5%;
-        }
+@media only screen and (max-width: 525px) {
+  .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
+      font-size: 11px;
   }
-
-  @media only screen and (min-width: 650px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        padding: 8%;
-        padding-bottom: 9%;
-        }
+  .s5-td1, .s5-td2, .s5-td3 {
+  padding: 5%;
+  padding-bottom: 6%;
   }
+} 
 
-  @media only screen and (min-width: 900px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        width:15%;
-        }
-    .br-big-screen{
-        display: block;
-    }
+@media only screen and (min-width: 526px) {
+  .s5-td1, .s5-td2, .s5-td3 {
+      padding: 6.5%;
+      padding-bottom: 7.5%;
+      }
+}
+
+@media only screen and (min-width: 650px) {
+  .s5-td1, .s5-td2, .s5-td3 {
+      padding: 8%;
+      padding-bottom: 9%;
+      }
+}
+
+@media only screen and (min-width: 900px) {
+  .s5-td1, .s5-td2, .s5-td3 {
+      width:15%;
+      }
+  .br-big-screen{
+      display: block;
   }
+}
 
-  @media only screen and (min-width: 1200px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        width:10%;
-    }
+@media only screen and (min-width: 1200px) {
+  .s5-td1, .s5-td2, .s5-td3 {
+      width:10%;
   }
+}
 
-    
-  @media only screen and (min-width: 1400px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        width:8%;
-    }
+  
+@media only screen and (min-width: 1400px) {
+  .s5-td1, .s5-td2, .s5-td3 {
+      width:8%;
   }
+}
 
-  @media only screen and (max-width: 400px) {
-    .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
-        font-size: 8.5px;
-    }
-  } 
+@media only screen and (max-width: 400px) {
+  .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
+      font-size: 8.5px;
+  }
+} 
+
+/* END SECTION 5 CSS */
+
+/* SECTION 6 CSS */
+
+.s6 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
+
+.s6-title{
+  padding-top: 10%;
+  font-weight: bold;
+  color:#0a1867;
+  font-size: 30px;
+}
+
+.s6 > img {
+  display: block;
+  margin: auto;
+}
+
+/* END SECTION 6 CSS */
+
+
+
 
 
 /* SECTION 7  */
+
+
+/* SMALL SCREENS*/
 .s7 {
-    width:50%;
-    height:50%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    background-color: darkblue;
-    color:white;
+  width:70%;  /*was 75 */
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  background-color:  #001C57;
+  color:white;
 }
 
-.s7 > form > input[type=text]{
-    padding: 10px;
-    margin:10px;
-    color: darkblue;
-    
+.s7 > h2 {
+  margin-bottom: 20px;
 }
+
+.s7form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .s7 > form > input[type=text], .s7 > form > div > textarea{
+  padding: 10px;
+  margin:4px;
+  color: black;
+  text-align: center;
+} */
+
+input[type=text]{
+  padding: 10px;
+  margin:15px;
+  color: black;
+  text-align: center;
+  /* transition: all 1s ease; */
+}
+
+
+
+.s7 > form > div > input[type="text"]::placeholder{
+  color: #414c89;
+}
+
+.s7 > form > div > textarea::placeholder{
+  color: #414c89;
+  line-height:150px;
+
+}
+
+.message{
+  text-align: center;
+  margin: 15px;
+  padding-top: 15px;
+  resize: none;
+  height: 200px;
+  width: 200px;
+}
+
+.s7-apply-btn{
+  background-color: #00d69b;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  margin-top: 50%;
+  width:50%;
+  left: 25%;
+  top:45%;
+  font-weight: bold;
+  margin-top: -2%;
+  margin-bottom: -50%;
+  
+}
+
+/*BIG SCREEN CSS */
+@media only screen and (min-width: 800px) {
+.s7{
+  max-width: 700px;
+}  
+  .s7-left{
+    /* float:left; */
+    margin-top: 20%;
+    margin-left: -50%;
+  }
+  .s7-right{
+    margin-top: -170%;
+    margin-left: 75%;
+    float:right;
+  } 
+
+}
+
+
+/* END OF SECTION 7 */
+
+
+/* FOOTER CSS */
+
+/* Main Text Adjustments */
+.footer {
+  margin-top: 10%;
+  background-color: #001C57;
+  color: white;
+  padding: 3rem;
+}
+
+.footer p {
+  margin-bottom: 8px;
+}
+
+.footer h4 {
+  margin-bottom: 0;
+  font-weight: 200;
+}
+
+.footer h6 {
+  margin-bottom: 0;
+  font-weight: 200;
+}
+/* The Icons Design */
+.footer i.fab {
+  color: black;
+  background-color: white;
+  padding: 0.4rem;
+  margin-top: 16px;
+}
+
+.footer .left-footer ul {
+  padding: 0;
+}
+
+.footer .left-footer li:last-child {
+  margin-right: 0;
+}
+
+.footer .left-footer li {
+  white-space: nowrap;
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+/* General Different Blocks within Footer Adjustments */
+.left-footer, .middle-footer, .right-footer {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.left-footer {
+  font-weight: 200;
+}
+
+.middle-footer {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.right-footer {
+  text-align: right;
+}
+
+.afooter {
+  text-decoration: none;
+  color:white;
+}
+
+/* END OF FOOTER CSS */
+
+
+/* ALL RESPONSIVE QUERRIES */
+
+/* ABOUT SIZING RESPONSIVNESS */
+
+@media only screen and (max-width: 1010px){
+  .about > .details{
+    font-size:18px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .about > .details {
+    font-size: 14px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }  
+}
+
+
+@media only screen and (max-width: 550px) {
+  .about > .details {
+    font-size: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }  
+}
+
+/* PADDING FOR SMALL SCREENS FOR SECTION 1 & 2*/
+
+@media only screen and (max-width: 1200px) {
+  .text-Box {
+      padding-top: 15%;
+    }
+  }
+
+@media only screen and (max-width: 920px) {
+  .text-Box {
+      padding-top: 30%;
+    }
+  .about{
+    padding-top: 30%;
+  }
+  } 
+
+  @media only screen and (max-width: 550px) {
+  .text-Box {
+    padding-top: 45%;
+    }
+  .about{
+    padding-top: 45%;
+  }
+  }
+  
+  @media only screen and (max-width: 475px) {
+    .text-Box {
+      padding-top: 65%;
+      }
+    .about {
+      padding-top: 45%;
+    }
+    }
+  
+  @media only screen and (max-width: 320px) {
+      .text-Box {
+        padding-top: 95%;
+        }
+      .about {
+        padding-top: 65%;
+      } 
+    }
+
+    /*  */
