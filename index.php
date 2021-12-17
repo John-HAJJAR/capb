@@ -12,39 +12,8 @@
     </head>
     <body>
 
-    <section id="navbar">
-    <nav class="navbar py-4 fixed-top navbar-expand-lg navbar-dark">
-      <div class="container">
-        <h1><a class="navbar-brand d-lg-none" href="#">CapB</a></h1>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="row collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav nav">
-            <li class="nav-item me-lg-2 mb-4 mb-lg-0 mt-4 mt-lg-auto">
-              <a href="#">About</a>
-            </li>
-            <span class="mt-auto me-2 d-none d-lg-block"> | </span>
-            <li class="nav-item me-lg-2 mb-4 mb-lg-0 mt-auto">
-              <a href="#">Contact</a>
-            </li>
-            <span class="mt-auto me-2 d-none d-lg-block"> | </span>
-            <li class="nav-item me-lg-auto mb-4 mb-lg-0 mt-auto">
-              <a href="">Careers</a>
-            </li>
-            <h1 class="d-none d-lg-block"><a class="mx-lg-auto" href="#">CapB</a></h1>
-            <li class="nav-item ms-lg-auto me-lg-2 mb-4 mb-lg-0 mt-auto">
-              <a href="#">Finance</a>
-            </li>
-            <span class="mt-auto me-2 d-none d-lg-block"> | </span>
-            <li class="nav-item mt-auto mb-4 mb-lg-0">
-              <a href="">Enterprise</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </section>
+  <?php include 'navbar.php'; ?>
+
     <div class="s1-container ">  
         <div class = "text-Box">
             <div class = "centered s1-1 fadeout">Promises Held Privately</div>
@@ -104,29 +73,35 @@
       <div class="row">
         <div class="col-lg-6 text-center finance">
           <h1>FINANCE</h1>
+          <h4>
+            A form of our profession which relates
+            to building relations, facilitating deals,
+            and maintaining investments can well
+            be demonstrated through our ability
+            to act, respond, and cooperate.
+            <br><br>
+            We focus such effort on scaling
+            optionality in Finance, Trade, and
+            Commerce
+          </h4>
+          <br><br>
           <img src="imgs/Finance.png" alt="finance-img">
-          <p>A</p>
         </div>
         <span class="vertical-line d-none d-lg-block"></span>
         <div class="col-lg-6 text-center enterprise">
-          <img src="imgs/Enterprise.png" alt="finance-img">
           <h1>ENTERPRISE</h1>
-          <p>A multifaceted, multipurpose and multinational
-            investment office.</p>
-          <p><strong>CapB</strong> is a privately-held enterprise that ventures
-            into investment opportunities, hosts an online
-            services-based platform, and sponsors its very own
-            research initiative. For all that is deemed
-            appropriate, we discover, promote and finance
-            hopeful ventures that serve the interests of our
-            clients, sponsors and associates.</p>
-          <p>A large portion of our activities strictly pertain to
-            matters of Investment Banking, Investment
-            Research and Wealth & Asset Management.</p>
-          <p>All entities affiliated with <strong>CapB</strong> are within the scope
-            of operation and administration of the privatelyheld
-            firm. These include: <strong>Sovereign Wealth
-              Reserve</strong>, <strong>BBTC</strong> and <strong>iO Banking Solutions</strong>.</p>
+          <h4>
+          Delving into certain unrealized or
+          unfounded opportunities, initiatives,
+          and ventures may well deserve the
+          redirected attention, time, and
+          effort. <br><br>
+          Such an endeavor centers upon the
+          enablement of entrepreneurship,
+          innovation, and scalability.
+          </h4>
+          <br><br>
+          <img src="imgs/Enterprise.png" alt="finance-img">
         </div>
       </div>
     </div>
