@@ -31,6 +31,34 @@
             investment office.
              </p>
           <p class = "details">
+            <span class = "key-word">CapB</span> is a privately-held enterprise that ventures 
+            into investment opportunities, hosts an online 
+            services-based platform, and sponsors its very own 
+            research initiative.
+          </p>
+            <p class = "details">For all that is deemed 
+              appropriate, we discover, promote and finance 
+              hopeful ventures that serve the interests of our 
+              clients, sponsors and associates.
+            </p> 
+
+          <p class = "logo"><img src = "imgs/logo-blue.png" alt = "logo" class = "About-logo"</p>
+           
+    </div>
+      </div>
+        </div>
+
+
+          <!-- <div>
+            <div class = "container-fluid about" style="opacity: 1 !important;" >
+            <p class = "head-title" align=center> 
+              ABOUT
+            </p>
+
+          <p class = "details">A multifaceted, multipurpose and multinational 
+            investment office.
+             </p>
+          <p class = "details">
             <span class = "key-word">CapB</span>is a privately-held enterprise that ventures 
             into investment opportunities, hosts an online 
             services-based platform, and sponsors its very own 
@@ -52,7 +80,7 @@
         </p>
         
     </div>
-      </div>
+      </div> -->
         </div>
 
     <!-- SECTION 3  --> 
@@ -84,8 +112,10 @@
             optionality in Finance, Trade, and
             Commerce
           </h4>
-          <br><br>
-          <img src="imgs/Finance.png" alt="finance-img">
+         
+           <img src="imgs/Finance.png" alt="finance-img">
+           <br><br>
+           <button class="engage-explore-btn"> Engage </button>
         </div>
         <span class="vertical-line d-none d-lg-block"></span>
         <div class="col-lg-6 text-center enterprise">
@@ -99,16 +129,26 @@
           Such an endeavor centers upon the
           enablement of entrepreneurship,
           innovation, and scalability.
-          </h4>
-          <br><br>
+          </h4><br>
+          
           <img src="imgs/Enterprise.png" alt="finance-img">
+          <br><br>
+          <button class="engage-explore-btn"> Explore </button>
         </div>
       </div>
     </div>
   </section>
 
+  <br><br><br>
+    <!-- SECTION 5 -->
+    <section id="s5">
+        <div class="s5-div">
+        <img src="imgs/wallpaper-s5-3.jpg" alt="img" style="width:90%;">
+        <div class="s5-centered"> OPPORTUNITY IS ALWAYS SOUGHT AFTER </div>
+    </section>
+
   <!-- SECTION 5 -->
-    <table class="s5-table">
+    <!-- <table class="s5-table">
         <tr>
             <td class="s5-td1 ">
                 <p> INVESTOR RELATIONS</p><br><br class="br-big-screen">
@@ -127,16 +167,42 @@
            <br><p>OPPORTUNITY IS ALWAYS SOUGHT AFTER</p>
             </td>
         </tr>
-    </table>
+    </table> -->
 
-    <!-- SECTION 6 -->
+      <!-- SECTION 6 -->
     <div class="s6">
     <p class ="s6-title" align=center>PROFESSIONAL CAREERS</p>
     <div class="s6">
+      <!-- <img src="icon3.png" width="40%"> -->
+      <p class = "details-professional"><span class = "key-word">CapB</span> hopefully seek to recruit the disciplined, professional, and elite 
+        candidates of the realm. We continue to offer entry-level jobs, lengthy 
+        internships, and quality apprenticeship positions.
+      </p>
+      <p class = "details-professional">
+        In our view, the ideal candidate must showcase genuine integrity by holding 
+        up to their word and image. We only encourage the admission of serious and 
+        motivated applicants.
+      </p>
+
+      <img src = "imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
+    </div>
+
+
+    <!-- <div class="s6">
+      <p class ="s6-title" align=center>PROFESSIONAL CAREERS</p>
+      <div class="s6">
+      <h3>
+      <strong> CapB </strong> hopefully seek to recruit the disciplined, professional, and elite
+        candidates of the realm. We continue to offer entry-level jobs, lengthy
+        internships, and quality apprenticeship positions. <br>
+        In our view, the ideal candidate must showcase genuine integrity by holding
+        up to their word and image. We only encourage the admission of serious and
+        motivated applicants
+      </h3>
     <img src="imgs/icon3.png" width="40%">
     </div>
 
-    </div>
+    </div> -->
 
           <div class="s7">
             <br>
