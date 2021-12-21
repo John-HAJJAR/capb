@@ -7,7 +7,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
         <script type="text/javascript" src="jquery-comp-3.6.js"></script>
     </head>
     <body>
@@ -204,7 +204,7 @@
 
     </div> -->
 
-          <div class="s7">
+        <div class="s7">
             <br>
             <h2 align=center name = "form">Admission Form</h2>
             <form class="s7form" method = "post">
@@ -212,11 +212,12 @@
                     <input type="text" name="name" placeholder="First & Last Name"> <br>
                     <input type="text" name="email" placeholder="Email Address"> <br>
                     <input type="text" name="pnumber" placeholder="Phone Number"> <br> 
-                    <input type="text" name="roletype" placeholder="Role Type"> <br>
-                    <input type="text" name="position" placeholder="Chosen Position"><br>
+                    <input type="text" name="nationality" placeholder="Nationality"> <br> 
+                    <input type="text" name="linkedin" placeholder="LinkedIn Profile (URL)"> <br>
                 </div>
                 <div class="s7-right">
-                    <input type="text" name="linkedin" placeholder="LinkedIn Profile (URL)"> <br>
+                <input type="text" name="position" placeholder="Chosen Position"><br>
+                <input type="text" name="roletype" placeholder="Role Type"> <br>
                     <textarea class = "message" name="usermessage" cols="22.5" rows="10" placeholder="Your Message"></textarea>
                  </div>
 
@@ -228,10 +229,32 @@
             </form>
             <br><br><br><br><br><br>
         </div>
+        <br><br><br><br><br><br>
+<!-- SECTION 8-->
+  <section id="s8" class="text-center"> 
+    <h2> NEWS & UPDATES </h2>
+    <br>
+    <div class="s8-1">
+     <p class="s81-p1"> CapB sponsors its first venture capital fund, Hermon Equity </p>
+     <p class="s81-p2"> Enterprise | 10.10.21 </p>
+
+     <p class="s81-p1"> CapB launches MENA Scale, a tech startup </p>
+     <p class="s81-p2"> Enterprise | 21.09.21 </p>
+
+     <p class="s81-p1"> CapB acquires funds in latest financing round </p>
+     <p class="s81-p2"> Finance | 13.07.21 </p>
+    </div>
+  </section>
 
 
 
 
+
+
+
+
+
+<!-- Footer -->
     <section class="footer">
     <div class="container">
       <div class="row">
@@ -262,7 +285,7 @@
     </div>
   </section>
  
-<?php
+<!-- 
 //   if(isset($_POST['submit'])){
 //         $to = "john-hajjar@hotmail.com"; // Admin mail
 //     $from = $_POST['email']; // this is the sender's Email address
@@ -278,7 +301,7 @@
 //     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
 //     echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
 //     }
-?> 
+-->
 
 
 
