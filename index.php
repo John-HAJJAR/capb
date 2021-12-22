@@ -206,7 +206,7 @@
 
         <div class="s7">
             <br>
-            <h2 align=center name = "form">Admission Form</h2>
+            <h2 align=center name = "form" style="color:white;">Admission Form</h2>
             <form class="s7form" method = "post">
                 <div class="s7-left" >
                     <input type="text" name="name" placeholder="First & Last Name"> <br>
@@ -249,42 +249,11 @@
 
 
 
+<?php include 'footer.php'; ?>
 
 
 
 
-
-<!-- Footer -->
-    <section class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center text-lg-start left-footer">
-          <p>General Inquiry</p>
-          <h6><strong>Phone: +961 81-343-722</strong></h6>
-          <h6><strong>Email: <a class="afooter" href="mailto:info@capb.me">info@capb.me</a></strong></h6>
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-              </li>
-            </ul>
-        </div>
-        <div class="col-lg-4 text-center middle-footer">
-          <p><u><strong>B</strong></u></p>
-        </div>
-        <div class="col-lg-4 text-center text-lg-end pt-md-4 py-lg-0 right-footer">
-          <h4>Copyright © 2021 CapB</h4>
-          <p><em>Free Enterprise</em></p>
-          <strong>
-            <p>Bad Idriss, Beirut, Lebanon</p>
-          </strong>
-        </div>
-      </div>
-    </div>
-  </section>
- 
 <!-- 
 //   if(isset($_POST['submit'])){
 //         $to = "john-hajjar@hotmail.com"; // Admin mail

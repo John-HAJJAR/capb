@@ -53,10 +53,13 @@ nav.navbar {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100vw 100vh;
-
 }
 
 
+/* FOR PART 2 */
+.s1-cpart2{
+  background-image: url("imgs/wallpaper-p2.jpg");
+}
 
   
 .text-Box {
@@ -243,6 +246,14 @@ nav.navbar {
   }
 
   .s3-2{
+    background-image: url('imgs/wallpaper-s3-2.jpg');
+  }
+
+  .s3-1part1{
+    background-image: url('imgs/wallpaper-s3-1.jpg');
+  }
+
+  .s3-1part2{
     background-image: url('imgs/wallpaper-s3-2.jpg');
   }
 
@@ -506,8 +517,8 @@ nav.navbar {
 
 .details-professional{
   margin-top: 4%;
-  margin-left: 30%; 
-  margin-right: 30%; 
+  margin-left: 20%; 
+  margin-right: 20%; 
   margin-bottom: 3%;
  /* color:#416da3; */
  color:#202789;
