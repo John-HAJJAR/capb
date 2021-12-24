@@ -277,7 +277,7 @@
 <script>
     $(document).ready(function(){
         $(window).scroll(function(){
-        $(".s1-container").css("opacity", 1 - $(window).scrollTop() / $('.s1-container').height() /2 );
+        $(".s1-container").css("opacity", 1.15 - $(window).scrollTop() / $('.s1-container').height() /2 );
 
 
         $(function () {

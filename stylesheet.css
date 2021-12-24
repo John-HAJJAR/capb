@@ -699,6 +699,76 @@ h2{
 
 
 
+/* SECTION 12 */
+
+.s12{
+  justify-content: center;
+  align-items: center;
+  color: #001C57;
+  margin: auto;
+}
+
+.s12-table{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-top: 50px;
+  color: #001C57;
+}
+
+.s12-table2{
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.s12-card{
+  text-align: center;
+  height: 4vw;
+  width: 33%;
+  font-weight: bold;
+  font-size: 3vw;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.table1pink{
+  background-color: rgba(247,185,172,255);
+  width: 4vw;
+}
+.table1green{
+  background-color: rgba(183,227,174,255);
+  width: 4vw;
+}
+.table1yellow{
+  background-color: rgba(249,216,175,255);
+  width: 4vw;
+}
+
+.table2blue {
+  background-color: rgba(175,238,221,255);
+}
+
+.s12-div1{
+  margin-top: 30%;
+  margin: auto;
+  width:45vw;
+  height: 4vw;
+  font-size: 2.2vw;
+  font-weight: lighter;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(230,231,236,255);
+}
+
+/* END SECTION 12 */
+
+
+
+
+
 
 /* FOOTER CSS */
 
