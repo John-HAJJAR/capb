@@ -47,9 +47,66 @@
                 <p> Swiss-related Investments </p>
             </div>
 
-
+            <table class="s12-table3">
+                <tr>
+                    <td class="s12-t3-card1" align="center">
+                        Year-to-Month Performance
+                    </td>
+                    <td class="s12-t3-card2" align="center">
+                        <!-- ADD CONNECTION TO DATABASE -->
+                        SWRCHF | 12.03%  
+                        SWRUSD | 5.34%
+                    </td>
+                </tr>
+            </table>
         </div>
-    
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
+
+    <!-- ------------------------------------ -->
+    <!-- ------------------------------------ -->
+    <!-- ------------------------------------ -->
+    <!-- ------------------------------------ -->
+    <!-- ------------------------------------ -->
+    <div class="s13">
+        <h3 align=center> FINANCIAL INFORMATION & RECORD </h3>
+        <p align=center>Disclosed information are only relevant to the current and ongoing year of 2021</p> 
+        <br>
+        <h4 align=center> Spotlight Performance </h4>
+        <br>
+
+        <div class="cards">
+        <div class="s13-div1">
+            <div class="s13-card">
+            Cumulative value of successfully-closed private deals (in millions USD)
+            </div>
+            <div class="s13-numbers div1numb-back">
+                21
+            </div>
+        </div>
+        <div class="s13-div2">
+            <div class="s13-card">
+            Total number of successfully-closed private deals
+            </div>
+            <div class="s13-numbers div2numb-back">
+                33
+            </div>
+        </div>
+        <div class="s13-div3">
+            <div class="s13-card">
+            Total return on investment (YTD) due to our private fund (in percent)
+            </div>
+            <div class="s13-numbers div1numb-back">
+                13
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
     </body>
 
 
