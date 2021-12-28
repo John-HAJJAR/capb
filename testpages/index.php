@@ -10,7 +10,8 @@
     </head>
 
     <body>
-        <div class="s12">
+  <br>
+          <div class="s12">
             <h3 align=center> Portfolio Listing, Composition and Research </h3>
             <p align=center>Click the ticker to acces document</p> 
 
@@ -54,21 +55,18 @@
                     </td>
                     <td class="s12-t3-card2" align="center">
                         <!-- ADD CONNECTION TO DATABASE -->
-                        SWRCHF | 12.03%  
-                        SWRUSD | 5.34%
+                        <span id="s12-txt-1"> SWRCHF | 12.03% </span>  
+                        <span id="s12-txt2" > SWRUSD | 5.34%  </span>
                     </td>
                 </tr>
             </table>
         </div>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-
-
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ -->
+<br><br><br><br>
     <div class="s13">
         <h3 align=center> FINANCIAL INFORMATION & RECORD </h3>
         <p align=center>Disclosed information are only relevant to the current and ongoing year of 2021</p> 
@@ -78,27 +76,27 @@
 
         <div class="cards">
         <div class="s13-div1">
-            <div class="s13-card">
+            <div class="s13-card card1">
             Cumulative value of successfully-closed private deals (in millions USD)
             </div>
             <div class="s13-numbers div1numb-back">
-                21
+                <span class="counter" data-number="21   "></span>
             </div>
         </div>
         <div class="s13-div2">
-            <div class="s13-card">
+            <div class="s13-card card2">
             Total number of successfully-closed private deals
             </div>
             <div class="s13-numbers div2numb-back">
-                33
+                <span class="counter" data-number="33"></span>
             </div>
         </div>
         <div class="s13-div3">
-            <div class="s13-card">
+            <div class="s13-card card3">
             Total return on investment (YTD) due to our private fund (in percent)
             </div>
-            <div class="s13-numbers div1numb-back">
-                13
+            <div class="s13-numbers div1numb-back ">
+                <span class="counter" data-number="13"></span>
             </div>
         </div>
     </div>
@@ -107,7 +105,48 @@
     <br><br><br><br><br><br>
     <br><br><br><br><br><br>    <br><br><br><br><br><br>
     <br><br><br><br><br><br>
-    </body>
+
+    <script>
+     var a = 0;
+$(window).scroll(function () {
+    var oTop = $(".card1").offset().top - window.innerHeight;
+    if (a == 0 && $(window).scrollTop() > oTop) {
+        $(".counter").each(function () {
+            var $this = $(this),
+                countTo = $this.attr("data-number");
+            $({
+                countNum: $this.text()
+            }).animate(
+                {
+                    countNum: countTo
+                },
+
+                {
+                    duration: 5000,
+                    easing: "swing",
+                    step: function () {
+                        $this.text(
+                            Math.ceil(this.countNum).toLocaleString("en")
+                        );
+                    },
+                    complete: function () {
+                        $this.text(
+                            Math.ceil(this.countNum).toLocaleString("en")
+                        );
+                    }
+                }
+            );
+        });
+        a = 1;
+    }
+});
+
+
+    </script>    
+
+
+
+</body>
 
 
 </html>

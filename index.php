@@ -218,7 +218,7 @@
                 <div class="s7-right">
                 <input type="text" name="position" placeholder="Chosen Position"><br>
                 <input type="text" name="roletype" placeholder="Role Type"> <br>
-                    <textarea class = "message" name="usermessage" cols="22.5" rows="10" placeholder="Your Message"></textarea>
+                    <textarea class = "message" name="usermessage" cols="23.5" rows="10" placeholder="Your Message"></textarea>
                  </div>
 
       

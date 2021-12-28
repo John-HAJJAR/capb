@@ -606,8 +606,8 @@ input[type=text]{
   margin: 15px;
   padding-top: 15px;
   resize: none;
-  height: 200px;
-  width: 200px;
+  height: 195px;
+  width: 205px;
   border-radius: 10px;
 }
 
@@ -629,6 +629,7 @@ input[type=text]{
   
 }
 
+
 /*BIG SCREEN CSS */
 @media only screen and (min-width: 800px) {
 .s7{
@@ -637,11 +638,11 @@ input[type=text]{
   .s7-left{
     /* float:left; */
     margin-top: 20%;
-    margin-left: -50%;
+    margin-left: -62%;
   }
   .s7-right{
-    margin-top: -160%;
-    margin-left: 75%;
+    margin-top: -157.5%;
+    margin-left: 65%;
     float:right;
   } 
 
@@ -826,6 +827,17 @@ h2{
   border-radius: 10px;
   text-align: center;
 }
+
+.card2 {
+  padding-top: 28%;
+  padding-bottom: 28%;
+}
+
+.card3 {
+  padding-top: 23%;
+  padding-bottom: 23%;
+}
+
 .s13-numbers{
   text-align: center;
   font-size: 9vw;
