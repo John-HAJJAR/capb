@@ -75,6 +75,60 @@
     </div>
     
     <!-- SECTION 5 TO DO CARDS -->
+    <section class ="Cols">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 text-center">
+                <a href = ""><img src = "../imgs/sample logo.png"></a>
+                <figcaption>No available document</figcaption>
+              <p class = "title">Responsible Track Record</p>
+              <p class = "sub-title">
+                By establishing a mutual sense 
+                of trustworthiness, we invite 
+                the relevant and interested 
+                subject to demonstrate, or 
+                prove, their track record in 
+                certain facets of investment or 
+                deal-making
+              </p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <a href = ""><img src = "../imgs/sample logo.png"></a>
+                <figcaption>Click the above icon to access document</figcaption>
+              <p class = "title-2">Established Guidelines</p>
+              <p class = "sub-title-2">
+                By seeking to forge, nurture 
+                and maintain some fruitful 
+                relations with our trusted 
+                clients, qualified associates, 
+                and prudent investors, we 
+                have set to establish clear and 
+                honest guidelines to organize, 
+                navigate, and facilitate 
+                business transactions, private 
+                deals, and long-lasting 
+                ventures.
+              </p>
+              <br>
+              
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <a href = ""><img src = "../imgs/sample logo.png"></a>
+                <figcaption>Click the above icon to access document</figcaption>
+                <p class = "title-3">Solid Standards</p>
+                <p class = "sub-title-3">Honesty, prudence, and 
+                diligence are what qualities 
+                we hope to find on both sides, 
+                buyer and seller, of a typical 
+                private deal or business 
+                transaction.
+                </p>
+          </div>
+        </div>
+      </section>
+
+
 
     <!-- SECTION 6 -->
     <div class="s6">
@@ -95,9 +149,75 @@
       <img src = "../imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
     
-    <!-- SECTION 7 TO DO SAME AS SECTION 5 -->
+    <!-- SECTION 7 -->
+    <section class ="Cols">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 text-center">
+                <a href = ""><img src = "../imgs/sample logo.png" class = "logo-7"></a>
+                <figcaption>No available document</figcaption>
+              <p class = "title-7">Real Estate</p>
+              <p class = "sub-title-7-1">
+                Sizable projects and 
+                properties spanning multiple 
+                geographies, in need of 
+                serious and reputable capital. 
+                Our offerings are strictly 
+                purposed for long-term 
+                investment horizons that 
+                compensate the devoted 
+                beneficiary.
+              </p>
+              <div class = "investment-cap">
+                  <p class = "div-text">Investment Cap:<br> Starting from $200,000</p>
+              </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <a href = ""><img src = "../imgs/sample logo.png" class = "logo-7"></a>
+                <figcaption>Click the above icon to access document</figcaption>
+              <p class = "title-7">Trade</p>
+              <p class = "sub-title-7-2">
+                Financing significant 
+                commercial operations, with 
+                embedded guarantees, across 
+                multiple industries, markets, 
+                and geographies. Our 
+                offerings include robust 
+                businesses and commercial 
+                entities with reputable 
+                economic utility.
+              </p>
+              <div class = "investment-cap">
+                <p class = "div-text">Investment Cap:<br> In excess of $100,000</p>
+            </div>
+              
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <a href = ""><img src = "../imgs/sample logo.png" class = "logo-7"></a>
+                <figcaption>Click the above icon to access document</figcaption>
+                <p class = "title-7">Enterprise</p>
+                <p class = "sub-title-7-3">Funding starting-up, and 
+                    scaling young and promising 
+                    enterprises with solid prospects 
+                    of revenue and income 
+                    streams. Our private references 
+                    include some interesting 
+                    initiatives that possess the 
+                    bright idea, capable team, and 
+                    ideal vision.
+                </p>
+                <div class = "investment-cap">
+                    <p class = "div-text">Investment Cap:<br> A minimum of $20,000</p>
+                </div>
+          </div>
+        </div>
+      </section>
+
+      <p class = "note">Our brokerage and deal-fixing rates follow a dynamic pattern</p>
 
     <!-- SECTION 8 -->
+    <br><br>
     <section id="s5">
         <div class="s5-div">
         <img src="../imgs/wallpaper-s5-3.jpg" alt="img" style="width:90%;">
@@ -178,6 +298,156 @@
       <img src = "../imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
 
+    <!-- SECTION 12 -->
+    <br><br>
+    <div class="s12">
+            <h3 align=center> Portfolio Listing, Composition and Research </h3>
+            <p align=center>Click the ticker to acces document</p> 
+
+            <table class="s12-table">
+                <tr>
+                    <td class="s12-card table1pink">
+                        SWRCHF
+                    </td>
+                    <td width=5%></td>
+                    <td class="s12-card table1green">
+                        SWRUSD
+                    </td>
+                    <td width=5%></td>
+                    <td class="s12-card table1yellow">
+                        SWRBTC
+                    </td>
+                </tr>
+            </table>
+            <table class="s12-table2">
+                <tr>
+                    <td class="s12-card table2blue"> 
+                        SWRDEF
+                    </td>
+                    <td width="20%"></td>
+                    <td class="s12-card table2blue">
+                        SWRREF
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+            <h3 align=center> Information Tab </h3>
+
+            <div class="s12-div1">
+                <p> Swiss-related Investments </p>
+            </div>
+
+            <table class="s12-table3">
+                <tr>
+                    <td class="s12-t3-card1" align="center">
+                        Year-to-Month Performance
+                    </td>
+                    <td class="s12-t3-card2" align="center">
+                        <!-- ADD CONNECTION TO DATABASE -->
+                        <span id="s12-txt-1"> SWRCHF | 12.03% </span>  
+                        <span id="s12-txt2" > SWRUSD | 5.34%  </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    <!-- SECTION 13 -->
+    <br><br><br><br>
+    <div class="s13">
+        <h3 align=center> FINANCIAL INFORMATION & RECORD </h3>
+        <p align=center>Disclosed information are only relevant to the current and ongoing year of 2021</p> 
+        <br>
+        <h4 align=center> Spotlight Performance </h4>
+        <br>
+
+        <div class="cards">
+        <div class="s13-div1">
+            <div class="s13-card card1">
+            Cumulative value of successfully-closed private deals (in millions USD)
+            </div>
+            <div class="s13-numbers div1numb-back">
+                <span class="counter" data-number="21   "></span>
+            </div>
+        </div>
+        <div class="s13-div2">
+            <div class="s13-card card2">
+            Total number of successfully-closed private deals
+            </div>
+            <div class="s13-numbers div2numb-back">
+                <span class="counter" data-number="33"></span>
+            </div>
+        </div>
+        <div class="s13-div3">
+            <div class="s13-card card3">
+            Total return on investment (YTD) due to our private fund (in percent)
+            </div>
+            <div class="s13-numbers div1numb-back ">
+                <span class="counter" data-number="13"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- SECTION 14 -->
+    <br><br>
+    <div class="s14">
+        <h3 align=center> Revenue Composition </h3>
+        <br>
+
+        <div class="cards2">
+            <div class="s14-div1">
+                <div class="s14-card card-14-1">
+                <span class = "key-word"> 
+                    Direct Investment: 
+                </span>
+                <p> Active/passive income or
+                capital gains harvested and/or
+                realized from investments
+                made by our private fund, the
+                <span class = "key-word"> Sovereign Wealth Reserve </span> 
+                </p>
+                
+                </div>
+                <div class="s14-numbers s14-n1">
+                    <span class="counter2" data-number="27"></span>%
+                </div>
+            </div>
+            <div class="s14-div2">
+                <div class="s14-card card-14-2">
+                <span class = "key-word">
+                    Brokerage, Deal-fixing & Indirect Investment: 
+                </span>
+                <p> All activities that generate a commission fee for
+                extending, mediating, and facilitating particular
+                business transactions of perceived economic
+                and/or commercial value </p>
+                </div>
+                <div class="s14-numbers s14-n2">
+                    <span class="counter2" data-number="56"></span>%
+                </div>
+            </div>
+            <div class="s14-div3">
+                <div class="s14-card card-14-3">
+                <span class = "key-word"> 
+                    Research, Consulting & Advisory services:
+                </span>
+                <p> All activities that generate a 
+                specific fee for a guaranteed service </p>
+                </div>
+                <div class="s14-numbers s14-n3">
+                    <span class="counter2" data-number="17"></span>%
+                </div>
+            </div>
+        </div>
+        <br>
+        <h4 align=center> Information Notice </h4>
+        <p align=center class="s14-ptxt">
+        The information presented above are certified with all truthfulness to the designated
+        time period and thereby represent a concise overview of our operations, activities,
+        achievements and general performance
+        </p>
+
+    </div>
 
     <?php include '../footer.php'; ?>
 
@@ -195,6 +465,80 @@
             $nav.toggleClass('scrolled', $(this).scrollTop() > 200);
             });
         });
+
+    //counter functions
+        var a = 0;
+      $(window).scroll(function () {
+    var oTop = $(".card1").offset().top - window.innerHeight;
+    if (a == 0 && $(window).scrollTop() > oTop) {
+        $(".counter").each(function () {
+            var $this = $(this),
+                countTo = $this.attr("data-number");
+            $({
+                countNum: $this.text()
+            }).animate(
+                {
+                    countNum: countTo
+                },
+
+                {
+                    duration: 3000,
+                    easing: "swing",
+                    step: function () {
+                        $this.text(
+                            Math.ceil(this.countNum).toLocaleString("en")
+                        );
+                    },
+                    complete: function () {
+                        $this.text(
+                            Math.ceil(this.countNum).toLocaleString("en")
+                        );
+                    }
+                }
+            );
+        });
+        a = 1;
+    }
+});
+
+// ------------------------------------
+var b = 0;
+$(window).scroll(function () {
+    var oTop = $(".card-14-1").offset().top - window.innerHeight;
+    if (b == 0 && $(window).scrollTop() > oTop) {
+        $(".counter2").each(function () {
+            var $this = $(this),
+                countTo = $this.attr("data-number");
+            $({
+                countNum: $this.text()
+            }).animate(
+                {
+                    countNum: countTo
+                },
+
+                {
+                    duration: 4000,
+                    easing: "swing",
+                    step: function () {
+                        $this.text(
+                            Math.ceil(this.countNum).toLocaleString("en")
+                        );
+                    },
+                    complete: function () {
+                        $this.text(
+                            Math.ceil(this.countNum).toLocaleString("en")
+                        );
+                    }
+                }
+            );
+        });
+            b = 1;
+      }
+    });
+
+
+
+
 
         </script>
 

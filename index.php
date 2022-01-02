@@ -248,7 +248,6 @@
 
 
 
-
 <?php include 'footer.php'; ?>
 
 
