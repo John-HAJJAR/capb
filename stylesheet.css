@@ -5,6 +5,8 @@
 
 body{
     overflow-x: hidden;
+    opacity: 0;
+    transition: opacity 3s;
   }
 
 @media only screen and (max-width: 750px) {
@@ -60,7 +62,15 @@ nav.navbar {
 .s1-cpart2{
   background-image: url("imgs/wallpaper-p2.jpg");
 }
+ /* FOR PART2 */
+ .s1-cpart3{
+ background-image: url("imgs/PARTC/P3-WALLPAPER.jpg");}
 
+@media only screen and (max-width: 850px) {
+  .s1-cpart3{
+    background-image: url("imgs/PARTC/P3-WALLPAPER-SMALLSCREEN.jpg");
+  }
+}  
   
 .text-Box {
     position: relative;
@@ -249,21 +259,28 @@ nav.navbar {
     background-image: url('imgs/wallpaper-s3-2.jpg');
   }
 
-  .s3-1part1{
-    background-image: url('imgs/wallpaper-s3-1.jpg');
+  .s3-1part2{
+    background-image: url('imgs/PARTB/P2-S3-1.jpg');
   }
 
-  .s3-1part2{
-    background-image: url('imgs/wallpaper-s3-2.jpg');
+  .s3-2part2{
+    background-image: url('imgs/PARTB/P2-S3-2.jpg');
+  }
+
+  .s3-1part3 {
+    background-image: url('imgs/PARTC/P3-S3-1.jpg');
+  }
+  .s3-2part3 {
+    background-image: url('imgs/PARTC/P3-S3-2.jpg');
   }
 
   .text-ts3-1{
       margin-top: 10%;
-      margin-bottom: 80%;
+      margin-bottom: 90%;
   }
 
   .text-ts3-2{
-      margin-bottom: 20%;
+      margin-bottom: 10%;
   }
 
  
@@ -343,110 +360,7 @@ nav.navbar {
 
 
 /* SECTION 5 CSS */
-/* OLD STYLING */
-    /* .s5-table{
-    width: 75%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 15%;
-    /* border: 2px solid red; 
-  }
 
-  .s5-td1, .s5-td2, .s5-td3{
-    padding: 5%; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:100%;
-  }
-
-  .s5-td1{
-    width: 35%;
-    background-image: url('imgs/wallpaper-s5-1.jpg');
-    background-position: center;
-  }
-
-  .s5-td2{
-    width: 35%;
-    background-image: url('imgs/wallpaper-s5-2.jpg');
-  }
-
-  .s5-td3{
-    background-image: url('imgs/wallpaper-s5-3.jpg');
-  }
-
-  .br-big-screen{
-    display: none;
-  }
-
-  .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
-    color: #fff;
-    font-size: 20px;
-    font-weight: lighter;
-    position: relative;  
-    vertical-align: middle;
-  } */
-  /* 
-  @media only screen and (max-width: 1105px) {
-    .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
-      font-size: 15px;
-    }
-  }
-
-  @media only screen and (max-width: 525px) {
-    .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
-        font-size: 11px;
-    }
-    .s5-td1, .s5-td2, .s5-td3 {
-    padding: 5%;
-    padding-bottom: 6%;
-    }
-  } 
-
-  @media only screen and (min-width: 526px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        padding: 6.5%;
-        padding-bottom: 7.5%;
-        }
-  }
-
-  @media only screen and (min-width: 650px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        padding: 8%;
-        padding-bottom: 9%;
-        }
-  }
-
-  @media only screen and (min-width: 900px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        width:15%;
-        }
-    .br-big-screen{
-        display: block;
-    }
-  }
-
-  @media only screen and (min-width: 1200px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        width:10%;
-    }
-  }
-
-    
-  @media only screen and (min-width: 1400px) {
-    .s5-td1, .s5-td2, .s5-td3 {
-        width:8%;
-    }
-  }
-
-  @media only screen and (max-width: 400px) {
-    .s5-td1 > p, .s5-td2 > p, .s5-td3 > p {
-        font-size: 8.5px;
-    }
-  }  */
-
-/* NEW STYLING S5*/
 .s5-div {
   position: relative;
   text-align: center;
@@ -461,6 +375,24 @@ nav.navbar {
   font-size:2.5vw;
   font-weight: lighter;
 }
+
+.s5-centered2 {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:2.5vw;
+  font-weight: lighter;
+}
+
+.s5-p2-img{
+  max-width: 80%;
+}
+
+.s5-p3-img{
+  max-width: 80%; 
+}
+
 
 /* END SECTION 5 CSS */
 
@@ -654,6 +586,20 @@ input[type=text]{
 
 }
 
+/* Section 7 Part 3 */
+
+.s7-p3-text{
+  margin-top: 4%;
+  margin-left: 20%; 
+  margin-right: 20%; 
+  margin-bottom: 3%;
+ /* color:#416da3; */
+ color:#202789;
+ text-align: center;
+
+ font-size: 20px;
+}
+
 
 /* END OF SECTION 7 */
 
@@ -709,10 +655,10 @@ h2{
   align-items: center;
 }
 
+
 figcaption{
-  margin-left: 20%;
   margin-bottom: 10%;
-  text-align: left;
+  text-align: center;
   font-style: italic;
   font-size: 10px;
 }
@@ -912,6 +858,7 @@ figcaption{
     }
   
 
+
 /* END SECTION 7 PART 2 */
 
 /* SECTION 12 */
@@ -1063,10 +1010,19 @@ figcaption{
 
 
 .div1numb-back, .div2numb-back, .div3numb-back{
-  background-image: url('imgs/sample logo.png');
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.div1numb-back {
+  background-image: url('imgs/PARTB/P2-S13-1.png');
+}
+.div2numb-back{
+  background-image: url('imgs/PARTB/P2-S13-2.png');
+} 
+.div3numb-back{
+  background-image: url('imgs/PARTB/P2-S13-3.png');
 }
 
 @media only screen and (min-width: 830px){
@@ -1224,9 +1180,179 @@ figcaption{
  
 /* END SECTION 14  */
 
+/* PART 3 START */
+
+/* SECTION 10 PART 3 */
+
+.s10-p3{
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  color: #001C57;
+}
+.s10-div1, .s10-div2 {
+  width: 40%;
+  background-color: rgba(224,225,231,255);
+  padding: 50px;
+  border-radius: 10px;
+  margin-bottom: 10%;
+  height: 475px;
+}
 
 
+.s10-div1{
+  float: left;
+  margin-left: 5%;
+}
 
+.s10-div2{
+  float: right;
+  margin-right: 5%;
+}
+
+.s10-line1 {
+  margin-top: 1vw;
+  display: inline-flex;
+  width: 100%;
+
+}
+
+.s10-p3-divs{
+  background-color: #001C57;
+  font-size: 1.7vw;
+  font-weight: lighter;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0.5em 1em;
+  width: 250px;
+}
+
+.s10-finance{
+  margin-left: 5% ;
+}
+
+.s10-economics{
+  margin-left: 5%;
+}
+
+.s10-line2 {
+  width: 100%;
+}
+
+.s10-swiss{
+  margin-top: 5%;
+  margin-left: 30%;
+  background-color: red;
+  padding-bottom: 25px;
+  width: 45%;
+}
+
+.centered-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.s10-p3-btn{
+  width: 160px;
+}
+
+@media screen and (max-width: 800px) {
+  .s10-p3 {
+    display: block;
+  }
+  .s10-div1, .s10-div2 {
+      width: 80%;
+      float: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  } 
+
+  .s10-p3-divs {
+    font-size: 18px;
+  }
+  .s10-div2{
+    margin-top: 10%;
+  }
+}
+
+
+/* END SECTION 10 PART 3 */
+
+
+/* SECTION 11 PART 3 */
+
+.s11-p3 {
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  color: #001C57;
+}
+
+.s11-div1, .s11-div2 {
+  width: 40%;
+  background-color: rgba(224,225,231,255);
+  padding: 50px;
+  border-radius: 10px;
+  height: 475px;
+}
+
+.s11-div1{
+  float: left;
+  margin-left: 5%;
+}
+
+.s11-div2{
+  float: right;
+  margin-right: 5%;
+}
+
+
+@media screen and (max-width: 920px) {
+  .s11-p3 {
+    display: block;
+  }
+  .s11-div1, .s11-div2 {
+      width: 80%;
+      float: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  } 
+
+  .s11-div2{
+    margin-top: 10%;
+  }
+
+}
+
+
+/* END PART 3 */
+
+/* PHONE SCREEN STYLING FOR SECTION 10 & 11 */
+@media screen and (max-width: 400px) {
+  .s10-div1, .s10-div2, .s11-div1, .s11-div2 {
+    width: 85%;
+    /* height: 520px; */
+    font-size: 14px;
+  }
+  
+  .s10-p3-divs {
+    font-size: 15px;
+  }
+}
+
+/* S15 PART 2 */
+
+#s15-p2{
+  margin-bottom: -10%;
+}
+
+/* S15 PART 2 */
 
 /* FOOTER CSS */
 

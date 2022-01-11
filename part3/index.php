@@ -9,10 +9,10 @@
         <script type="text/javascript" src="../jquery-comp-3.6.js"></script>
     </head>
 
-<body>
+<body onload="document.body.style.opacity='1'">
           
 <?php include '../navbar.php'; ?>
-    <div class="s1-container s1-cpart2">  
+    <div class="s1-container s1-cpart3">  
         <div class = "text-Box">
             <div class = "centered s1-1 fadeout">Services, Initiatives & Ventures</div>
             <div class="centered s1-2 fadeout"> Enabling innovation, scalability, and opportunity </div>
@@ -37,7 +37,7 @@
             hopeful initiatives, and forging strategic partnerships.
           </p>
 
-          <p class = "logo"><img src = "../imgs/sample logo.png" alt = "logo" class = "About-logo"</p>
+          <p class = "logo"><img src = "../imgs/PARTC/P3-S2.png" alt = "logo" class = "About-logo"</p>
            
         </div>
       </div>
@@ -46,11 +46,11 @@
 
      <!-- SECTION 3  --> 
      <div class="s3">
-            <div class="s3div s3-1 s3-1part1">
+            <div class="s3div s3-1 s3-1part3">
             <p class="text-ts3-1 fontsize-bs"> EXTENDING OPPORTUNITY </p>
             <p  class="text-ts3-2 fontsize-bs"> NEW MARKETS </p>
             </div>
-            <div class="s3div s3-2 s3-2part2">
+            <div class="s3div s3-2 s3-2part3">
             <p class="text-ts3-1 fontsize-bs"> ANTICIPATING CHANGES </p>
             <p  class="text-ts3-2 fontsize-bs">  MARKET INTELLIGENCE </p>
             </div>
@@ -71,7 +71,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
         expertise, and guard a pleasant experience for our clients and associates.
       </p>
 
-      <img src = "../imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
+      <img src = "../imgs/PARTC/P3-S4.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
     
     <!-- SECTION 5 -->
@@ -79,7 +79,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
         <div class="container">
           <div class="row">
             <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/sample logo.png" class = "logo-7"></a>
+                <a href = ""><img src = "../imgs/PARTC/P3-S5-1.png" class = "logo-7"></a>
                 <figcaption>No available document</figcaption>
               <p class = "title-7">Consulting & 
                 Advisory Services</p>
@@ -98,7 +98,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
               </div>
             </div>
             <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/sample logo.png" class = "logo-7"></a>
+                <a href = ""><img src = "../imgs/PARTC/P3-S5-2.png" class = "logo-7"></a>
                 <figcaption>Click the above icon to access document</figcaption>
               <p class = "title-7">Financial & Market
                 Research    </p>
@@ -119,7 +119,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
             </div>
 
             <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/sample logo.png" class = "logo-7"></a>
+                <a href = ""><img src = "../imgs/PARTC/P3-S5-3.png" class = "logo-7"></a>
                 <figcaption>Click the above icon to access document</figcaption>
                 <p class = "title-7">New Market
                 Guidance</p>
@@ -139,6 +139,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
           </div>
         </div>
       </section>
+
     <br><br>
     <!-- SECTION 6 FORM -->
     <br><br>
@@ -172,9 +173,9 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
         <!-- SECTION 8 -->
         <br><br>
-        <section id="s5">
+        <section id="s8-p3">
             <div class="s5-div">
-            <img src="../imgs/wallpaper-s5-3.jpg" alt="img" style="width:90%;">
+            <img class="s5-p3-img" src="../imgs/PARTC/P3-S8.jpg">
             <div class="s5-centered"> FACILITATING UNREALIZED BENEFITS </div>
         </section>
 
@@ -190,19 +191,103 @@ include advisory-piece products, quasi-financial services, and intelligence base
             other private enterprises.
             </p>
             <p class = "details-professional">
-            Through this amalgamation of corporate pursuit, <span class = "key-word">CapB</span> seeks to expand, 
+            Through this amalgamation of corporate pursuit, CapB seeks to expand, 
             deepen, and nourish its web of connections within the private and public 
             domains of profession.
 
             </p>
 
-            <img src = "../imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
+            <img src = "../imgs/PARTC/P3-S9.png" alt = "logo" class = "professional-logo" align = "center">
         </div>
 
         
-        <!-- SECTION 10 NEW -->
-        <!-- SECTION 11 NEW  -->
+        <!-- SECTION 10 & 11 NEW -->
+        <div class="s10-p3">
+        <div class="s10-div1">
+            <h3 align=center>
+                Investment Research & Analysis
+            </h3>
+            <br>
+            <p align=center>           
+                A product of our <span class = "key-word"> Research Initiative. CapB </span>
+                showcases certain reports, analyses, and
+                “thought pieces” to the public in an effort to
+                challenge and engage general consensus.
+            </p>
+            
+            <div class="s10-line1">
+                <div class="s10-p3-divs s10-finance">
+                    Finance
+                </div>
+                <div class="s10-p3-divs s10-economics">
+                    Economics
+                </div>
+            </div>
+            <div class="s10-line2">
+                <div class="s10-p3-divs s10-swiss">
+                    Swiss
+                </div>
+            </div>
+        </div>
 
+        <div class="s10-div2"> 
+            <h3 align=center>
+            Public Sponsorships & Partnerships
+            </h3>
+            <br>
+            <p align=center>
+            Our most recent appearance and sponsorship
+            for the <span class = "key-word">World Festival </span> virtual event, which
+            included prominent business figures, influential
+            entrepreneurs, and savvy investors
+            </p>
+            <img class="centered-img" src="../imgs/PARTC/P3-S10.png" width="50%" >
+            <br>
+            
+            <button class="s10-p3-divs s10-p3-btn centered-img">Visit</button>
+        </div>
+    </div>
+
+
+    <div class="s11-p3">
+        <div class="s11-div1">
+            <h3 align=center>
+                 Recommended Research & Scholarship 
+            </h3>
+            <br>
+            <p align=center>
+            With pure preference to its publications and no direct contact - whatsoever - with the
+            noted firm, <span class = "key-word"> CapB </span> would like to redirect public
+            attention to the works of <span class = "key-word">Mr. Jeffrey P. Snider </span>  of
+            <span class = "key-word"> Alhambra Investments. </span>
+            </p>
+
+            <img class="centered-img" src="../imgs/PARTC/Alhambra-logo.png" width="40%">
+            <br>
+            <button class="s10-p3-divs s10-p3-btn centered-img">Visit</button>
+        </div>
+
+        <div class="s11-div2">
+            <h3 align=center>
+            Revered Affiliation & Association
+            </h3>
+            <br>
+            <p align=center>
+            <span class = "key-word"> CapB </span> proud to have established a direct
+            affiliation with <span class = "key-word"> MentorFund</span>, a communitydriven 
+            Founder Accelerator that facilitates experience and deal-flow between founders
+            and investors.
+            </p>
+            <img class="centered-img" src="../imgs/PARTC/P3-S11-2.png" width="40%">
+            <br>
+            <button class="s10-p3-divs s10-p3-btn centered-img">Visit</button>
+
+        </div>
+    </div>
+
+
+
+        
         <!-- SECTION 12 RESEARCH INITIATIVE -->
         <div class="s6">
             <p class ="s6-title" align=center>RESEARCH INITIATIVE</p>
@@ -220,13 +305,17 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
             </p>
 
-            <img src = "../imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
+            <img src = "../imgs/PARTC/P3-S12.png" class = "professional-logo" align = "center">
         </div>
 
         <!-- SECTION 13 NEW -->
 
 
-
+        <section id="s15-p2">
+        <div class="s5-div">
+        <img src="../imgs/PARTC/P3-S14.jpg" width="100%">
+        <div class="s5-centered"> ENDLESS POSSIBILITIES </div>
+    </section>
         <?php include '../footer.php'; ?>
 
 <script>

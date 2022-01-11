@@ -9,7 +9,7 @@
         <script type="text/javascript" src="../jquery-comp-3.6.js"></script>
     </head>
 
-    <body>
+    <body onload="document.body.style.opacity='1'">
        
     <?php include '../navbar.php'; ?>
     <div class="s1-container s1-cpart2">  
@@ -36,7 +36,7 @@
             deals and investments may well align with the preferences of the few.
           </p>
 
-          <p class = "logo"><img src = "../imgs/sample logo.png" alt = "logo" class = "About-logo"</p>
+          <p class = "logo"><img src = "../imgs/PARTB/P2-S2.png" alt = "logo" class = "About-logo"</p>
            
         </div>
       </div>
@@ -45,7 +45,7 @@
     
     <!-- SECTION 3  --> 
     <div class="s3">
-            <div class="s3div s3-1 s3-1part1">
+            <div class="s3div s3-1 s3-1part2">
             <p class="text-ts3-1 fontsize-bs"> SEEKING OPPORTUNITY</p>
             <p  class="text-ts3-2 fontsize-bs"> PRESERVING VISION</p>
             </div>
@@ -71,7 +71,7 @@
         incentives are genuinely expressed with transparency.
       </p>
 
-      <img src = "../imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
+      <img src = "../imgs/PARTB/P2-S4.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
     
     <!-- SECTION 5 TO DO CARDS -->
@@ -79,7 +79,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/sample logo.png"></a>
+                <a href = ""><img src = "../imgs/PARTB/P2-S5-1.png"></a>
                 <figcaption>No available document</figcaption>
               <p class = "title">Responsible Track Record</p>
               <p class = "sub-title">
@@ -93,7 +93,7 @@
               </p>
             </div>
             <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/sample logo.png"></a>
+                <a href = ""><img src = "../imgs/PARTB/P2-S5-2.png"></a>
                 <figcaption>Click the above icon to access document</figcaption>
               <p class = "title-2">Established Guidelines</p>
               <p class = "sub-title-2">
@@ -114,7 +114,7 @@
             </div>
 
             <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/sample logo.png"></a>
+                <a href = ""><img src = "../imgs/PARTB/P2-S5-3.png"></a>
                 <figcaption>Click the above icon to access document</figcaption>
                 <p class = "title-3">Solid Standards</p>
                 <p class = "sub-title-3">Honesty, prudence, and 
@@ -146,7 +146,7 @@
         restrictions on information shall be applied.
       </p>
 
-      <img src = "../imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
+      <img src = "../imgs/PARTB/P2-S6.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
     
     <!-- SECTION 7 -->
@@ -154,7 +154,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/sample logo.png" class = "logo-7"></a>
+                <a href = ""><img src = "../imgs/PARTB/P2-S7-1.png" class = "logo-7"></a>
                 <figcaption>No available document</figcaption>
               <p class = "title-7">Real Estate</p>
               <p class = "sub-title-7-1">
@@ -173,7 +173,7 @@
               </div>
             </div>
             <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/sample logo.png" class = "logo-7"></a>
+                <a href = ""><img src = "../imgs/PARTB/P2-S7-2.png" class = "logo-7"></a>
                 <figcaption>Click the above icon to access document</figcaption>
               <p class = "title-7">Trade</p>
               <p class = "sub-title-7-2">
@@ -194,7 +194,7 @@
             </div>
 
             <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/sample logo.png" class = "logo-7"></a>
+                <a href = ""><img src = "../imgs/PARTB/P2-S7-3.png" class = "logo-7"></a>
                 <figcaption>Click the above icon to access document</figcaption>
                 <p class = "title-7">Enterprise</p>
                 <p class = "sub-title-7-3">Funding starting-up, and 
@@ -218,10 +218,10 @@
 
     <!-- SECTION 8 -->
     <br><br>
-    <section id="s5">
+    <section id="s8">
         <div class="s5-div">
-        <img src="../imgs/wallpaper-s5-3.jpg" alt="img" style="width:90%;">
-        <div class="s5-centered"> FACILITATING UNREALIZED BENEFITS </div>
+        <img class="s5-p2-img" src="../imgs/PARTB/P2-S8.jpg" >
+        <div class="s5-centered2"> FACILITATING UNREALIZED BENEFITS </div>
     </section>
 
     <!-- SECTION 9 -->
@@ -240,7 +240,7 @@
       the documents present above. All terms and conditions set forth apply.
       </p>
 
-      <img src = "../imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
+      <img src = "../imgs/PARTB/P2-S9.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
 
     <!-- SECTION 10 FORM -->
@@ -295,7 +295,7 @@
       systemic monetary factors/conditions and recurrent tail risk.
       </p>
 
-      <img src = "../imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
+      <img src = "../imgs/PARTB/P2-S11.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
 
     <!-- SECTION 12 -->
@@ -449,6 +449,11 @@
 
     </div>
 
+    <section id="s15-p2">
+        <div class="s5-div">
+        <img src="../imgs/PARTB/P2-S1511.png" width="100%">
+        <div class="s5-centered"> ENDLESS POSSIBILITIES </div>
+    </section>
     <?php include '../footer.php'; ?>
 
         <script>

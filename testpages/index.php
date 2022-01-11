@@ -11,13 +11,6 @@
 
 <body>
 
-    <script>
- 
-
-    </script>    
-
-
-
 </body>
 
 

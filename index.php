@@ -10,7 +10,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
         <script type="text/javascript" src="jquery-comp-3.6.js"></script>
     </head>
-    <body>
+    <body onload="document.body.style.opacity='1'">
 
   <?php include 'navbar.php'; ?>
 
