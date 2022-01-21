@@ -656,78 +656,67 @@ h2{
 }
 
 
-figcaption{
-  margin-bottom: 10%;
+.p2-s5-figcaption{
   text-align: center;
   font-style: italic;
-  font-size: 10px;
+  font-size: 12px;
 }
 
-
-.logo-2{
-  align-items: center;
-  height: 200px;
-  width: 150px;
+.p2-s5-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #0a1867;
 }
 
-.title {
+.p2-s5-container {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 10px;
   text-align: center;
+}
+
+.p2-s5-img{
+  width: 25%;
+}
+
+.p2-s5-sub-title {
   margin-right: 10%;
   margin-left: 10%;
-  font-size: 35px;
-  font-weight: bold;
-  color: #0a1867;
-}
-
-.title-2 {
-  text-align: center;
-  margin-right:18%;
-  margin-left: 20%;
-  font-size: 35px;
-  font-weight: bold;
-  color: #0a1867;
-}
-
-.title-3 {
-  text-align: center;
-  /* margin-right:20%; */
-  margin-left: 30%;
-  padding-right: 30%;
-  font-size: 35px;
-  font-weight: bold;
-  color: #0a1867;
-}
-
-.sub-title {
-  margin-right: 15%;
-  margin-left: 10%;
   padding-left: 10%;
   padding-right: 10%;
   color:#202789;
 }
 
-.sub-title-2 {
-  margin-right: 15%;
-  margin-left: 15%;
-  padding-left: 10%;
-  padding-right: 10%;
-  color:#202789;
+@media only screen and (max-width: 1000px) {
+  .p2-s5-container {
+      grid-template-columns: 1fr;
+  }
+  .p2-s5-img{
+    width: 10%;
+  }
+  .p2-s5-title{
+    margin-top: -5%;
+  }
+  
+  .p2-s5-sub-title {
+      margin-bottom: 5%;
+    }
 }
 
-.sub-title-3 {
-  margin-right: 15%;
-  margin-left: 15%;
-  padding-left: 10%;
-  padding-right: 10%;
-  color:#202789;
+
+@media only screen and (max-width: 500px) {
+  .p2-s5-img{
+    width: 15%;
+  }
 }
+
 /* END SECTION 5 PART 2 */
 
 
 /* SECTION 7 PAGE 2 */
-
 .Cols.finance p {
-  padding-top: 25%;
+  padding-top: 50%;
   transform: translateY(-50%);
   }
   
@@ -786,20 +775,20 @@ figcaption{
   }
   
   .sub-title-7-1 {
-      margin-left: 15%;
-      margin-right: 10%;
+      margin-left: 12%;
+      margin-right: 8%;
       color:#202789;
   }
   
   .sub-title-7-2 {
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 8%;
+      margin-right: 8%;
       color:#202789;
   }
   
   .sub-title-7-3 {
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 5%;
+      margin-right: 5%;
       color:#202789;
   }
   
@@ -808,7 +797,7 @@ figcaption{
       border-radius: 15px;
       padding-right: 15%;
       padding-left: 15%;
-      margin-top: 10%;
+      margin-top: auto;
       margin-left: 14%;
       padding-top: 1%;
       padding-bottom: 1%;
@@ -823,6 +812,24 @@ figcaption{
           margin-right: 5%;
       }
   
+  }
+  
+  @media only screen and (max-width: 1200px) and (min-width: 992px) {
+      .sub-title-7-1 {
+          margin-left: 5%;
+          margin-right: 5%;
+      }
+  
+      .sub-title-7-2 {
+          margin-left: 5%;
+          margin-right: 5%;
+      }
+  
+      .investment-cap {
+          width: 80%;
+          margin-left: 7%;
+          font-size: 12px;
+      }
   }
   
   @media only screen and (max-width: 991px) and (min-width: 501px) {
@@ -856,9 +863,6 @@ figcaption{
       text-align: center;
       color: grey;
     }
-  
-
-
 /* END SECTION 7 PART 2 */
 
 /* SECTION 12 */

@@ -113,7 +113,7 @@
             Commerce
           </h4>
          
-           <img src="imgs/Finance.png" alt="finance-img">
+           <img src="imgs/P1-S4-1.png" alt="finance-img">
            <br><br>
            <button class="engage-explore-btn"> Engage </button>
         </div>
@@ -131,7 +131,7 @@
           innovation, and scalability.
           </h4><br>
           
-          <img src="imgs/Enterprise.png" alt="finance-img">
+          <img src="imgs/P1-S4-2.png" alt="finance-img">
           <br><br>
           <button class="engage-explore-btn"> Explore </button>
         </div>
@@ -143,7 +143,7 @@
     <!-- SECTION 5 -->
     <section id="s5">
         <div class="s5-div">
-        <img src="imgs/wallpaper-s5-3.jpg" alt="img" style="width:90%;">
+        <img src="imgs/P1-S5.jpg" alt="img" style="width:90%;">
         <div class="s5-centered"> OPPORTUNITY IS ALWAYS SOUGHT AFTER </div>
     </section>
 
@@ -184,7 +184,7 @@
         motivated applicants.
       </p>
 
-      <img src = "imgs/sample logo.png" alt = "logo" class = "professional-logo" align = "center">
+      <img src = "imgs/P1-S6.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
 
 
@@ -246,7 +246,11 @@
     </div>
   </section>
 
-
+  <section id="s15-p2">
+        <div class="s5-div">
+        <img src="imgs/P1-S15.jpg" width="100%">
+        <div class="s5-centered"> ENDLESS POSSIBILITIES </div>
+    </section>
 
 <?php include 'footer.php'; ?>
 
@@ -271,6 +275,10 @@
 //     }
 -->
 
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
 <script>

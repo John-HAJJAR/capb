@@ -73,60 +73,46 @@
 
       <img src = "../imgs/PARTB/P2-S4.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
-    
-    <!-- SECTION 5 TO DO CARDS -->
-    <section class ="Cols">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/PARTB/P2-S5-1.png"></a>
-                <figcaption>No available document</figcaption>
-              <p class = "title">Responsible Track Record</p>
-              <p class = "sub-title">
-                By establishing a mutual sense 
-                of trustworthiness, we invite 
-                the relevant and interested 
-                subject to demonstrate, or 
-                prove, their track record in 
-                certain facets of investment or 
-                deal-making
-              </p>
-            </div>
-            <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/PARTB/P2-S5-2.png"></a>
-                <figcaption>Click the above icon to access document</figcaption>
-              <p class = "title-2">Established Guidelines</p>
-              <p class = "sub-title-2">
-                By seeking to forge, nurture 
-                and maintain some fruitful 
-                relations with our trusted 
-                clients, qualified associates, 
-                and prudent investors, we 
-                have set to establish clear and 
-                honest guidelines to organize, 
-                navigate, and facilitate 
-                business transactions, private 
-                deals, and long-lasting 
-                ventures.
-              </p>
-              <br>
-              
-            </div>
 
-            <div class="col-lg-4 text-center">
-                <a href = ""><img src = "../imgs/PARTB/P2-S5-3.png"></a>
-                <figcaption>Click the above icon to access document</figcaption>
-                <p class = "title-3">Solid Standards</p>
-                <p class = "sub-title-3">Honesty, prudence, and 
-                diligence are what qualities 
-                we hope to find on both sides, 
-                buyer and seller, of a typical 
-                private deal or business 
-                transaction.
-                </p>
-          </div>
+<!-- SECTION 5 -->
+<section id="p2-s5">
+    <div class="p2-s5-container">
+            <div>
+                <a href = ""><img src = "../imgs/PARTB/P2-S5-1.png" class="p2-s5-img"></a>
+                <figcaption class="p2-s5-figcaption">No available document</figcaption>
+                <div class="p2-s5-title">Responsible Track Record</div>
+                <div class="p2-s5-sub-title">By establishing a mutual sense of trustworthiness, 
+                    we invite the relevant and interested subject to demonstrate,
+                    or prove, their track record in certain facets of investment or
+                    deal-making</div>
+            </div>
+            <div>
+                <a href = ""><img src = "../imgs/PARTB/P2-S5-2.png" class="p2-s5-img"></a>
+                <figcaption class="p2-s5-figcaption">Click the icon above to access document</figcaption>
+                <div class="p2-s5-title">Established Guidelines</div>
+                <div class="p2-s5-sub-title">By seeking to forge, nurture and maintain some fruitful 
+                    relations with our trusted clients, qualified associates, 
+                    and prudent investors, we have set to establish clear and
+                    honest guidelines to organize, navigate, and facilitate 
+                    business transactions, private deals, and long-lasting ventures.
+
+                </div>
+            </div>
+            <div>
+
+                <a href = ""><img src = "../imgs/PARTB/P2-S5-3.png" class="p2-s5-img"></a>
+                <figcaption class="p2-s5-figcaption">Click the icon above to access document</figcaption>
+
+                <div class="p2-s5-title">Solid Standards</div>
+                <div class="p2-s5-sub-title">Honesty, prudence,
+    and diligence are what qualities we hope to
+                    find on both sides, buyer and seller, 
+                    of a typical private deal or business transaction.</div>
+            </div>
         </div>
-      </section>
+
+</section>
+
 
 
 
@@ -213,6 +199,8 @@
           </div>
         </div>
       </section>
+
+
 
       <p class = "note">Our brokerage and deal-fixing rates follow a dynamic pattern</p>
 
@@ -455,6 +443,11 @@
         <div class="s5-centered"> ENDLESS POSSIBILITIES </div>
     </section>
     <?php include '../footer.php'; ?>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
         <script>
              $(document).ready(function(){
