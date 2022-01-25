@@ -81,39 +81,27 @@ include advisory-piece products, quasi-financial services, and intelligence base
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTC/P3-S5-1.png" class = "logo-7"></a>
                 <figcaption>No available document</figcaption>
-              <p class = "title-7">Consulting & 
-                Advisory Services</p>
+              <p class = "title-7">Consulting & Advisory Services</p>
               <p class = "sub-title-7-1">
-                Specific to certain subjects of 
-                interest such as: Banking & 
-                Economic policies; 
-                Commercial & Trade 
-                strategies; Enterprise 
-                operability, transformation, 
-                and organization.   
+              Specific to certain subjects of interest such as: Banking
+               & Economic policies; Commercial & Trade strategies; Enterprise
+                operability, transformation, and organization.
               </p>
               <div class = "investment-cap">
-                  <p class = "div-text">Abbreviation:<br>
-                    C & A Services</p>
+                  <p class = "div-text">Abbreviation: C & A Services</p>
               </div>
             </div>
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTC/P3-S5-2.png" class = "logo-7"></a>
                 <figcaption>Click the above icon to access document</figcaption>
-              <p class = "title-7">Financial & Market
-                Research    </p>
+              <p class = "title-7">Financial & Market Research</p>
               <p class = "sub-title-7-2">
-              Special topics, of palpable 
-                concern, that relate to 
-                Banking, Finance, Economics, 
-                Engineering, Technology, 
-                Public Policy, Global 
-                Commerce & Trade, and 
-                Sustainability.
+              Special topics, of palpable concern, that relate to Banking,
+               Finance, Economics, Engineering, Technology, Public Policy,
+                Global Commerce & Trade, and Sustainability.
               </p>
               <div class = "investment-cap">
-                <p class = "div-text">Abbreviation:<br>
-                F & M Services</p>
+                <p class = "div-text">Abbreviation: F & M Services</p>
             </div>
               
             </div>
@@ -121,24 +109,20 @@ include advisory-piece products, quasi-financial services, and intelligence base
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTC/P3-S5-3.png" class = "logo-7"></a>
                 <figcaption>Click the above icon to access document</figcaption>
-                <p class = "title-7">New Market
-                Guidance</p>
-                <p class = "sub-title-7-3">Direct or indirect guidance on 
-                    penetrating, establishing, and 
-                    maintaining new markets in 
-                    various geographies, 
-                    economies, and jurisdictions 
-                    for a variety of operating 
-                    industries.
+                <p class = "title-7">New Market <br> Guidance</p>
+                <p class = "sub-title-7-3 ">
+                    Direct or indirect guidance on penetrating, establishing, and 
+                    maintaining new markets in various geographies, economies, and 
+                    jurisdictions for a variety of operating industries.
                 </p>
-                <div class = "investment-cap">
-                    <p class = "div-text">Abbreviation:<br>
-                        NM Guidance
-                    </p>
+                <div class = "investment-cap s5-p3-txt3">
+                    <p class = "div-text">Abbreviation: NM Guidance</p>
                 </div>
           </div>
         </div>
       </section>
+
+      <p class = "note">Our brokerage and deal-fixing rates follow a dynamic pattern</p>
 
     <br><br>
     <!-- SECTION 6 FORM -->
@@ -309,6 +293,36 @@ include advisory-piece products, quasi-financial services, and intelligence base
         </div>
 
         <!-- SECTION 13 NEW -->
+        <div class="s13-p3-body">
+        <div class = "s13-p3-container">
+        <div class = "ME">
+            <div class="s13-p3-title box">Monetary Economics</div>
+            <div class="s13-p3-sub-title box">Advanced Economies</div>
+            <div class="s13-p3-sub-title box">Emerging Economies</div>
+            <div class="location box">Lebanon</div>
+            <div class="s13-p3-title box">Macroeconomics</div>
+            <div class="s13-p3-sub-title box">Advanced Economies</div>
+            <div class="s13-p3-sub-title box">Emerging Economies</div>
+            <div class="s13-p3-title box">Investment Ideas</div>
+            <div class="s13-p3-sub-title box Inisights">Reserve Insights</div>
+            <img src = "../imgs/PARTC/P3-S7-1.png" class = "logo-7-33 border box logo-1">
+        </div>
+
+        <div class="GB">
+            <div class="s13-p3-title box">Global Banking</div>
+            <div class="s13-p3-sub-title box">Eurodollar System</div>
+            <div class="s13-p3-sub-title box">Offshore Bank Credit</div>
+            <div class="s13-p3-sub-title box">Banking Clusters</div>
+            <div class="s13-p3-title box">Global Macro</div>
+            <div class="s13-p3-sub-title box">Cross-Border Economies</div>
+            <div class="s13-p3-sub-title box">Capital Flows</div>
+            <div class="s13-p3-title box">Venture Capital</div>
+            <div class="s13-p3-sub-title box">Financing Profits</div>
+            <img src = "../imgs/PARTC/P3-S7-2.png" class = "logo-7-33 border box logo-2">
+        </div>
+    </div>
+        </div>
+
 
 
         <section id="s15-p2">
