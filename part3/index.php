@@ -82,7 +82,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
                 <a href = ""><img src = "../imgs/PARTC/P3-S5-1.png" class = "logo-7"></a>
                 <figcaption>No available document</figcaption>
               <p class = "title-7">Consulting & Advisory Services</p>
-              <p class = "sub-title-7-1">
+              <p class = "sub-title-7-1 justifyclass">
               Specific to certain subjects of interest such as: Banking
                & Economic policies; Commercial & Trade strategies; Enterprise
                 operability, transformation, and organization.
@@ -95,7 +95,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
                 <a href = ""><img src = "../imgs/PARTC/P3-S5-2.png" class = "logo-7"></a>
                 <figcaption>Click the above icon to access document</figcaption>
               <p class = "title-7">Financial & Market Research</p>
-              <p class = "sub-title-7-2">
+              <p class = "sub-title-7-2 justifyclass">
               Special topics, of palpable concern, that relate to Banking,
                Finance, Economics, Engineering, Technology, Public Policy,
                 Global Commerce & Trade, and Sustainability.
@@ -110,7 +110,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
                 <a href = ""><img src = "../imgs/PARTC/P3-S5-3.png" class = "logo-7"></a>
                 <figcaption>Click the above icon to access document</figcaption>
                 <p class = "title-7">New Market <br> Guidance</p>
-                <p class = "sub-title-7-3 ">
+                <p class = "sub-title-7-3 justifyclass">
                     Direct or indirect guidance on penetrating, establishing, and 
                     maintaining new markets in various geographies, economies, and 
                     jurisdictions for a variety of operating industries.

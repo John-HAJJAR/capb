@@ -129,7 +129,7 @@
           Such an endeavor centers upon the
           enablement of entrepreneurship,
           innovation, and scalability.
-          </h4><br>
+        </h4><br>
           
           <img src="imgs/P1-S4-2.png" alt="finance-img">
           <br><br>
