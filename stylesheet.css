@@ -27,11 +27,12 @@ body {
 
 #navbar a {
   text-decoration: none;
-  color: inherit;
+  color: inherit; 
 }
 
 #navbar .navbar .navbar-collapse {
   text-align: center;
+  padding-bottom: 1%;
 }
 nav.navbar {
   color: white;
@@ -354,6 +355,8 @@ nav.navbar {
 
 .finance > h4, .enterprise > h4 {
   color: #001C57;
+  font-size: 20px;
+  text-align: justify;
 }
 
 /* END SECTION 4  */
@@ -396,29 +399,6 @@ nav.navbar {
 
 /* END SECTION 5 CSS */
 
-/* SECTION 6 CSS */
-  /* 
-  .s6 {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding: auto;
-  }
-
-  .s6-title{
-    padding-top: 10%;
-    font-weight: bold;
-    color:#0a1867;
-    font-size: 30px;
-  }
-
-    .s6 > img {
-      display: block;
-      margin: auto;
-    } 
-*/
-
 .s6 {
   display: block;
   justify-content: center;
@@ -439,14 +419,6 @@ nav.navbar {
   /* align-items: center; */
 }
 
-/* .prof-career-text{
-  margin-top: 5%;
-  margin-left: 30%;
-  margin-right: 30%;
-  color:#416da3;
-  font-size: 20px;
-} */
-
 .details-professional{
   margin-top: 4%;
   margin-left: 20%; 
@@ -455,7 +427,6 @@ nav.navbar {
  /* color:#416da3; */
  color:#202789;
  text-align: center;
-
  font-size: 20px;
 }
 
@@ -1247,6 +1218,7 @@ h2{
       margin-left: 12%;
       margin-right: 8%;
       color:#202789;
+
   }
   
   .sub-title-7-2 {
@@ -1261,6 +1233,9 @@ h2{
       color:#202789;
   }
   
+  .justifyclass{
+    text-align: justify;
+  }
 
   .investment-cap {
       width: 70%;

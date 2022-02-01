@@ -20,15 +20,17 @@
           <h6><strong>Email: <a class="afooter" href="mailto:info@capb.me">info@capb.me</a></strong></h6>
             <ul>
               <li>
-                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
               </li>
               <li>
-                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
               </li>
             </ul>
         </div>
-        <div class="col-lg-4 text-center middle-footer">
-          <p><u><strong>B</strong></u></p>
+        <div class="col-lg-4 text-center ">
+          <!-- <p><u><strong>B</strong></u></p> middle-footer-->
+          <img src="imgs/logo-white.png" width="25%">
+
         </div>
         <div class="col-lg-4 text-center text-lg-end pt-md-4 py-lg-0 right-footer">
           <h4>Copyright © 2021 CapB</h4>
