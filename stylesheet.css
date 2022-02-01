@@ -17,8 +17,9 @@ body {
  
 @media only screen and (min-width: 900px) {
   .fontsize-bs {
-    font-size:30px;
+    font-size:25px;
     }
+
   }
 
 
@@ -54,6 +55,7 @@ nav.navbar {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     background-size: 100vw 100vh;
 }
 
