@@ -135,16 +135,16 @@ include advisory-piece products, quasi-financial services, and intelligence base
                     <input type="text" name="name" placeholder="First & Last Name"> <br>
                     <input type="text" name="email" placeholder="Email Address"> <br>
                     <input type="text" name="pnumber" placeholder="Phone Number"> <br> 
-                    <input type="text" name="investmentcat" placeholder = "Selected Service"> <br> 
-                    <input type="text" name="prefftimeHorz" placeholder="Designated Purpose"> <br>
+                    <input type="text" name="selectedServ" placeholder = "Selected Service"> <br> 
+                    <input type="text" name="DesPurpose" placeholder="Designated Purpose"> <br>
                 </div>
                 <div class="s7-right">
-                <input type="text" name="currOcc" placeholder="Defining Entity"><br>
-                    <textarea class = "message req-form-p3" name="usermessage" cols="22.5" rows="19" placeholder="Your Message"></textarea>
+                <input type="text" name="DeffEntity" placeholder="Defining Entity"><br>
+                    <textarea class="message req-form-p3" name="usermessage" cols="22.5" rows="19" placeholder="Your Message"></textarea>
                  </div>
 
       
-                <button type="submit" class="s7-apply-btn" name="submit">Apply</button>
+                <button type="submit" class="s7-apply-btn" name="submit-req-form">Apply</button>
                 
                 
                 

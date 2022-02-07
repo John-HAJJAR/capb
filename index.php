@@ -47,41 +47,7 @@
     </div>
       </div>
         </div>
-
-
-          <!-- <div>
-            <div class = "container-fluid about" style="opacity: 1 !important;" >
-            <p class = "head-title" align=center> 
-              ABOUT
-            </p>
-
-          <p class = "details">A multifaceted, multipurpose and multinational 
-            investment office.
-             </p>
-          <p class = "details">
-            <span class = "key-word">CapB</span>is a privately-held enterprise that ventures 
-            into investment opportunities, hosts an online 
-            services-based platform, and sponsors its very own 
-            research initiative. For all that is deemed 
-            appropriate, we discover, promote and finance 
-            hopeful ventures that serve the interests of our 
-            clients, sponsors and associates.
-          </p>
-
-          <p class = "details">A large portion of our activities strictly pertain to 
-            matters of Investment Banking, Investment 
-            Research and Wealth & Asset Management.
-          </p>
-
-        <p class = "details">
-            All entities affiliated with <span class = "key-word">CapB</span> are within the scope 
-            of operation and administration of the privately held firm. These include: <span class = "key-word">Sovereign Wealth 
-            Reserve, BBTC</span> and <span class = "key-word">iO Banking Solutions</span>.
-        </p>
-        
-    </div>
-      </div> -->
-        </div>
+  </div>
 
     <!-- SECTION 3  --> 
         <div class="s3">
@@ -222,7 +188,7 @@
                  </div>
 
       
-                <button type="submit" class="s7-apply-btn" name="submit">Apply</button>
+                <button type="submit" class="s7-apply-btn" name="submit-adm-form">Apply</button>
                 
                 
                 

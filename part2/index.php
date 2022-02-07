@@ -246,12 +246,12 @@
                 </div>
                 <div class="s7-right">
                 <input type="text" name="currOcc" placeholder="Current Occupation"><br>
-                <input type="text" name="linkedinProf" placeholder="LinkedIn Profile (URL)"> <br>
+                <input type="text" name="linkedin" placeholder="LinkedIn Profile (URL)"> <br>
                     <textarea class = "message" name="usermessage" cols="22.5" rows="10" placeholder="Your Message"></textarea>
                  </div>
 
       
-                <button type="submit" class="s7-apply-btn" name="submit">Apply</button>
+                <button type="submit" class="s7-apply-btn" name="submit-en-form">Apply</button>
                 
                 
                 
