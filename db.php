@@ -13,20 +13,20 @@ if (isset($_POST['submit-adm-form'])){
     $linkedin = $_POST['linkedin'];
     $position = $_POST['position'];
     $roletype = $_POST['roletype'];
-    $message = $_POST['message'];
+    $message = $_POST['usermessage'];
 
     
 
-    if (empty($name) || $name.length =< 2 ){
+    if (empty($name) || strlen($name) <= 2 ){
         $errors['Name'] = 'Name is required';
     }
-    if (empty($email) || valid_mail($email)){
+    if (empty($email) ){
+// valid_mail($email)
+    }
+    if (empty($pnumber) || strlen($pnumber) <= 6){
 
     }
-    if (empty($pnumber) || $pnumber.length <= 6){
-
-    }
-    if (empty($linkedin) || $linkedin.length <= 10){
+    if (empty($linkedin) || strlen($linkedin) <= 10){
 
     }
     if (empty($position)){
@@ -61,16 +61,16 @@ if (isset($_POST['submit-en-form'])){
 
     
 
-    if (empty($name) || $name.length =< 2 ){
+    if (empty($name) || strlen($name) <= 2 ){
         $errors['Name'] = 'Name is required';
     }
-    if (empty($email) || valid_mail($email)){
+    if (empty($email) ){
+// || valid_mail($email)
+    }
+    if (empty($pnumber) || strlen($pnumber) <= 6){
 
     }
-    if (empty($pnumber) || $pnumber.length <= 6){
-
-    }
-    if (empty($linkedin) || $linkedin.length <= 10){
+    if (empty($linkedin) || strlen($linkedin) <= 10){
 
     }
     if (empty($invcat)){
@@ -109,13 +109,13 @@ if (isset($_POST['submit-req-form'])){
 
     
 
-    if (empty($name) || $name.length =< 2 ){
+    if (empty($name) || strlen($name) <= 2 ){
         $errors['Name'] = 'Name is required';
     }
-    if (empty($email) || valid_mail($email)){
-
+    if (empty($email) ){
+//valid_mail($email)
     }
-    if (empty($pnumber) || $pnumber.length <= 6){
+    if (empty($pnumber) || strlen($pnumber) <= 6){
 
     }
     if (empty($selectedServ)){

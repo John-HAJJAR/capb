@@ -1747,7 +1747,10 @@ h2{
 
     
 /* NEW DIV */
-
+.new-div-section{
+    margin-top: 10%;
+  margin-bottom: 10%;
+}
 
 
 .container-newdiv{
@@ -1757,13 +1760,14 @@ h2{
 
 .h2-newdiv{
   margin-top: -5%;
+  font-size: 2.5vw;
 }
 
 .s5-newdiv{
   color: #001C57;
   position: relative;
   margin: auto;
-  background-color:rgb(243, 196, 109);
+  background-color:#efcda3;
   padding: 10%;
   border:none;
   border-radius: 10px;
@@ -1786,6 +1790,7 @@ margin-bottom: -10%;
 
 .h2-newdiv{
   margin-top: 0%;
+  font-size: 18px;
 }
 
 .newdiv-img {
@@ -1796,4 +1801,19 @@ margin-bottom: -10%;
  width: 100%;
 }
 
+}
+
 /* END NEW DIV */
+
+/* ADMIN PANEL CSS */
+
+.admin-panel-body{
+  overflow-x: auto;
+}
+
+
+.message-th{
+  min-width: 250px;
+}
+
+/* END ADMIN PANEL CSS */

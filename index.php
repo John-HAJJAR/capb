@@ -12,6 +12,7 @@
     </head>
     <body onload="document.body.style.opacity='1'">
 
+  <?php include 'db.php'; ?>
   <?php include 'navbar.php'; ?>
 
     <div class="s1-container ">  
@@ -104,9 +105,8 @@
       </div>
     </div>
   </section>
-
-  <br><br>
-  <section>
+  <br>
+  <section class="new-div-section">
   <div class="container-newdiv">
     <div class="s5-newdiv">
         <h2 class="h2-newdiv" align="center">DIGITAL</h2>

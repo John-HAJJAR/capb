@@ -3,76 +3,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
-    
+<body class="admin-panel-body">
+    <?php include '../db.php'; ?>
 <div class="container">
   <h2 align="center">Admissions Form </h2>
   <p>Here are displayed everything and everyone that is in the DB : </p>  
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>
-  <table class="table table-bordered table-striped" >
-    <thead>
-      <tr>
-        <th style="width:9%;">Name</th>
-        <th style="width:11%;">Email</th>
-        <th style="width:10%;">Phone Number</th>
-        <th style="width:10%;">Nationality</th>
-        <th style="width:10%;">LinkedIn</th>
-        <th style="width:10%;">Chosen Position</th>
-        <th style="width:10%;">Role Type</th>
-        <th style="width:30%;">Message</th>
-      </tr>
-    </thead>
+    <?php
+      $sqlaf = "SELECT * FROM admission_form";
+      $reslist = mysqli_query($conn,$sqlaf);
+      echo '<table border="1" class="table table-bordered table-striped tableforms-adminpanel">';
+      echo '<thead>';
+      echo '<tr>';
+      echo '<th style="width:9%;"> Name </th>';
+      echo '<th style="width:11%;"> Email </th>';
+      echo '<th style="width:10%;"> Phone number </th>';
+      echo '<th style="width:10%;"> Nationality </th>';
+      echo '<th style="width:10%;"> LinkedIn </th>';
+      echo '<th style="width:10%;"> Chosen Position </th>';
+      echo '<th style="width:10%;"> Role Type </th>';
+      echo '<th class="message-th" style="width:30%;"> Message </th>';
+      echo '</tr>';
+      echo '</thead>';
+      echo '<tbody id="myTable">';
+      while ($arr = mysqli_fetch_assoc($reslist)){
+          echo '<tr>';
+              echo '<td>';
+                  echo $arr['FullName'];
+              echo '</td>';
+              echo '<td>';
+                  echo $arr['Email'];
+              echo '</td>';
+              echo '<td>';
+                  echo $arr['Pnumber'];
+              echo '</td>';
+              echo '<td>';
+                  echo $arr['Nationality'];
+              echo '</td>';
+              echo '<td>';
+                  echo $arr['LinkedIn'];
+              echo '</td>';
+              echo '<td>';
+                  echo $arr['Position'];
+              echo '</td>';
+              echo '<td>';
+                  echo $arr['Role'];
+              echo '</td>';
+              echo '<td>';
+                  echo $arr['Message'];
+              echo '</td>';
+              // echo '<td>';
+              //     echo '<button name="remove-adm" class="remove-adm" value="'.$arr['ID'].'">';
+              //      echo 'Remove';
+              //    echo '</button>';
+              // echo '</td>';
+          echo '</tr>';
+      }
+      echo '</tbody>';
+      echo '</table>';
+  ?>
 
-    <tbody id="myTable">
-      <tr>
-        <td>John Doe</td>
-        <td>john@example.com</td>
-        <td>(+961) 75747372</td>
-        <td>Leb</td>
-        <td>linkedin.com</td>
-        <td>Dev</td>
-        <td>Web</td>
-        <td>Hello, I would like to apply to this position ssksskskblablablabla ssksskskblablablabla
-        ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla
-        ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla
-        </td>
-      </tr>
-      <tr>
-        <td>Mary Moe</td>
-        <td>mary@mail.com</td>
-        <td>02020202</td>
-        <td>FR</td>
-        <td>linkedin.com</td>
-        <td>Mev</td>
-        <td>Meb</td>
-        <td>Mello, I would like to apply to this position ssksskskblablablabla ssksskskblablablabla
-        ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla
-        ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla
-        ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla
-        ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla
-        ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla
-        ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla ssksskskblablablabla
-        </td>
-
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@greatstuff.com</td>
-      </tr>
-      <tr>
-        <td>Anja</td>
-        <td>Ravendale</td>
-        <td>a_r@test.com</td>
-      </tr>
-    </tbody>
-  </table>
-  
 </div>
 
 
