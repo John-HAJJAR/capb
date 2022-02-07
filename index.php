@@ -105,6 +105,33 @@
     </div>
   </section>
 
+  <br><br>
+  <section>
+  <div class="container-newdiv">
+    <div class="s5-newdiv">
+        <h2 class="h2-newdiv" align="center">DIGITAL</h2>
+        <p align="center">
+        A new frontier with seemingly limitless upside.
+        We delve into Crypto assets, Decentralized
+        Finance (DeFi) applications, & Non-Fungible
+        Tokens (NFTs) for the purpose of garnering the
+        benefits as an early adopter.
+        </p>
+        <p align="center">
+        Our broad range of services pertain to the
+        following disciplines: Research Investment;
+        Consultancy; Advisory; Funding & Financing.
+        </p>
+        <div class="newdiv-img">
+        <img src="imgs/sample logo.png" width="25%">
+        </div>
+    </div>
+</div>
+
+  </section>
+
+
+
   <br><br><br>
     <!-- SECTION 5 -->
     <section id="s5">
