@@ -10,7 +10,7 @@
     </head>
 
     <body onload="document.body.style.opacity='1'">
-       
+       <?php include '../db.php'; ?>
     <?php include '../navbar.php'; ?>
     <div class="s1-container s1-cpart2">  
         <div class = "text-Box">

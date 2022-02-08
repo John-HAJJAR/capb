@@ -110,7 +110,7 @@ if (isset($_POST['submit-req-form'])){
     
 
     if (empty($name) || strlen($name) <= 2 ){
-        $errors['Name'] = 'Name is required';
+        // $errors['Name'] = 'Name is required';
     }
     if (empty($email) ){
 //valid_mail($email)
@@ -133,7 +133,7 @@ if (isset($_POST['submit-req-form'])){
 
 
     if (count($errors) === 0 ){
-        $sql= "INSERT INTO request_form (FullName, Email, Pnumber, SelectedService, DesPurpose, DefiningEnt, Message) 
+        $sql= "INSERT INTO request_form (FullName, Email, Pnumber, SelectedService, Des_Purpose, DefiningEnt, Message) 
             VALUES('".$name."','".$email."','".$pnumber."','".$selectedServ."','".$despurpose."', '".$deffentity."', '".$message."')";
          $result = mysqli_query($conn,$sql);
     }    

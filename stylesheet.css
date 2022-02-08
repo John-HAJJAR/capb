@@ -1811,9 +1811,16 @@ margin-bottom: -10%;
   overflow-x: auto;
 }
 
+.tableforms-adminpanel thead tr th{
+  text-align: center;
+}
 
 .message-th{
   min-width: 250px;
+}
+
+.admin-form-action-btn{
+  margin-top: 20px;
 }
 
 /* END ADMIN PANEL CSS */

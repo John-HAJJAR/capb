@@ -11,12 +11,12 @@
 <body class="admin-panel-body">
     <?php include '../db.php'; ?>
 <div class="container">
-  <h2 align="center">Admissions Form </h2>
+  <h2 align="center">Request Form </h2>
   <p align="center">Here is displayed everything and everyone that is in the DB : </p>  
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>
     <?php
-      $sqlaf = "SELECT * FROM admission_form";
+      $sqlaf = "SELECT * FROM request_form";
       $reslist = mysqli_query($conn,$sqlaf);
       echo '<table border="1" class="table table-bordered table-striped tableforms-adminpanel">';
       echo '<thead>';
@@ -24,11 +24,10 @@
       echo '<th style="width:9%;"> Name </th>';
       echo '<th style="width:11%;"> Email </th>';
       echo '<th style="width:10%;"> Phone number </th>';
-      echo '<th style="width:10%;"> Nationality </th>';
-      echo '<th style="width:10%;"> LinkedIn </th>';
-      echo '<th style="width:10%;"> Chosen Position </th>';
-      echo '<th style="width:10%;"> Role Type </th>';
-      echo '<th class="message-th" style="width:30%;"> Message </th>';
+      echo '<th style="width:10%;"> Selected Service </th>';
+      echo '<th style="width:10%;"> Designated Purpose </th>';
+      echo '<th style="width:10%;"> Defining Entity  </th>';
+      echo '<th class="message-th" style="width:40%;"> Message </th>';
       echo '<th>Action</th>';
       echo '</tr>';
       echo '</thead>';
@@ -45,16 +44,13 @@
                   echo $arr['Pnumber'];
               echo '</td>';
               echo '<td>';
-                  echo $arr['Nationality'];
+                  echo $arr['SelectedService'];
               echo '</td>';
               echo '<td>';
-                  echo $arr['LinkedIn'];
+                  echo $arr['Des_Purpose'];
               echo '</td>';
               echo '<td>';
-                  echo $arr['Position'];
-              echo '</td>';
-              echo '<td>';
-                  echo $arr['Role'];
+                  echo $arr['DefiningEnt'];
               echo '</td>';
               echo '<td>';
                   echo $arr['Message'];
@@ -75,9 +71,9 @@
 
 <?php
 if (isset($_POST["action"])){
-            if ($_POST["action"] == "remove-from-db-admform"){
+            if ($_POST["action"] == "remove-from-db-reqform"){
                 $id = $_POST["id"];
-                $sqldelete = "DELETE FROM admission_form WHERE ID='$id'";
+                $sqldelete = "DELETE FROM request_form WHERE ID='$id'";
                 $resdelete = mysqli_query($conn,$sqldelete);
                 if ($resdelete){
                     echo '<script>alert("Product successfully deleted.")</script>';
@@ -89,7 +85,7 @@ if (isset($_POST["action"])){
 <script>
   
   $(".remove-adm").click(function(){
-             var action = 'remove-from-db-admform';
+             var action = 'remove-from-db-reqform';
              var id = $(this).attr("value");
 
              if(confirm("Are you sure you want to remove this line from the databse for ever ?"))
