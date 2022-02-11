@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
+  <link rel="stylesheet" type="text/css" href="../../stylesheet.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body class="admin-panel-body">
-    <?php include '../db.php'; ?>
+    <?php include '../../db.php'; ?>
 <div class="container">
-  <h2 align="center">Admissions Form </h2>
+  <h2 align="center">Enlistment Form </h2>
   <p align="center">Here is displayed everything and everyone that is in the DB : </p>  
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>
     <?php
-      $sqlaf = "SELECT * FROM admission_form";
+      $sqlaf = "SELECT * FROM enlistment_form";
       $reslist = mysqli_query($conn,$sqlaf);
       echo '<table border="1" class="table table-bordered table-striped tableforms-adminpanel">';
       echo '<thead>';
@@ -24,10 +24,10 @@
       echo '<th style="width:9%;"> Name </th>';
       echo '<th style="width:11%;"> Email </th>';
       echo '<th style="width:10%;"> Phone number </th>';
-      echo '<th style="width:10%;"> Nationality </th>';
       echo '<th style="width:10%;"> LinkedIn </th>';
-      echo '<th style="width:10%;"> Chosen Position </th>';
-      echo '<th style="width:10%;"> Role Type </th>';
+      echo '<th style="width:10%;"> Investment Category </th>';
+      echo '<th style="width:10%;"> PTH  </th>';
+      echo '<th style="width:10%;"> Current Occupation </th>';
       echo '<th class="message-th" style="width:30%;"> Message </th>';
       echo '<th>Action</th>';
       echo '</tr>';
@@ -45,16 +45,16 @@
                   echo $arr['Pnumber'];
               echo '</td>';
               echo '<td>';
-                  echo $arr['Nationality'];
-              echo '</td>';
-              echo '<td>';
                   echo $arr['LinkedIn'];
               echo '</td>';
               echo '<td>';
-                  echo $arr['Position'];
+                  echo $arr['InvCat'];
               echo '</td>';
               echo '<td>';
-                  echo $arr['Role'];
+                  echo $arr['PreffTH'];
+              echo '</td>';
+              echo '<td>';
+                  echo $arr['CurrOcc'];
               echo '</td>';
               echo '<td>';
                   echo $arr['Message'];
@@ -75,9 +75,9 @@
 
 <?php
 if (isset($_POST["action"])){
-            if ($_POST["action"] == "remove-from-db-admform"){
+            if ($_POST["action"] == "remove-from-db-enlform"){
                 $id = $_POST["id"];
-                $sqldelete = "DELETE FROM admission_form WHERE ID='$id'";
+                $sqldelete = "DELETE FROM enlistment_form WHERE ID='$id'";
                 $resdelete = mysqli_query($conn,$sqldelete);
                 if ($resdelete){
                     echo '<script>alert("Product successfully deleted.")</script>';
@@ -89,7 +89,7 @@ if (isset($_POST["action"])){
 <script>
   
   $(".remove-adm").click(function(){
-             var action = 'remove-from-db-admform';
+             var action = 'remove-from-db-enlform';
              var id = $(this).attr("value");
 
              if(confirm("Are you sure you want to remove this line from the databse for ever ?"))
