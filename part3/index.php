@@ -128,7 +128,9 @@ include advisory-piece products, quasi-financial services, and intelligence base
     <br><br>
     <!-- SECTION 6 FORM -->
     <br><br>
-    <div class="s7">
+  
+
+<div class="s7">
             <br>
             <h2 align=center name = "form" style="color:white;">Request Form</h2>
             <form class="s7form" method = "post">
@@ -136,12 +138,20 @@ include advisory-piece products, quasi-financial services, and intelligence base
                     <input type="text" name="name" placeholder="First & Last Name"> <br>
                     <input type="text" name="email" placeholder="Email Address"> <br>
                     <input type="text" name="pnumber" placeholder="Phone Number"> <br> 
-                    <input type="text" name="selectedServ" placeholder = "Selected Service"> <br> 
-                    <input type="text" name="DesPurpose" placeholder="Designated Purpose"> <br>
+                    <!-- <input type="text" name="selectedServ" placeholder = "Selected Service"> <br>  -->
+                           
+                    <select class="selectp2" name="selectedServ" id="selserv">
+                        <option value="serv0">Selected Service</option>
+                        <option value="serv1">Service 1</option>
+                        <option value="serv2">Service 2</option>
+                        <option value="serv3">Service 3</option>
+                    </select>  <br>   
+                    
+                    <input type="text" name="DesPurpose" placeholder="Designated Purpose">
                 </div>
-                <div class="s7-right">
-                <input type="text" name="DeffEntity" placeholder="Defining Entity"><br>
-                    <textarea class="message req-form-p3" name="usermessage" cols="22.5" rows="19" placeholder="Your Message"></textarea>
+                <div class="s7-right s7-right-p3 s7-right-sm-p2">
+                <input type="text" name="DeffEntity" placeholder="Defining Entity"> <br>
+                    <textarea class="message message3" name="usermessage" cols="22" rows="19" placeholder="Your Message"></textarea>
                  </div>
 
       

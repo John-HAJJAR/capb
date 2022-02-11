@@ -447,7 +447,6 @@ nav.navbar {
 /* END SECTION 6 CSS */
 
 
-
 /* SECTION 7  */
 
 
@@ -475,7 +474,7 @@ nav.navbar {
   align-items: center;
 }
 
-input[type=text]{
+input[type=text], select{
   padding: 10px;
   margin:15px;
   color: black;
@@ -483,6 +482,12 @@ input[type=text]{
   border: none;
   text-align: center;
   /* transition: all 1s ease; */
+}
+
+select{ 
+  /* width: 12.6rem; */
+  width: 205px;
+  color: #414c89;
 }
 
 
@@ -498,6 +503,17 @@ input[type=text]{
 
 .message{
   text-align: center;
+  margin-top: 29px;
+  /* margin-bottom: 20px; */
+  padding-top: 15px;
+  resize: none;
+  height: 195px;
+  width: 205px;
+  border-radius: 10px;
+}
+
+.message2{
+  text-align: center;
   margin: 15px;
   padding-top: 15px;
   resize: none;
@@ -506,10 +522,17 @@ input[type=text]{
   border-radius: 10px;
 }
 
-.req-form-p3 {
-  padding-top: 40px;
-  padding: 10px;
-  height: 265px;
+.selectp2{
+  margin: 15px;
+  width: 200px;
+}
+
+.message3 {
+  margin-left: 12px;
+  /* padding-top: 40px; */
+  /* padding: 10px; */
+  padding: 40px;
+  height: 245px;
 }
 
 .s7-apply-btn{
@@ -530,6 +553,17 @@ input[type=text]{
   
 }
 
+@media only screen and (max-width: 800px) {
+.s7-right{
+  margin-top: 15px;
+  margin-left: 7%;
+}
+.s7-right-sm-p2{
+  margin-top: 0px;
+  margin-left: 0%;
+}
+
+}
 
 /*BIG SCREEN CSS */
 @media only screen and (min-width: 800px) {
@@ -537,17 +571,20 @@ input[type=text]{
   max-width: 700px;
 }  
   .s7-left{
-    /* float:left; */
     margin-top: 20%;
     margin-left: -62%;
   }
-  .s7-right{
+  .s7-right {
     margin-top: -157.5%;
     margin-left: 65%;
     float:right;
   } 
+  .s7-right-p3{
+    margin-top: -165%;
+  }
 
 }
+
 
 /* Section 7 Part 3 */
 

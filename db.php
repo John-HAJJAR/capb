@@ -1,5 +1,4 @@
 <?php 
-
 $errors= [];
 $conn = new mysqli('localhost', 'root', '', 'capb');
 

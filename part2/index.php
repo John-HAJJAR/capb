@@ -233,7 +233,7 @@
 
     <!-- SECTION 10 FORM -->
     
-    <div class="s7">
+<div class="s7">
             <br>
             <h2 align=center name = "form" style="color:white;">Enlistment Form</h2>
             <form class="s7form" method = "post">
@@ -241,13 +241,20 @@
                     <input type="text" name="name" placeholder="First & Last Name"> <br>
                     <input type="text" name="email" placeholder="Email Address"> <br>
                     <input type="text" name="pnumber" placeholder="Phone Number"> <br> 
-                    <input type="text" name="investmentcat" placeholder="Investment Category"> <br> 
-                    <input type="text" name="prefftimeHorz" placeholder="Preferred Time Horizon"> <br>
+                    <!-- <input type="text" name="investmentcat" placeholder="Investment Category"> -->
+                          
+                    <select class="selectp2" name="investmentcat" id="invcat">
+                        <option value="c0">Investment Category</option>
+                        <option value="c1">Category 1</option>
+                        <option value="c2">Category 2</option>
+                        <option value="c3">Category 3</option>
+                    </select>  <br>   
+                    <input type="text" name="prefftimeHorz" placeholder="Preferred Time Horizon">
                 </div>
-                <div class="s7-right">
+                <div class="s7-right s7-right-sm-p2">
                 <input type="text" name="currOcc" placeholder="Current Occupation"><br>
                 <input type="text" name="linkedin" placeholder="LinkedIn Profile (URL)"> <br>
-                    <textarea class = "message" name="usermessage" cols="22.5" rows="10" placeholder="Your Message"></textarea>
+                    <textarea class = "message2" name="usermessage" cols="22.5" rows="10" placeholder="Your Message"></textarea>
                  </div>
 
       

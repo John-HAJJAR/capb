@@ -197,7 +197,7 @@
 
     </div> -->
 
-        <div class="s7">
+    <div class="s7">
             <br>
             <h2 align=center name = "form" style="color:white;">Admission Form</h2>
             <form class="s7form" method = "post">
@@ -209,11 +209,25 @@
                     <input type="text" name="linkedin" placeholder="LinkedIn Profile (URL)"> <br>
                 </div>
                 <div class="s7-right">
-                <input type="text" name="position" placeholder="Chosen Position"><br>
-                <input type="text" name="roletype" placeholder="Role Type"> <br>
-                    <textarea class = "message" name="usermessage" cols="23.5" rows="10" placeholder="Your Message"></textarea>
+                <!-- <input type="text" name="position" placeholder="Chosen Position"><br> -->
+             
+                <!-- <input type="text" name="roletype" placeholder="Role Type"> <br> -->
+                <select id="chosenpos" name="position" >
+                  <option value="p0">Chosen Position</option>
+                  <option value="p1">Position 1</option>
+                  <option value="p2">Position 2</option>
+                  <option value="p3">Position 3</option>
+                </select> 
+                  <br><br>
+                  <select class="select2" name="roletype" id="roletp">
+                  <option value="r0">Role Type</option>
+                  <option value="r1">Role 1</option>
+                  <option value="r2">Role 2</option>
+                  <option value="r3">Role 3</option> <br>
+                </select> <br>
+                    <textarea class = "message" name="usermessage" cols="23.5" rows="11 " placeholder="Your Message"></textarea>
                  </div>
-
+                 
       
                 <button type="submit" class="s7-apply-btn" name="submit-adm-form">Apply</button>
                 
