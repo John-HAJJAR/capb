@@ -9,21 +9,38 @@
         <script type="text/javascript" src="jquery-comp-3.6.js"></script>
     </head>
     <body>
-        
+        <?php include 'db.php'; ?>
+
+        <!-- GET INFO FROM DATABASE  -->
+        <?php      
+          $sqlinfo = "SELECT * FROM companydetails";
+          $reslist = mysqli_query($conn,$sqlinfo);
+          $arr = mysqli_fetch_assoc($reslist)
+      ?>
 <!-- Footer -->
 <section class="footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 text-center text-lg-start left-footer">
           <p>General Inquiry</p>
-          <h6><strong>Phone: +961 81-343-722</strong></h6>
-          <h6><strong>Email: <a class="afooter" href="mailto:info@capb.me">info@capb.me</a></strong></h6>
+          <!-- <h6><strong>Phone: +961 81-343-722</strong></h6> -->
+          <h6><strong>Phone: <?php echo $arr['Phone']; ?></strong></h6>
+
+          <!-- <h6><strong>Email: <a class="afooter" href="mailto:info@capb.me">info@capb.me</a></strong></h6> -->
+          <h6><strong>Email: <a class="afooter" href="mailto:info@capb.me"> <?php echo $arr['Email']; ?> </a></strong></h6>
+            
+          
+          
             <ul>
               <li>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <!-- <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a> -->
+                <a href="<?php echo $arr['LinkedIN']; ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              
               </li>
               <li>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <!-- <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a> -->
+                <a href="<?php echo $arr['Instagram']; ?>" target="_blank"><i class="fab fa-instagram"></i></a>
+
               </li>
             </ul>
         </div>
@@ -36,7 +53,9 @@
           <h4>Copyright © 2021 CapB</h4>
           <p><em>Free Enterprise</em></p>
           <strong>
-            <p>Bad Idriss, Beirut, Lebanon</p>
+            <!-- <p>Bad Idriss, Beirut, Lebanon</p> -->
+            <p> <?php echo $arr['Location']; ?> </p>
+
           </strong>
         </div>
       </div>

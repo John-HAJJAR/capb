@@ -1860,4 +1860,43 @@ margin-bottom: -10%;
   margin-top: 20px;
 }
 
+.company-details-adm{
+  display: grid;
+  width: 50vw;
+  background-color:#7178a3;;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-adm-compdets > input[type="text"]{
+  height: 100px;
+  width: 200px;
+
+}
+
+.finance-rec-adm{
+  display: grid;
+  width: 50vw;
+  background-color:#7178a3;;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.form-adm-financerec > input[type="text"]{
+  height: 50px;
+  width: 75px;
+
+}
+
+.form-adm-financerec > p {
+  padding: 10px;
+  padding-bottom: 0;
+}
+.update-financerec{
+  margin-left: -50%;
+}
+
 /* END ADMIN PANEL CSS */

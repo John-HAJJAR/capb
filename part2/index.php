@@ -347,13 +347,22 @@
         <h4 align=center> Spotlight Performance </h4>
         <br>
 
+        
+        <?php     //GET THE VALUES FROM DB 
+          $sqlinfo = "SELECT * FROM financial_records";
+          $reslist = mysqli_query($conn,$sqlinfo);
+          $arr = mysqli_fetch_assoc($reslist)
+        ?>
+
         <div class="cards">
         <div class="s13-div1">
             <div class="s13-card card1">
             Cumulative value of successfully-closed private deals (in millions USD)
             </div>
             <div class="s13-numbers div1numb-back">
-                <span class="counter" data-number="21   "></span>
+                <!-- <span class="counter" data-number="21   "></span> -->
+                <span class="counter" data-number="<?php echo $arr['CumulativeValues'];?>"></span>
+
             </div>
         </div>
         <div class="s13-div2">
@@ -361,7 +370,8 @@
             Total number of successfully-closed private deals
             </div>
             <div class="s13-numbers div2numb-back">
-                <span class="counter" data-number="33"></span>
+                <!-- <span class="counter" data-number="33"></span> -->
+                <span class="counter" data-number="<?php echo $arr['ClosedDeals'];?>"></span>
             </div>
         </div>
         <div class="s13-div3">
@@ -369,7 +379,9 @@
             Total return on investment (YTD) due to our private fund (in percent)
             </div>
             <div class="s13-numbers div1numb-back ">
-                <span class="counter" data-number="13"></span>
+                <!-- <span class="counter" data-number="13"></span> -->
+                <span class="counter" data-number="<?php echo $arr['Return_Inv'];?>"></span>
+
             </div>
         </div>
     </div>
@@ -396,7 +408,9 @@
                 
                 </div>
                 <div class="s14-numbers s14-n1">
-                    <span class="counter2" data-number="27"></span>%
+                    <!-- <span class="counter2" data-number="27"></span>% -->
+                    <span class="counter2" data-number="<?php echo $arr['Direct_Inv'];?>"></span>%
+
                 </div>
             </div>
             <div class="s14-div2">
@@ -410,7 +424,9 @@
                 and/or commercial value </p>
                 </div>
                 <div class="s14-numbers s14-n2">
-                    <span class="counter2" data-number="56"></span>%
+                    <!-- <span class="counter2" data-number="56"></span>% -->
+                    <span class="counter2" data-number="<?php echo $arr['BDI_Inv'];?>"></span>%
+
                 </div>
             </div>
             <div class="s14-div3">
@@ -422,7 +438,9 @@
                 specific fee for a guaranteed service </p>
                 </div>
                 <div class="s14-numbers s14-n3">
-                    <span class="counter2" data-number="17"></span>%
+                    <!-- <span class="counter2" data-number="17"></span>% -->
+                    <span class="counter2" data-number="<?php echo $arr['RCA_services'];?>"></span>%
+
                 </div>
             </div>
         </div>
