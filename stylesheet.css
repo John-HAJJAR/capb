@@ -1891,6 +1891,15 @@ margin-bottom: -10%;
 
 }
 
+.dropdown-selections-adm{
+  display: grid;
+  width: 50vw;
+  background-color:#7178a3;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
 .form-adm-financerec > p {
   padding: 10px;
   padding-bottom: 0;
@@ -1898,5 +1907,31 @@ margin-bottom: -10%;
 .update-financerec{
   margin-left: -50%;
 }
+/* 
+.dropdown-admin thead tr th{
+  text-align: center;
+  margin: auto;
+  width: 50px;
+} */
 
+.dropdown-form-adm{
+  width: 50%;
+  /* display: grid; */
+  margin: auto;
+}
+
+
+.dropdown-admin tbody {
+  text-align: center;
+}
+
+
+.new-add{
+  width: 250px !important;
+  margin: auto !important;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+  background-color: #7178a3 !important;
+  color: white !important;
+}
 /* END ADMIN PANEL CSS */
