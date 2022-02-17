@@ -67,7 +67,7 @@
 
 <?php
 if (isset($_POST["action"])){
-            if ($_POST["action"] == "update-newsS"){
+            if ($_POST["action"] == "update-news"){
                 $news = $_POST["news"];
                 $date = $_POST["date"];
                 $nb = $_POST["number"];
