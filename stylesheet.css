@@ -1907,12 +1907,6 @@ margin-bottom: -10%;
 .update-financerec{
   margin-left: -50%;
 }
-/* 
-.dropdown-admin thead tr th{
-  text-align: center;
-  margin: auto;
-  width: 50px;
-} */
 
 .dropdown-form-adm{
   width: 50%;
@@ -1933,5 +1927,11 @@ margin-bottom: -10%;
   margin-top: 15px !important;
   background-color: #7178a3 !important;
   color: white !important;
+}
+
+.newsinput{
+  margin: 0% !important;
+  width:450px !important;
+  height: 75px !important;
 }
 /* END ADMIN PANEL CSS */
