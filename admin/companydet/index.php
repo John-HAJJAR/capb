@@ -11,6 +11,8 @@
 <body>
   <?php include '../../db.php'; ?>
 
+
+
    <?php $sql= "SELECT * FROM companydetails"; 
         $result = mysqli_query($conn,$sql);
         $arr = mysqli_fetch_assoc($result);
@@ -85,6 +87,5 @@ if (isset($_POST["action"])){
 
          });
 </script>
-
 </body>
 </html>
