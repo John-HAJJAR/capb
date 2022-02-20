@@ -22,19 +22,19 @@
             <li class="nav-item me-lg-2 mb-4 mb-lg-0 mt-4 mt-lg-auto">
               <a href="#">About</a>
             </li>
-            <span class="mt-auto me-2 d-none d-lg-block"> | </span>
+            <span class="mt-auto me-2 d-none d-lg-block nav-item"> | </span>
             <li class="nav-item me-lg-2 mb-4 mb-lg-0 mt-auto">
               <a href="#">Contact</a>
             </li>
-            <span class="mt-auto me-2 d-none d-lg-block"> | </span>
+            <span class="mt-auto me-2 d-none d-lg-block nav-item"> | </span>
             <li class="nav-item me-lg-auto mb-4 mb-lg-0 mt-auto">
               <a href="">Careers</a>
             </li>
-            <h1 class="d-none d-lg-block"><a class="mx-lg-auto" href="#">CapB</a></h1>
+            <h1 class="d-none capb123 d-lg-block"><a class="mx-lg-auto" href="#">CapB</a></h1>
             <li class="nav-item ms-lg-auto me-lg-2 mb-4 mb-lg-0 mt-auto">
               <a href="/capb/part2">Finance</a>
             </li>
-            <span class="mt-auto me-2 d-none d-lg-block"> | </span>
+            <span class="mt-auto me-2 d-none d-lg-block nav-item"> | </span>
             <li class="nav-item mt-auto mb-4 mb-lg-0">
               <a href="/capb/part3">Enterprise</a>
             </li>

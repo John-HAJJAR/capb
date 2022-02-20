@@ -140,28 +140,6 @@
         <div class="s5-centered"> OPPORTUNITY IS ALWAYS SOUGHT AFTER </div>
     </section>
 
-  <!-- SECTION 5 -->
-    <!-- <table class="s5-table">
-        <tr>
-            <td class="s5-td1 ">
-                <p> INVESTOR RELATIONS</p><br><br class="br-big-screen">
-                <p>PROPRIETARY INVESTMENT</p><br><br class="br-big-screen">
-                <p>PRIVATE DEALS</p>
-            </td>
-            <td style="width:4%;"></td>
-            <td class="s5-td2">
-                <p>AFFILIATED ENTERPRISE</p><br><br class="br-big-screen">
-                <p>CORPORATE VENTURES</p><br><br class="br-big-screen">
-                <p>GENERAL SERVICES</p>
-            </td>
-        </tr>
-        <tr class="s5-tr2" style="border-top: 15px solid white;">
-            <td class="s5-td3" colspan="3"> 
-           <br><p>OPPORTUNITY IS ALWAYS SOUGHT AFTER</p>
-            </td>
-        </tr>
-    </table> -->
-
       <!-- SECTION 6 -->
     <div class="s6">
     <p class ="s6-title" align=center>PROFESSIONAL CAREERS</p>
@@ -180,22 +158,6 @@
       <img src = "imgs/P1-S6.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
 
-
-    <!-- <div class="s6">
-      <p class ="s6-title" align=center>PROFESSIONAL CAREERS</p>
-      <div class="s6">
-      <h3>
-      <strong> CapB </strong> hopefully seek to recruit the disciplined, professional, and elite
-        candidates of the realm. We continue to offer entry-level jobs, lengthy
-        internships, and quality apprenticeship positions. <br>
-        In our view, the ideal candidate must showcase genuine integrity by holding
-        up to their word and image. We only encourage the admission of serious and
-        motivated applicants
-      </h3>
-    <img src="imgs/icon3.png" width="40%">
-    </div>
-
-    </div> -->
 
     <div class="s7">
             <br>
@@ -230,26 +192,46 @@
                  
       
                 <button type="submit" class="s7-apply-btn" name="submit-adm-form">Apply</button>
-                
-                
+              
                 
             </form>
             <br><br><br><br><br><br>
         </div>
+
+          
         <br><br><br><br><br><br>
-<!-- SECTION 8-->
+
+  <!-- GET NEWS FROM DB -->
+  <?php
+     $sqlinfo = "SELECT * FROM news";
+     $reslist = mysqli_query($conn,$sqlinfo);
+
+  ?>
+
+  <!-- SECTION 8-->
   <section id="s8" class="text-center"> 
     <h2> NEWS & UPDATES </h2>
     <br>
     <div class="s8-1">
-     <p class="s81-p1"> CapB sponsors its first venture capital fund, Hermon Equity </p>
-     <p class="s81-p2"> Enterprise | 10.10.21 </p>
+<?php
+  while ( $arr = mysqli_fetch_assoc($reslist))
+    {
+      echo '<p class="s81-p1">';
+      echo $arr['news'];
+      echo '</p>';
+      echo '<p class="s81-p2">';
+      echo $arr['date'];
+      echo '</p>';
+    }
+?>
 
+
+     <!-- 
      <p class="s81-p1"> CapB launches MENA Scale, a tech startup </p>
      <p class="s81-p2"> Enterprise | 21.09.21 </p>
 
      <p class="s81-p1"> CapB acquires funds in latest financing round </p>
-     <p class="s81-p2"> Finance | 13.07.21 </p>
+     <p class="s81-p2"> Finance | 13.07.21 </p> -->
     </div>
   </section>
 
@@ -283,7 +265,7 @@
 -->
 
 
-
+  
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

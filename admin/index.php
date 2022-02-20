@@ -1,21 +1,62 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-        <script type="text/javascript" src="../jquery-comp-3.6.js"></script>
-    </head>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <!-- <script defer src="login.js"></script> -->
+</head>
 
 <body>
-
 <?php
-$conn = new mysqli('localhost', 'root', '', 'capb');
-echo 'test';
+    include '../db.php'; 
+    $sql = 'SELECT * FROM account';
+    $res = mysqli_query($conn,$sql);
+    $resarr = mysqli_fetch_assoc($res);
+    
+    ?>
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form" action="index.php" method="post">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" name="loginbtn" value="Login" id="login-form-submit">
+    </form>
+  
+  </main>
+<?php 
 
+if (isset($_POST['loginbtn'])) {
+  $inputpass = $_POST['password'];
+  $inputuser = $_POST['username'];
 
+  $username = $resarr['User'];
+  $hashedpass = $resarr['Password'];
+  
+  if ($inputuser == $username){
+    if (password_verify($inputpass, $hashedpass))
+      {
+        $_SESSION['ID'] = $resarr['ID'];
+        $_SESSION['status'] = true;
+          header("Location: dashboard.php");
+      } else {
+        echo '<script>document.getElementById("login-error-msg").style.opacity = 1;</script>';
+      }
+
+  }
+  
+}
 ?>
+
+
 </body>
+
 </html>

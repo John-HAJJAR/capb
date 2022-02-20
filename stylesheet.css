@@ -31,6 +31,13 @@ body {
   color: inherit; 
 }
 
+.nav-item{
+  font-size: 18px;
+} 
+.capb123{
+  margin-left: -3% !important;
+}
+
 #navbar .navbar .navbar-collapse {
   text-align: center;
   padding-bottom: 1%;
@@ -39,7 +46,7 @@ nav.navbar {
   color: white;
 }
 .navbar.scrolled {
-  background-color: #001C57;
+  background-color: #001C57;  
   transition: background-color 200ms linear;
 }
 
