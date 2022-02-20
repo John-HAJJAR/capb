@@ -35,7 +35,7 @@
         <br><br>
         <form name="newsnupdates-adm-form form2-adm-nu" class="form-adm-compdets newsnupdates-adm-form" method="post">
         <h4 align="center"> News #2 </h4>
-        <h5 align="center" id="charNum2"> News 2 counter :</h5>
+        <h5 align="center" id="charNum2"> News 2 counter : </h5>
         <input type="text" name="update1" class=" newsinput update2" onkeyup="countChars2(this);">
         <br><br>
         <h5 align="center"> Format : <strong> Finance | 13.07.21 </strong>  </h5>
