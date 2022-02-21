@@ -10,16 +10,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
         <script type="text/javascript" src="jquery-comp-3.6.js"></script>
     </head>
-    <body onload="document.body.style.opacity='1'">
+
+    <body style="overflow-x:hiddenl" onload="document.body.style.opacity='1'">
 
   <?php include 'db.php'; ?>
   <?php include 'navbar.php'; ?>
 
-    <div class="s1-container ">  
+    <div class="s1-container s1-cpart1">  
         <div class = "text-Box">
-            <div class = "centered s1-1 fadeout">Promises Held Privately</div>
+           <div class = "centered s1-1 fadeout">Promises Held Privately</div>
             <div class="centered s1-2 fadeout"> Free Enterprise </div>
-        </div>
+          </div>
 <br><br><br><br><br><br>
           <!-- SECTION 2 -->
           <div>
@@ -106,6 +107,7 @@
     </div>
   </section>
   <br>
+
   <section class="new-div-section">
   <div class="container-newdiv">
     <div class="s5-newdiv">
