@@ -121,7 +121,7 @@
         </p>
         <p align="center">
         Our broad range of services pertain to the
-        following disciplines: Research Investment;
+        following disciplines: Investment Research;
         Consultancy; Advisory; Funding & Financing.
         </p>
         <div class="newdiv-img">

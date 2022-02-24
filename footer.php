@@ -50,7 +50,7 @@
 
         </div>
         <div class="col-lg-4 text-center text-lg-end pt-md-4 py-lg-0 right-footer">
-          <h4>Copyright © 2021 CapB</h4>
+          <h4>Copyright © 2022 CapB</h4>
           <p><em>Free Enterprise</em></p>
           <strong>
             <!-- <p>Bad Idriss, Beirut, Lebanon</p> -->

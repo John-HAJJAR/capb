@@ -9,7 +9,14 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body class="admin-panel-body">
-    <?php include '../../db.php'; ?>
+    <?php include '../../db.php'; 
+
+    // if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0  ) {
+    //      header("Location: /capb/");
+    // } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
+    
+    ?>
+
 <div class="container">
   <h2 align="center">Enlistment Form </h2>
   <p align="center">Here is displayed everything and everyone that is in the DB : </p>  
@@ -120,6 +127,7 @@ $(document).ready(function(){
 });
 </script>
 
+<?php //} ?>
 
 </body>
 

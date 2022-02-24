@@ -6,7 +6,6 @@ error_reporting(0);
 
 session_start();
 
-$_SESSION['status']= false;
 //ADMISSION FORM SUBMIT -- PAGE 1
 if (isset($_POST['submit-adm-form'])){
     $name = $_POST['name'];

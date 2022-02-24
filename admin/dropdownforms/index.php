@@ -11,8 +11,13 @@
 <body>
   <?php include '../../db.php'; ?>
 
-   <?php $sql= "SELECT * FROM dropdown_form"; 
-        $result1 = mysqli_query($conn,$sql);
+  <?php
+    // if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0  ) {
+    //         header("Location: /capb/");
+    //     } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
+
+        $sql= "SELECT * FROM dropdown_form"; 
+           $result1 = mysqli_query($conn,$sql);
     ?>
     <br>
     <h3 align="center">Dropdown Selections </h3>
@@ -279,5 +284,8 @@ $(".add-adm").click(function(){
 
 
 </script>
+
+<?php  // } ?>
+
 </body>
 </html>

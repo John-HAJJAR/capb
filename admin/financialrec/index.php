@@ -10,11 +10,17 @@
 </head>
 <body>
   <?php include '../../db.php'; ?>
+  
+  <?php 
+    // if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0  ) {
+    //          header("Location: /capb/");
+    //     } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
 
-   <?php $sql= "SELECT * FROM financial_records"; 
+   $sql= "SELECT * FROM financial_records"; 
         $result = mysqli_query($conn,$sql);
         $arr = mysqli_fetch_assoc($result);
-            ?>
+  ?>
+
     <br>
     <h3 align="center">Financial records </h3>
     <h6 align="center">Any changes will have a direct effect on the website </h6> 
@@ -88,6 +94,8 @@ if (isset($_POST["action"])){
 
          });
 </script>
+
+<?php //} ?>
 
 </body>
 </html>

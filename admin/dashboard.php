@@ -11,19 +11,18 @@
 </head>
 <body>
 
+<?php include '../db.php'; ?> 
 <!-- GET INFO FROM DB -->
-    <?php
-    include '../db.php'; 
+<?php
+    if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0  ) {
+         header("Location: /capb/");
+    } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
+         echo "Welcome back !";
+        
     $sql = 'SELECT * FROM admin_dashboard';
     $res = mysqli_query($conn,$sql);
     $resarr = mysqli_fetch_assoc($res);
     
-    ?>
-
-<?php 
- if(!isset($_SESSION['status']) && empty($_SESSION['status']) && $_SESSION['status'] == false) {
-    header("Location: /capb");
-} else if(isset($_SESSION['ID'])  && $_SESSION['ID'] == 0){
     ?>
 
   <!-- <div class = "container"> -->

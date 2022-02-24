@@ -194,7 +194,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
             <img src = "../imgs/PARTC/P3-S9.png" alt = "logo" class = "professional-logo" align = "center">
         </div>
-
+        <br><br>
         
         <!-- SECTION 10 & 11 NEW -->
         <div class="s10-p3">
@@ -304,7 +304,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
         </div>
 
         <!-- SECTION 13 NEW -->
-        <!-- <div class="s13-p3-body">
+         <div class="s13-p3-body">
         <div class = "s13-p3-container">
         <div class = "ME">
             <div class="s13-p3-title box">Monetary Economics</div>
@@ -332,7 +332,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
             <img src = "../imgs/PARTC/P3-S7-2.png" class = "logo-7-33 border box logo-2">
         </div>
     </div>
-        </div> -->
+        </div>
 
 
 

@@ -12,7 +12,16 @@
 
 <body class="admin-panel-body">
     
-    <?php include '../../db.php'; ?>
+    <?php include '../../db.php'; 
+    session_start();
+    ?>
+    <?php
+//   if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0 ) {
+//       echo '<script> alert("'.$_SESSION['ID'].'") </script>';
+//     //header("Location: /capb/");
+// } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
+
+    ?>
 <div class="container">
   <h2 align="center">Admissions Form </h2>
   <p align="center">Here is displayed everything and everyone that is in the DB : </p>  
@@ -122,6 +131,8 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<?php //    } ?>
 
 </body>
 

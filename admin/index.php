@@ -32,6 +32,7 @@
     </form>
   
   </main>
+
 <?php 
 
 if (isset($_POST['loginbtn'])) {
@@ -40,19 +41,27 @@ if (isset($_POST['loginbtn'])) {
 
   $username = $resarr['User'];
   $hashedpass = $resarr['Password'];
-  
+
+  if(isset($_SESSION['username'])) {
+      //echo "Welcome new user".$_SESSION['username'];
+      echo"<script>   location.href = 'dashboard.php'</script>";
+} else {
   if ($inputuser == $username){
     if (password_verify($inputpass, $hashedpass))
       {
         $_SESSION['ID'] = $resarr['ID'];
-        $_SESSION['status'] = true;
+        $_SESSION['username'] = $inputuser;
+//        $_SESSION['status'] = 'true';
+
           header("Location: dashboard.php");
+          exit();
       } else {
-        echo '<script>document.getElementById("login-error-msg").style.opacity = 1;</script>';
+        echo "<script> alert('Username or Password is incorrect')</script>";
       }
 
   }
   
+}
 }
 ?>
 
