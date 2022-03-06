@@ -285,8 +285,8 @@
       <img src = "../imgs/PARTB/P2-S11.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
 
-    <!-- SECTION 12 -->
-    <br><br>
+<!-- SECTION 12 -->
+<br><br>
     <div class="s12">
             <h3 align=center> Portfolio Listing, Composition and Research </h3>
             <p align=center>Click the ticker to acces document</p> 
@@ -296,25 +296,23 @@
                     <td class="s12-card table1pink">
                         SWRCHF
                     </td>
-                    <td width=5%></td>
+                    <td width=10%></td>
                     <td class="s12-card table1green">
                         SWRUSD
                     </td>
-                    <td width=5%></td>
-                    <td class="s12-card table1yellow">
-                        SWRBTC
-                    </td>
                 </tr>
             </table>
-            <table class="s12-table2">
+            <table class="s12-table">
                 <tr>
+                <td class="s12-card table1yellow">
+                        SWRBTC
+                    </td>
+                    <td width="10%"></td>
                     <td class="s12-card table2blue"> 
                         SWRDEF
                     </td>
-                    <td width="20%"></td>
-                    <td class="s12-card table2blue">
-                        SWRREF
-                    </td>
+                    
+
                 </tr>
             </table>
             <br><br>
@@ -324,19 +322,22 @@
                 <p> Swiss-related Investments </p>
             </div>
 
+            <div data-position="left" data-offset="60" class="notViewed animBlock">
             <table class="s12-table3">
                 <tr>
                     <td class="s12-t3-card1" align="center">
                         Year-to-Month Performance
                     </td>
-                    <td class="s12-t3-card2" align="center">
+                    <td class="s12-t3-card2 block" align="center">
                         <!-- ADD CONNECTION TO DATABASE -->
                         <span id="s12-txt-1"> SWRCHF | 12.03% </span>  
                         <span id="s12-txt2" > SWRUSD | 5.34%  </span>
                     </td>
                 </tr>
             </table>
+            </div>
         </div>
+
 
     <!-- SECTION 13 -->
     <br><br><br><br>
@@ -467,13 +468,7 @@
 
 
         <script>
-             $(document).ready(function(){
-                $(window).scroll(function(){
-                $(".s1-container").css("opacity", 1.1 - $(window).scrollTop() / $('.s1-container').height() /2 );
-                });
-            });
-
-            
+                         
          $(function () {
             $(document).scroll(function () {
             var $nav = $(".navbar");
@@ -481,8 +476,57 @@
             });
         });
 
+
+$(function() {
+  var $blocks = $('.animBlock.notViewed');
+  var $window = $(window);
+
+  $window.on('scroll', function(e){
+    $blocks.each(function(i,elem){
+      if($(this).hasClass('viewed')) 
+        return;
+        
+      isScrolledIntoView($(this));
+    });
+  });
+});
+
+function isScrolledIntoView(elem) {
+  var docViewTop = $(window).scrollTop();
+  var docViewBottom = docViewTop + $(window).height();
+  var elemOffset = 0;
+  
+  if(elem.data('offset') != undefined) {
+    elemOffset = elem.data('offset');
+  }
+  var elemTop = $(elem).offset().top;
+  var elemBottom = elemTop + $(elem).height();
+  
+  if(elemOffset != 0) { // custom offset is updated based on scrolling direction
+    if(docViewTop - elemTop >= 0) {
+      // scrolling up from bottom
+      elemTop = $(elem).offset().top + elemOffset;
+    } else {
+      // scrolling down from top
+      elemBottom = elemTop + $(elem).height() - elemOffset
+    }
+  }
+  
+  if((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
+    // once an element is visible exchange the classes
+    $(elem).removeClass('notViewed').addClass('viewed');
+    
+    var animElemsLeft = $('.animBlock.notViewed').length;
+    if(animElemsLeft == 0){
+      // with no animated elements left debind the scroll event
+    //   $(window).off('scroll');
+    }
+  }
+}
+
+
     //counter functions
-        var a = 0;
+var a = 0;
       $(window).scroll(function () {
     var oTop = $(".card1").offset().top - window.innerHeight;
     if (a == 0 && $(window).scrollTop() > oTop) {
@@ -517,45 +561,47 @@
 });
 
 // ------------------------------------
+
 var b = 0;
-$(window).scroll(function () {
-    var oTop = $(".card-14-1").offset().top - window.innerHeight;
-    if (b == 0 && $(window).scrollTop() > oTop) {
-        $(".counter2").each(function () {
-            var $this = $(this),
-                countTo = $this.attr("data-number");
-            $({
-                countNum: $this.text()
-            }).animate(
-                {
-                    countNum: countTo
-                },
-
-                {
-                    duration: 4000,
-                    easing: "swing",
-                    step: function () {
-                        $this.text(
-                            Math.ceil(this.countNum).toLocaleString("en")
-                        );
+    $(window).scroll(function () {
+        var oTop = $(".card-14-1").offset().top - window.innerHeight;
+        if (b == 0 && $(window).scrollTop() > oTop) {
+            $(".counter2").each(function () {
+                var $this = $(this),
+                    countTo = $this.attr("data-number");
+                $({
+                    countNum: $this.text()
+                }).animate(
+                    {
+                        countNum: countTo
                     },
-                    complete: function () {
-                        $this.text(
-                            Math.ceil(this.countNum).toLocaleString("en")
-                        );
+
+                    {
+                        duration: 4000,
+                        easing: "swing",
+                        step: function () {
+                            $this.text(
+                                Math.ceil(this.countNum).toLocaleString("en")
+                            );
+                        },
+                        complete: function () {
+                            $this.text(
+                                Math.ceil(this.countNum).toLocaleString("en")
+                            );
+                        }
                     }
-                }
-            );
+                );
+            });
+                b = 1;
+        }
         });
-            b = 1;
-      }
-    });
 
 
 
 
+  
+</script>
 
-        </script>
 
 
     </body>

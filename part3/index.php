@@ -170,7 +170,9 @@ include advisory-piece products, quasi-financial services, and intelligence base
         <br><br>
         <section id="s8-p3">
             <div class="s5-div">
-            <img class="s5-p3-img" src="../imgs/PARTC/P3-S8.jpg">
+            <!-- <img class="s5-p3-img" src="../imgs/PARTC/P3-S8.jpg"> -->
+            <img class="s5-p3-img" src="../imgs/PARTC/P3-WALLPAPER.jpg">
+
             <div class="s5-centered"> FACILITATING UNREALIZED BENEFITS </div>
         </section>
 

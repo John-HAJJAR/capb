@@ -46,7 +46,17 @@
         </div>
         <div class="col-lg-4 text-center ">
           <!-- <p><u><strong>B</strong></u></p> middle-footer-->
-          <img src="imgs/logo-white.png" width="25%">
+          <?php 
+          $DIR = basename(getcwd());  
+          if ($DIR == 'capb') {
+            echo '<img src="imgs/logo-white.png" width="25%">';
+          } else {
+            echo '<img src="../imgs/logo-white.png" width="25%">';
+  
+          }
+    
+          ?>
+          
 
         </div>
         <div class="col-lg-4 text-center text-lg-end pt-md-4 py-lg-0 right-footer">
