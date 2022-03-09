@@ -24,9 +24,9 @@
             <p class = "head-title" align=center> 
             OUR BID
             </p>
-
+ <!-- <span class = "key-word"></span> -->
           <p class = "details">
-              At  <span class = "key-word">CapB</span> , Finance constitutes the bulk of our operations. We strive to promote
+              At <b>CapB</b> , Finance constitutes the bulk of our operations. We strive to promote
               beneficial investments for our clients, facilitate private capital allocations, and
               preserve commissioned wealth.
              </p>
@@ -112,7 +112,6 @@
         </div>
 
 </section>
-
 
 
 

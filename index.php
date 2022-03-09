@@ -32,8 +32,9 @@
           <p class = "details">A multifaceted, multipurpose and multinational 
             investment office.
              </p>
+             <!-- <span class = "key-word">CapB</span> -->
           <p class = "details">
-            <span class = "key-word">CapB</span> is a privately-held enterprise that ventures 
+             <b> CapB </b> is a privately-held enterprise that ventures 
             into investment opportunities, hosts an online 
             services-based platform, and sponsors its very own 
             research initiative.
@@ -125,7 +126,7 @@
         Consultancy; Advisory; Funding & Financing.
         </p>
         <div class="newdiv-img">
-        <img src="imgs/sample logo.png" width="25%">
+        <img src="imgs/new-div-logo.png">
         </div>
     </div>
 </div>

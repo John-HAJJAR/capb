@@ -20,9 +20,9 @@
         </div>
 <br><br><br><br><br><br>
          <!-- SECTION 2 -->
-         <div>
+         <div">
             <div class = "container-fluid about" style="opacity: 1 !important;" >
-            <p class = "head-title" align=center> 
+            <p class = "head-title head-title-blue" align=center> 
             OUR STANCE
             </p>
 

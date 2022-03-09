@@ -146,9 +146,13 @@
   .head-title{
     padding-top: 10%;
     font-weight: bold;
-    color:#0a1867;
+    /* color:#0a1867; */
+    color: white;
     font-size: 30px;
+  }
 
+  .head-title-blue{
+    color:#0a1867;
   }
 
   .details{
@@ -157,6 +161,7 @@
     margin-right: 30%;
     color: whitesmoke;
     /* color:#202789 */
+
     ;
 
     font-size: 20px;
@@ -1846,10 +1851,12 @@
     font-size: 1.8vw;
   }
 
-  .newdiv-img {
-  margin-left: 37.5%;
-  width: 100%;
-  margin-bottom: -10%;
+  .newdiv-img > img {
+    margin-bottom: -10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
   }
 
 
