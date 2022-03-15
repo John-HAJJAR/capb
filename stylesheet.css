@@ -1456,15 +1456,19 @@
   }
 
   .s10-line2 {
-    width: 100%;
+    margin: auto;
+    width: 95%;
   }
 
   .s10-swiss{
-    margin-top: 5%;
-    margin-left: 30%;
-    background-color: red;
-    padding-bottom: 25px;
+
     width: 45%;
+    margin: auto;
+    /* margin-left: 25%; */
+    background-color: red;
+        margin-top: 5%;
+    /* padding-bottom: 25px; */
+    /* width: 45%; */
   }
 
   .centered-img{
@@ -1977,3 +1981,25 @@
     height: 75px !important;
   }
   /* END ADMIN PANEL CSS */
+
+
+/* FOOTER RED BANNER */
+
+.red-banner{
+  background-color: red;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  color: white;
+  text-align: center;
+  /* padding: 2px; */
+  margin-bottom: 0;
+  /* padding: 5px; */
+}
+
+.red-banner-txt{
+  color: white;
+  font-size: 18px;
+}
+
+/* END FOOTER RED BANNER */

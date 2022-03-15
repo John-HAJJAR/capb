@@ -71,6 +71,11 @@
       </div>
     </div>
   </section>
+  <div class="red-banner">
+    <p class="red-banner-txt">
+          Certified by <b>CapB</b>; Developed by <u>Mr. Elie Jalkh</u> and <u>Mr. John Hajjar</u>
+    </p>
+  </div>
  
     </body>
 </html>
