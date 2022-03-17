@@ -45,7 +45,7 @@
               clients, sponsors and associates.
             </p> 
 
-          <p class = "logo"><img src = "imgs/logo-blue.png" alt = "logo" class = "About-logo"</p>
+          <p class = "logo"><img src = "imgs/logo-blue.png" alt = "logo" class = "About-logo"></p>
            
     </div>
       </div>
@@ -69,7 +69,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 text-center finance">
-          <h1>FINANCE</h1>
+          <h1 align="center">FINANCE</h1>
           <h4>
             A form of our profession which relates
             to building relations, facilitating deals,

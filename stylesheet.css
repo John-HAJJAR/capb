@@ -120,6 +120,12 @@
           font-size: 25px;
       }
     }
+    
+  @media only screen and (max-width: 500px) {
+    .s1-container {
+      margin-top: -20px;
+    }
+  }
   /* SECTION 2 CSS */
 
   .container-fluid{
@@ -375,6 +381,43 @@
     text-align: center;
   }
 
+ 
+@media only screen and (max-width: 700px) {
+    .finance > h1, .enterprise > h1 {
+      font-size: 25px;
+      margin-bottom: -30px;
+      text-align: center;
+
+    }
+    .finance > h4, .enterprise > h4 {
+      font-size: 16px;
+      margin-bottom: -30px;
+
+    }
+    /* .finance > img, .enterprise > img {
+      width: 20%;
+      height: 8%;
+    } */
+    .finance > img, .enterprise > img {
+      transform: scale(0.8);
+  }
+  }
+
+@media only screen and (max-width: 550px) {
+  .finance > img, .enterprise > img {
+      transform: scale(0.8);
+  }
+}
+
+  @media only screen and (max-width: 400px) {
+    
+    .engage-explore-btn {
+      transform: scale(0.8);
+      }
+
+}
+
+
   /* END SECTION 4  */
 
   /* SECTION 5 CSS */
@@ -447,8 +490,6 @@
 }
 
 
-
-
   .s6-title{
     padding-top: 10%;
     font-weight: bold;
@@ -461,6 +502,18 @@
     margin: auto;
   }
 
+  
+  /* .details-professional{
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    /* color:#416da3;
+    color:#202789;
+    text-align: center;
+    font-size: 22px;
+    /* 1.8 REM TO CHECK LATER
+} */
 
 @media only screen and (max-width: 700px) {
   .details-professional{
@@ -468,7 +521,15 @@
   }
 
   .s6-title{
-    font-size: 28px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .details-professional{
+    font-size: 13px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
@@ -1760,22 +1821,42 @@
     .about > .details{
       font-size:18px;
     }
+    /* .About-logo{
+      width: 12%;
+      height: 12%;
+    } */
   }
 
   @media only screen and (max-width: 860px) {
     .about > .details {
-      font-size: 14px;
+      font-size: 18px;
       margin-left: 20%;
       margin-right: 20%;
+    }
+    
+    .About-logo{
+      width: 10%;
+      height: 10%;
     }
   }
 
 
   @media only screen and (max-width: 550px) {
-    .about > .details {
-      font-size: 12px;
+    .about > .details { 
+      font-size: 16px;
       margin-left: 10%;
       margin-right: 10%;
+    }
+    .About-logo{
+      width: 12%;
+      height: 12%;
+    }
+
+  }
+    
+  @media only screen and (max-width: 450px) {
+    .about > .details { 
+      font-size: 14px;
     }
   }
 
@@ -1856,7 +1937,9 @@
   }
 
   .newdiv-img > img {
-    margin-bottom: -10%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    /* margin-bottom: -10%; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1886,6 +1969,11 @@
 
   }
 
+  @media only screen and (max-width: 500px) {
+    .s5-newdiv{
+      font-size: 13px;
+    }
+  }
   /* END NEW DIV */
 
   /* ADMIN PANEL CSS */

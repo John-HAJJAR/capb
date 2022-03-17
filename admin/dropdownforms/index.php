@@ -196,10 +196,56 @@
         echo '</tbody>';
         echo '</table>';
     ?>
+
+<br><br><br>
+  
+  <?php $result5 = mysqli_query($conn,$sql); ?>
+      <br>
+  <h4 align="center">Defining Entity</h4>
+     <?php
+        echo '<table border="1" class="table table-bordered table-striped tableforms-adminpanel dropdown-admin">';
+        echo '<thead>';
+        echo '<tr>';
+        echo '<th> ID </th>';
+        echo '<th> Name </th>';
+        echo '<th> Action </th>';
+        echo '</tr>';
+        echo '</thead>';
+        echo '<tbody>';
+        while ($arr = mysqli_fetch_assoc($result5)){
+          if($arr['Type'] == 'DE') {
+              echo '<tr>';
+                echo '<td>';
+                    echo $arr['ID'];
+                echo '</td>';
+                echo '<td>';
+                    echo $arr['Name'];
+                echo '</td>';
+                echo '<td>';
+                    echo '<button name="remove-adm" class="remove-adm" value="'.$arr['ID'].'">';
+                    echo 'Remove';
+                    echo '</button>';
+                echo '</td>';
+              echo '</tr>';
+              }
+        }
+              echo '<tr>';
+              echo '<td colspan="3">';
+              echo '<input type="text" name="new-add5" class="form-control new-add new-add5">';
+              echo '<button name="add-adm" class="add-adm" value="DE">';
+              echo 'Add';
+              echo '</button>';
+              echo '</td>';
+              echo '</tr>';
+        echo '</tbody>';
+        echo '</table>';
+    ?>
+
+
 </div>
 
-
-
+<!-- ADD DEFINING ENTITY COLUMN IN DB + ACTIONS OF ADD -->
+<!--  -->
 
 
 
@@ -261,6 +307,8 @@ $(".add-adm").click(function(){
         var name = $(".new-add3").val();
     } else if (type == 'SS'){
         var name = $(".new-add4").val();
+    } else if (type == 'DE'){
+        var name = $(".new-add5").val();
     }
     
     if(confirm("Are you sure you want to add this line to the databse for ever ?"))
