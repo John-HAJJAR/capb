@@ -129,6 +129,30 @@ include advisory-piece products, quasi-financial services, and intelligence base
     <!-- SECTION 6 FORM -->
     <br><br>
   
+    
+<!-- GET DROPDOWN INFO FORM DB -->
+<!-- PART 3 -> elected Service (SS) & Defining Entity (DE)  -->
+<?php
+      $sql= "SELECT * FROM dropdown_form"; 
+      $arr_SS = array();
+      $arr_DE = array();
+      $iSS = 0; $iDE = 0;
+      $result3 = mysqli_query($conn,$sql);
+      while ($arr = mysqli_fetch_assoc($result3)){
+        if($arr['Type'] == 'SS') {
+          $arr_SS[$iSS] = $arr['Name'];
+          $iSS++;
+        }
+      
+        if($arr['Type'] == 'DE') {
+          $arr_DE[$iDE] =  $arr['Name'];
+          $iDE++;
+        }
+      }
+
+
+?>
+<!-- END DB SEARCH -->
 
 <div class="s7">
             <br><br>
@@ -142,9 +166,14 @@ include advisory-piece products, quasi-financial services, and intelligence base
                            
                     <select class="selectp2" name="selectedServ" id="selserv">
                         <option value="serv0">Selected Service</option>
-                        <option value="serv1">Service 1</option>
+                        <?php 
+                        for ($i=0; $i<sizeof($arr_SS); $i++){
+                            echo '<option value="'.$i.'">'. $arr_SS[$i] . '</option>';
+                        }
+                        ?>
+                        <!-- <option value="serv1">Service 1</option>
                         <option value="serv2">Service 2</option>
-                        <option value="serv3">Service 3</option>
+                        <option value="serv3">Service 3</option> -->
                     </select>  <br>   
                     
                     <input type="text" name="DesPurpose" placeholder="Designated Purpose">
@@ -153,9 +182,14 @@ include advisory-piece products, quasi-financial services, and intelligence base
                 <!-- <input type="text" name="DeffEntity" placeholder="Defining Entity"> <br> -->
                 <select class="selectp2" name="DeffEntity" id="invcat">
                         <option value="c0">Defining Entity</option>
-                        <option value="c1">Defining 1</option>
+                        <?php 
+                        for ($j=0; $j<sizeof($arr_DE); $j++){
+                            echo '<option value="'.$j.'">'. $arr_DE[$j] . '</option>';
+                        }
+                        ?>
+                        <!-- <option value="c1">Defining 1</option>
                         <option value="c2">Def 2</option>
-                        <option value="c3">Deff 3</option>
+                        <option value="c3">Deff 3</option> -->
                     </select>  <br>   
                     <textarea class="message message3" name="usermessage" cols="22" rows="19" placeholder="Your Message"></textarea>
                  </div>

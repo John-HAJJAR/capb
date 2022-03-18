@@ -231,6 +231,24 @@
     </div>
 
     <!-- SECTION 10 FORM -->
+
+
+<!-- GET DROPDOWN INFO FORM DB -->
+<!-- PART 2 -> Investment CATEGORY (IC)  -->
+<?php
+      $sql= "SELECT * FROM dropdown_form"; 
+      $arr_IC = array();
+      $iIC = 0; 
+      $result2 = mysqli_query($conn,$sql);
+      while ($arr = mysqli_fetch_assoc($result2)){
+        if($arr['Type'] == 'IC') {
+          $arr_IC[$iIC] = $arr['Name'];
+          $iIC++;
+        }
+
+      }
+?>
+<!-- END DB SEARCH -->
     
 <div class="s7">
             <br><br>
@@ -243,10 +261,15 @@
                     <!-- <input type="text" name="investmentcat" placeholder="Investment Category"> -->
                           
                     <select class="selectp2" name="investmentcat" id="invcat">
-                        <option value="c0">Investment Category</option>
-                        <option value="c1">Category 1</option>
+                        <option value="c">Investment Category</option>
+                        <?php 
+                        for ($i=0; $i<sizeof($arr_IC); $i++){
+                            echo '<option value="'.$i.'">'. $arr_IC[$i] . '</option>';
+                        }
+                        ?>
+                        <!-- <option value="c1">Category 1</option>
                         <option value="c2">Category 2</option>
-                        <option value="c3">Category 3</option>
+                        <option value="c3">Category 3</option> -->
                     </select>  <br>   
                     <input type="text" name="prefftimeHorz" placeholder="Preferred Time Horizon">
                 </div>

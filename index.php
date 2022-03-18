@@ -161,7 +161,30 @@
       <img src = "imgs/P1-S6.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
 
+<!-- GET DROPDOWN INFO FORM DB -->
+<!-- PART 1 -> CHOSEN POSITION (CP) & ROLE TYPE (RT)  -->
+<?php
+      $sql= "SELECT * FROM dropdown_form"; 
+      $arr_CP = array();
+      $arr_RT = array();
+      $iCP = 0; $iRT = 0;
+      $result1 = mysqli_query($conn,$sql);
+      while ($arr = mysqli_fetch_assoc($result1)){
+        if($arr['Type'] == 'CP') {
+          $arr_CP[$iCP] = $arr['Name'];
+          $iCP++;
+        }
+      
+        if($arr['Type'] == 'RT') {
+          $arr_RT[$iRT] =  $arr['Name'];
+          $iRT++;
+        
+        }
+      }
 
+
+?>
+<!-- END DB SEARCH -->
     <div class="s7">
             <br><br>
             <h2 align=center name = "form" style="color:white;">Admission Form</h2>
@@ -178,17 +201,28 @@
              
                 <!-- <input type="text" name="roletype" placeholder="Role Type"> <br> -->
                 <select id="chosenpos" name="position" >
-                  <option value="p0">Chosen Position</option>
-                  <option value="p1">Position 1</option>
+                  <option value="p">Chosen Position</option>
+                  <?php 
+                    for ($i=0; $i<sizeof($arr_CP); $i++){
+                      echo '<option value="'.$i.'">'. $arr_CP[$i] . '</option>';
+                    }
+                  ?>
+                  <!-- <option value="p1">Position 1</option>
                   <option value="p2">Position 2</option>
-                  <option value="p3">Position 3</option>
+                  <option value="p3">Position 3</option> -->
                 </select> 
                   <br><br>
                   <select class="select2" name="roletype" id="roletp">
-                  <option value="r0">Role Type</option>
-                  <option value="r1">Role 1</option>
+                  <option value="r">Role Type</option>
+                  <?php 
+                    for ($j=0; $j<sizeof($arr_RT); $j++){
+                      echo '<option value="'.$j.'">'. $arr_RT[$j] . '</option>';
+                    }
+                  ?>
+                  <!-- <option value="r1">Role 1</option>
                   <option value="r2">Role 2</option>
-                  <option value="r3">Role 3</option> <br>
+                  <option value="r3">Role 3</option> -->
+                   <br>
                 </select> <br>
                     <textarea class = "message" name="usermessage" cols="23.5" rows="11 " placeholder="Your Message"></textarea>
                  </div>
