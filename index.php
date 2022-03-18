@@ -163,7 +163,7 @@
 
 
     <div class="s7">
-            <br>
+            <br><br>
             <h2 align=center name = "form" style="color:white;">Admission Form</h2>
             <form class="s7form" method = "post">
                 <div class="s7-left" >

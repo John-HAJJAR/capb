@@ -554,7 +554,8 @@
   }
 
   .s7 > h2 {
-    margin-bottom: 20px;
+    margin-bottom: -10px;
+    /* WAS 20PX */
   }
 
   .s7form{

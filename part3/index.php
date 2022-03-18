@@ -131,7 +131,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
   
 
 <div class="s7">
-            <br>
+            <br><br>
             <h2 align=center name = "form" style="color:white;">Request Form</h2>
             <form class="s7form" method = "post">
                 <div class="s7-left" >
@@ -150,7 +150,13 @@ include advisory-piece products, quasi-financial services, and intelligence base
                     <input type="text" name="DesPurpose" placeholder="Designated Purpose">
                 </div>
                 <div class="s7-right s7-right-p3 s7-right-sm-p2">
-                <input type="text" name="DeffEntity" placeholder="Defining Entity"> <br>
+                <!-- <input type="text" name="DeffEntity" placeholder="Defining Entity"> <br> -->
+                <select class="selectp2" name="DeffEntity" id="invcat">
+                        <option value="c0">Defining Entity</option>
+                        <option value="c1">Defining 1</option>
+                        <option value="c2">Def 2</option>
+                        <option value="c3">Deff 3</option>
+                    </select>  <br>   
                     <textarea class="message message3" name="usermessage" cols="22" rows="19" placeholder="Your Message"></textarea>
                  </div>
 
