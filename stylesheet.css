@@ -485,7 +485,8 @@
     /* color:#416da3; */
     color:#202789;
     text-align: center;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 1.6vw;
     /* 1.8 REM TO CHECK LATER */
 }
 
@@ -494,7 +495,8 @@
     padding-top: 10%;
     font-weight: bold;
     color:#0a1867;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.8vw;
   }
 
   .s6 > img {
@@ -2075,20 +2077,30 @@
 /* FOOTER RED BANNER */
 
 .red-banner{
+  /* background-color: red;
+  display: block; */
+  /* width: 100%; */
   background-color: red;
-  display: block;
-  width: 100%;
-  height: fit-content;
+  /* height: fit-content; */
   color: white;
   text-align: center;
   /* padding: 2px; */
-  margin-bottom: 0;
+  margin-bottom: -20px;
   /* padding: 5px; */
 }
 
 .red-banner-txt{
-  color: white;
+  /* color: white; */
   font-size: 18px;
 }
 
+.red-banner-sm{
+  display:none;
+}
+
+@media only screen and (max-width: 500px) {
+  .red-banner-sm{
+    display:block;
+  }
+}
 /* END FOOTER RED BANNER */
