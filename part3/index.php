@@ -22,12 +22,12 @@
          <!-- SECTION 2 -->
          <div">
             <div class = "container-fluid about" style="opacity: 1 !important;" >
-            <p class = "head-title head-title-blue" align=center> 
+            <p class = "head-title" align=center> 
             OUR STANCE
             </p>
 
             <p class = "details">
-            Enterprise is the solution to outright enablement. At <span class = "key-word">CapB</span>, we long for such
+            Enterprise is the solution to outright enablement. At <b>CapB</b>, we long for such
             endeavors that facilitate opportunity, prospects, and growth for the
             beneficiaries that be 
         
@@ -345,7 +345,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
         </div>
 
         <!-- SECTION 13 NEW -->
-         <!-- <div class="s13-p3-body">
+        <div class="s13-p3-body">
         <div class = "s13-p3-container">
         <div class = "ME">
             <div class="s13-p3-title box">Monetary Economics</div>
@@ -373,7 +373,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
             <img src = "../imgs/PARTC/P3-S7-2.png" class = "logo-7-33 border box logo-2">
         </div>
     </div>
-        </div> -->
+        </div>
 
 
 

@@ -437,6 +437,13 @@
     font-weight: lighter;
   }
 
+/* @media only screen and (max-width: 500px) {
+  .s5-centered {
+    font-size:  3vw;
+  }
+} */
+
+
   .s5-centered2 {
     position: absolute;
     top: 58%;
@@ -1405,6 +1412,10 @@
         color: white;
         background-color: #0a1867;
     }
+    .div-text{
+      margin-top: auto;
+      margin-bottom: auto;
+    }
 
 
     @media only screen and (max-width: 1401px) and (min-width: 1200px) {
@@ -1498,6 +1509,7 @@
   .s10-div1{
     float: left;
     margin-left: 5%;
+    font-weight: 500px;
   }
 
   .s10-div2{
@@ -1509,8 +1521,17 @@
     margin-top: 1vw;
     display: inline-flex;
     width: 100%;
-
+    margin-left: -15px;
   }
+
+  @media screen and (max-width: 950px) {
+    .s10-line1 {
+      margin-left: 0px;
+      /* background-color: red; */
+
+    }
+  }
+
 
   .s10-p3-divs{
     background-color: #001C57;
