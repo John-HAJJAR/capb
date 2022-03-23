@@ -21,7 +21,7 @@
            <div class = "centered s1-1 fadeout">Promises Held Privately</div>
             <div class="centered s1-2 fadeout"> Free Enterprise </div>
           </div>
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
           <!-- SECTION 2 -->
           <div>
             <div class = "container-fluid about" style="opacity: 1 !important;" >
@@ -45,7 +45,8 @@
               clients, sponsors and associates.
             </p> 
 
-          <p class = "logo"><img src = "imgs/logo-blue.png" alt = "logo" class = "About-logo"></p>
+          <!-- <p class = "logo"><img src = "imgs/logo-blue.png" alt = "logo" class = "About-logo"></p> -->
+          <p class = "logo"><img src = "imgs/logo-white.png" alt = "logo" class = "About-logo"></p>
            
     </div>
       </div>

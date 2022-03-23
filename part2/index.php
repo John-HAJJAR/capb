@@ -17,7 +17,7 @@
             <div class = "centered s1-1 fadeout">Relations, Deals & Investments</div>
             <div class="centered s1-2 fadeout"> Scaling optionality in Finance, Trade, and Commerce </div>
         </div>
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
          <!-- SECTION 2 -->
          <div>
             <div class = "container-fluid about" style="opacity: 1 !important;" >

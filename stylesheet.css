@@ -486,7 +486,8 @@
     color:#202789;
     text-align: center;
     /* font-size: 22px; */
-    font-size: 1.6vw;
+    font-size: 25px;
+    /* font-size: 1.6vw; */
     /* 1.8 REM TO CHECK LATER */
 }
 
@@ -495,8 +496,8 @@
     padding-top: 10%;
     font-weight: bold;
     color:#0a1867;
-    /* font-size: 30px; */
-    font-size: 1.8vw;
+    font-size: 33px;
+    /* font-size: 2vw; */
   }
 
   .s6 > img {
@@ -646,6 +647,10 @@
   }
 
   @media only screen and (max-width: 800px) {
+  .s7 > h2 {
+    margin-bottom: 15px;
+  }
+  
   .s7-right{
     margin-top: 15px;
     margin-left: 7%;
@@ -1036,6 +1041,14 @@
     background-color: rgba(230,231,236,255);
   }
 
+  @media only screen and (max-width: 600px){
+  .s12-div1{
+    font-size: 3.5vw;
+    height: 6vw;
+    width:60vw;
+    
+    }
+  }
   .s12-table3 {
     width: 60%;
     height: 100%;

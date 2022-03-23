@@ -18,7 +18,7 @@
             <div class = "centered s1-1 fadeout">Services, Initiatives & Ventures</div>
             <div class="centered s1-2 fadeout"> Enabling innovation, scalability, and opportunity </div>
         </div>
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
          <!-- SECTION 2 -->
          <div">
             <div class = "container-fluid about" style="opacity: 1 !important;" >
