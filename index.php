@@ -131,8 +131,60 @@
         </div>
     </div>
 </div>
-
+  <p class="new-div-note" align="center">
+    For all or any requests, kindly proceed to the following 
+    <span class = "key-word"> <u>form</u> <br>
+    Selected Service: Digital CDN </strong>
+  </p>
   </section>
+
+  <br><br><br>
+  <!-- SECTION 4-2 -->
+  <section>
+    <div class="s42">
+    <h2 class="h2-newdiv" align="center">LEBANON; OPPORTUNITY & INVESTMENT</h2>
+    <p class = "details-professional">
+    Established as a Lebanese enterprise in origin, <span class = "key-word">CapB</span> has always maintained a
+    tremendous focus on the domestic market in matters of business, investment,
+    intelligence, and research. Our firm presence and demonstrated expertise
+    have provided our clients with some greatly beneficial prospects in
+    commercial expansion, operational integrity, and market share advances.
+      </p>
+      <p class = "details-professional">
+      Our tailored services, specific to Lebanon, encompass a range of profound
+      utility for all potential interests looking to penetrate, launch, or expand in the
+      current domestic market.
+      </p> <br>
+      <div class="s42-line">
+        <div class="s42-divs s42-div1">
+          <h3> Business </h3>
+          <h5>
+          Commerce & Trade<br>
+          General Enterprise<br>
+          Startups & SME’s<br>
+          </h5>
+        </div>
+        <div class="s42-divs s42-div2">
+        <h3> Investment </h3>
+          <h5>
+          Funding & Financing<br>
+          Venture Capital<br>
+          Private Deals<br>
+          </h5>
+        </div>
+        <div class="s42-divs s42-div3">
+        <h3> Research </h3>
+          <h5>
+          Business Intelligence <br>
+          Data Provisioning <br>
+          Market Analysis <br>
+          </h5>
+        </div>
+      </div>
+
+    </div>
+
+  </section>  
 
 
 

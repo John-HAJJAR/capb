@@ -497,7 +497,7 @@
     color:#202789;
     text-align: center;
     /* font-size: 22px; */
-    font-size: 25px;
+    font-size: 22px;
     /* font-size: 1.6vw; */
     /* 1.8 REM TO CHECK LATER */
 }
@@ -516,18 +516,7 @@
     margin: auto;
   }
 
-  
-  /* .details-professional{
-    margin-top: 4%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 3%;
-    /* color:#416da3;
-    color:#202789;
-    text-align: center;
-    font-size: 22px;
-    /* 1.8 REM TO CHECK LATER
-} */
+
 
 @media only screen and (max-width: 700px) {
   .details-professional{
@@ -1968,6 +1957,13 @@
     margin: auto ;
   }
 
+  .new-div-note{
+    margin: 15%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 1.7vw;
+  }
+
   .h2-newdiv{
     margin-top: -5%;
     font-size: 2.5vw;
@@ -2001,6 +1997,9 @@
     padding: 5%;
     width: 80%;
   }
+  .new-div-note{
+    font-size: 13pxs;
+  }
 
   .h2-newdiv{
     margin-top: 0%;
@@ -2020,6 +2019,9 @@
   @media only screen and (max-width: 500px) {
     .s5-newdiv{
       font-size: 13px;
+    }
+    .new-div-note{
+      font-size: 11px;
     }
   }
   /* END NEW DIV */
@@ -2154,4 +2156,79 @@
 .smallnote{
   color:#202789;
   font-size:11px;
+}
+
+
+/* SECTION 4-2 in PART A */
+
+/* .card2 {
+  padding-top: 28%;
+  padding-bottom: 28%;
+}
+
+.card3 {
+  padding-top: 23%;
+  padding-bottom: 23%;
+} */
+
+.s42-line{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.s42-div1, .s42-div2, .s42-div3{
+  margin-top: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.s42-divs{
+  background-color: #001C57;
+  color: white;
+  padding: 45px;
+  width: 380px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* .s42-divs{
+  background-color: #001C57;
+  color: white;
+  width: 380px;
+  height: 200px;
+  margin: auto;
+  margin-left: 10%;
+  padding: 20px;
+  border-radius: 10px;
+} */
+
+/* .s42-divs > h3{
+  margin: 10px;
+  margin-top: 15px;
+} */
+
+.s42-divs > h5 {
+  font-weight: lighter;
+}
+
+
+@media only screen and (min-width: 830px){
+  .s42-div1, .s42-div2, .s42-div3{
+    margin-top: 0%;
+  }
+
+  .s42-div2, .s42-div3{
+    margin-left: 10%;
+  }
+
+  .s42-divs{
+    font-size: 110%;
+  }
+
+  .s42-line{
+    display: inline-flex;
+  }
+
 }
