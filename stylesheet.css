@@ -1961,7 +1961,7 @@
     margin: 15%;
     margin-top: 20px;
     margin-bottom: 0px;
-    font-size: 1.7vw;
+    font-size: 17px;
   }
 
   .h2-newdiv{
@@ -1998,7 +1998,7 @@
     width: 80%;
   }
   .new-div-note{
-    font-size: 13pxs;
+    font-size: 13px;
   }
 
   .h2-newdiv{
@@ -2171,6 +2171,15 @@
   padding-bottom: 23%;
 } */
 
+.s42{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #001C57;
+  margin: auto;
+}
+
+
 .s42-line{
   display: grid;
   justify-content: center;
@@ -2188,7 +2197,7 @@
   background-color: #001C57;
   color: white;
   padding: 45px;
-  width: 380px;
+  width: 300px;
   border-radius: 10px;
   text-align: center;
 }
@@ -2214,7 +2223,7 @@
 }
 
 
-@media only screen and (min-width: 830px){
+@media only screen and (min-width: 950px){ /*FOR BIG SCREENS*/
   .s42-div1, .s42-div2, .s42-div3{
     margin-top: 0%;
   }
@@ -2225,10 +2234,23 @@
 
   .s42-divs{
     font-size: 110%;
+    width: 300px;
+
   }
 
   .s42-line{
     display: inline-flex;
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+  .s42-divs > h5 {
+    font-size: 15px;
+  }
+
+  .s42-divs{
+    width: 280px;
   }
 
 }

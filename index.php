@@ -138,19 +138,19 @@
   </p>
   </section>
 
-  <br><br><br>
+  <br><br>
   <!-- SECTION 4-2 -->
   <section>
     <div class="s42">
     <h2 class="h2-newdiv" align="center">LEBANON; OPPORTUNITY & INVESTMENT</h2>
-    <p class = "details-professional">
+    <p class = "details-professional" style="margin-top:2%;">
     Established as a Lebanese enterprise in origin, <span class = "key-word">CapB</span> has always maintained a
     tremendous focus on the domestic market in matters of business, investment,
     intelligence, and research. Our firm presence and demonstrated expertise
     have provided our clients with some greatly beneficial prospects in
     commercial expansion, operational integrity, and market share advances.
       </p>
-      <p class = "details-professional">
+      <p class = "details-professional" style="margin-top:0%;">
       Our tailored services, specific to Lebanon, encompass a range of profound
       utility for all potential interests looking to penetrate, launch, or expand in the
       current domestic market.
@@ -182,13 +182,18 @@
         </div>
       </div>
 
+      <p class="new-div-note" align="center">
+    For all or any requests, kindly proceed to the following 
+    <span class = "key-word"> <u>form</u> <br>
+    Selected Service: Lebanon O&I </strong>
+  </p>
     </div>
 
   </section>  
 
 
 
-  <br><br><br>
+  <br><br><br><br><br><br>
     <!-- SECTION 5 -->
     <section id="s5">
         <div class="s5-div">
