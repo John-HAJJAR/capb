@@ -483,6 +483,10 @@
     justify-content: center;
     /* align-items: center; */
   }
+  .logo-Portal{
+    width:12%;
+    height:12%;
+  }
 
   .details-professional{
     margin-top: 4%;
@@ -540,6 +544,13 @@
     font-size: 13px;
     margin-left: 10%;
     margin-right: 10%;
+  }
+  .smallnote{
+    font-size: 10px;
+  }
+  .logo-Portal{
+    width: 16%;
+    height: 16%;
   }
 }
 
@@ -715,7 +726,7 @@
   }
 
   #s8{
-    margin-bottom: 5%;
+    margin-bottom: -2%;
   }
 
   .s8-1{
@@ -2138,3 +2149,9 @@
   }
 }
 /* END FOOTER RED BANNER */
+
+
+.smallnote{
+  color:#202789;
+  font-size:11px;
+}

@@ -262,16 +262,24 @@
       echo '</p>';
     }
 ?>
-
-
-     <!-- 
-     <p class="s81-p1"> CapB launches MENA Scale, a tech startup </p>
-     <p class="s81-p2"> Enterprise | 21.09.21 </p>
-
-     <p class="s81-p1"> CapB acquires funds in latest financing round </p>
-     <p class="s81-p2"> Finance | 13.07.21 </p> -->
-    </div>
+</div>
   </section>
+
+    <!-- SECTION 11 -->
+  <div class="s6">
+    <p class ="s6-title" align=center>PUBLIC PORTAL</p>
+    <div class="s6">
+      <!-- <img src="icon3.png" width="40%"> -->
+      <p class = "details-professional">
+      Apart from our business conduct in dealing with clients, associates, sponsors,
+      and private investors, we adhere to the solid belief of forming beneficially
+      robust connections with the prominent few, even to the personal extent.
+      Access to this noted portal may further facilitate our ideals.
+      </p>
+      <p class="smallnote" align="center">Click the icon below to access the Public Portal</small> 
+      <img src = "imgs/P1-S11.png" alt = "logo" class = "professional-logo logo-Portal" align = "center">
+    </div><br>
+
 
   <section id="s15-p2">
         <div class="s5-div">
