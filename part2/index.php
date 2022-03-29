@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <script type="text/javascript" src="../jquery-comp-3.6.js"></script>
     </head>
-
-    <body onload="document.body.style.opacity='1'">
+<!-- onload="document.body.style.opacity='1'" -->
+    <body>
        <?php include '../db.php'; ?>
     <?php include '../navbar.php'; ?>
     <div class="s1-container s1-cpart2">  
