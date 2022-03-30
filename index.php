@@ -157,7 +157,7 @@
       </p> <br>
       <div class="s42-line">
         <div class="s42-divs s42-div1">
-          <h3> Business </h3>
+          <h3> Business  </h3>
           <h5>
           Commerce & Trade<br>
           General Enterprise<br>
