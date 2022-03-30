@@ -2254,3 +2254,161 @@
   }
 
 }
+
+/* START NEW PAGE PART D */
+
+.part4-body{
+background-color: #001C57;
+color: white !important;
+}
+
+.p4-home-btn{
+  width: fit-content !important;
+  padding: 10px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  background-color: rgba(81,92,148,255);
+  border-radius: 10px;
+}
+
+.p-p4-txt{
+  margin: auto !important;
+  font-weight: lighter;
+}
+.p-p4-txt-home{
+font-weight: normal;
+}
+
+/* body */
+.center-img-p4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 15%;
+}
+
+.center-div-p4{
+  color: white !important;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+.center-div-p4 > h2{
+  color: white !important;
+}
+
+
+
+.p4-txts{
+  margin: 10%;
+  margin-top: 0%;
+  font-size: 1.8vw;
+}
+
+@media only screen and (max-width: 650px) {
+  .p4-nav > div > div {
+    text-align: center;
+    margin: 3%;
+  }
+  
+  .p4-txts{
+    margin: 0;
+  }
+
+}
+
+
+.hr-p4{
+  width: 250px;  
+  height: 8px !important;
+  background-color: white;
+  opacity: 1;
+
+}
+
+.hr-p4-div{
+  margin-top: -55px;
+  display:flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.p4-p-less-margin{
+  margin: 5%;
+}
+
+.small-note-p4{
+  color: white;
+  font-size: 13px;
+  font-weight: lighter  ;
+  text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .hr-p4-div{
+    margin-top: 0%;
+  }
+.p4-txts{
+    font-size: 13px;
+  }
+.p4-p-less-margin{
+    margin-left: -3%;
+    margin-right: -3%;
+    margin-bottom: 10%;
+  }
+.small-note-p4{
+    font-size: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+
+/* START ENVELOPE CSS  */
+
+.enveloppe-body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.enveloppe-body div a i{
+  font-size: 40px;
+  color: #001C57;;
+}
+
+.enveloppe-body div a{
+  list-style: none;
+  color: white;
+  float: right;
+  margin: 10px;
+  width: 80px;
+  height: 85px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: white;
+  position: relative;
+  transition: background-color 200ms, color 200ms;
+}
+
+.enveloppe-body div a:hover {
+  color: white;
+  cursor: pointer;
+  background-color: rgba(81,92,148,255);
+  transition: background-color 200ms, color 200ms; 
+}
+
+.enveloppe-body div a i:hover{
+  color: white;;
+}
+
+
+
+/* END ENVELOPE CSS */
+
+/* END NEW PAGE PART D */
