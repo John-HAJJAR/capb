@@ -11,11 +11,12 @@
 <body>
   <?php include '../../db.php'; ?>
 
-  <?php
-    // if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0  ) {
-    //         header("Location: /capb/");
-    //     } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
+  
+<?php if( isset($_SERVER['HTTP_SEC_FETCH_DEST']) && $_SERVER['HTTP_SEC_FETCH_DEST'] == 'iframe' ) {
+?>
 
+
+  <?php
         $sql= "SELECT * FROM dropdown_form"; 
            $result1 = mysqli_query($conn,$sql);
     ?>
@@ -333,7 +334,15 @@ $(".add-adm").click(function(){
 
 </script>
 
-<?php  // } ?>
+
+<?php } else {
+
+echo "<script>
+    alert('Acces Denied : ERROR');
+    window.location.href='/capb/';
+        </script>";
+
+} ?>
 
 </body>
 </html>

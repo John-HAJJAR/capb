@@ -11,19 +11,14 @@
 </head>
 
 <body class="admin-panel-body">
-    
-    <?php include '../../db.php'; 
-    session_start();
-    ?>
-    <?php
-//   if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0 ) {
-//       echo '<script> alert("'.$_SESSION['ID'].'") </script>';
-//     //header("Location: /capb/");
-// } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
+    <?php include '../../db.php'; ?>
 
-    ?>
-<div class="container">
-  <h2 align="center">Admissions Form </h2>
+
+<?php if( isset($_SERVER['HTTP_SEC_FETCH_DEST']) && $_SERVER['HTTP_SEC_FETCH_DEST'] == 'iframe' ) {
+?>
+
+<div class="container" style="overflow-x: auto;">
+  <h2 align="center" id="test-title">Admissions Form </h2>
   <p align="center">Here is displayed everything and everyone that is in the DB : </p>  
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>
@@ -132,8 +127,15 @@ $(document).ready(function(){
 });
 </script>
 
-<?php //    } ?>
 
+<?php } else {
+
+    echo "<script>
+        alert('Acces Denied : ERROR');
+        window.location.href='/capb/';
+            </script>";
+
+} ?>
 </body>
 
 

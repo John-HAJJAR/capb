@@ -10,10 +10,10 @@
 </head>
 <body>
   <?php include '../../db.php'; ?>
+
+<?php if( isset($_SERVER['HTTP_SEC_FETCH_DEST']) && $_SERVER['HTTP_SEC_FETCH_DEST'] == 'iframe' ) {
+?>
   <?php 
-    // if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0  ) {
-    //          header("Location: /capb/");
-    //     } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
 
      $sql= "SELECT * FROM companydetails"; 
         $result = mysqli_query($conn,$sql);
@@ -172,7 +172,15 @@ if (isset($_POST["action"])){
          });
 </script>
 
-<?php //} ?>
+
+<?php } else {
+
+echo "<script>
+    alert('Acces Denied : ERROR');
+    window.location.href='/capb/';
+        </script>";
+
+} ?>
 
 </body>
 </html>

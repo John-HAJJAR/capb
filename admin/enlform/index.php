@@ -9,15 +9,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body class="admin-panel-body">
-    <?php include '../../db.php'; 
+    <?php include '../../db.php'; ?>
+    <?php if( isset($_SERVER['HTTP_SEC_FETCH_DEST']) && $_SERVER['HTTP_SEC_FETCH_DEST'] == 'iframe' ) {
+?>
 
-    // if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0  ) {
-    //      header("Location: /capb/");
-    // } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
-    
-    ?>
 
-<div class="container">
+<div class="container" style="overflow-x: auto;">
   <h2 align="center">Enlistment Form </h2>
   <p align="center">Here is displayed everything and everyone that is in the DB : </p>  
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
@@ -127,7 +124,15 @@ $(document).ready(function(){
 });
 </script>
 
-<?php //} ?>
+
+<?php } else {
+
+echo "<script>
+    alert('Acces Denied : ERROR');
+    window.location.href='/capb/';
+        </script>";
+
+} ?>
 
 </body>
 

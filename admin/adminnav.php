@@ -44,7 +44,7 @@ include '../db.php';
                     
                     
                 </a>
-                <a href = "admform/" target="_blank">
+                <a href = "admform/" target="_blank" class="a-href-ad-form">
                     <span class="material-icons-sharp">
                         view_list
                     </span>

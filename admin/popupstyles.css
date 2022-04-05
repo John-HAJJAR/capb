@@ -1,0 +1,164 @@
+
+/* NEW CSS */
+
+
+
+.buttons a {
+    /* display: inline-block; */
+    /* background: #e74a54; */
+    /* color: #fff; */
+    /* padding: 10px 40px; */
+    /* font-size: 15px; */
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .overlay {
+    background-color: #001C57;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+  }
+  .overlay.is-on {
+    opacity: 1;
+    visibility: visible;
+  }
+  .overlay.is-on .content {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+  }
+  .overlay .content {
+    background: #fff;
+    position: absolute;
+    top: -50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 75%; /*50*/
+    height: 80%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #close, #close1, #close2, #close3, #close4, #close5 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 15px;
+    color: #999;
+    cursor: pointer;
+  }
+
+
+  /* BODY ADMS FROM SS.CSS */
+  
+  /* ADMIN PANEL CSS */
+
+  .admin-panel-body{
+    overflow-x: scroll;
+  }
+
+  .tableforms-adminpanel thead tr th{
+    text-align: center;
+  }
+
+
+  .message-th{
+    min-width: 250px;
+  }
+
+  .admin-form-action-btn{
+    margin-top: 20px;
+  }
+
+  .company-details-adm{
+    display: grid;
+    width: 50vw;
+    background-color:#7178a3;;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-adm-compdets > input[type="text"]{
+    height: 100px;
+    width: 200px;
+
+  }
+
+  .finance-rec-adm{
+    display: grid;
+    width: 50vw;
+    background-color:#7178a3;;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  .form-adm-financerec > input[type="text"]{
+    height: 50px;
+    width: 75px;
+
+  }
+
+  .dropdown-selections-adm{
+    display: grid;
+    width: 50vw;
+    background-color:#7178a3;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-adm-financerec > p {
+    padding: 10px;
+    padding-bottom: 0;
+  }
+  .update-financerec{
+    margin-left: -50%;
+  }
+
+  .dropdown-form-adm{
+    width: 50%;
+    /* display: grid; */
+    margin: auto;
+  }
+
+
+  .dropdown-admin tbody {
+    text-align: center;
+  }
+
+
+  .new-add{
+    width: 250px !important;
+    margin: auto !important;
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+    background-color: #7178a3 !important;
+    color: white !important;
+  }
+
+  .newsinput{
+    margin: 0% !important;
+    width:450px !important;
+    height: 75px !important;
+  }
+  /* END ADMIN PANEL CSS */

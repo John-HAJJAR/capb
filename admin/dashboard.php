@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<head>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "Admin.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
-      rel="stylesheet">
-    <title>Admin Panel</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+      <link rel = "stylesheet" href = "Admin.css">
+      <link rel = "stylesheet" href = "popupstyles.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>Admin Panel</title>
 </head>
+<body>
 <body>
 
 <?php include '../db.php'; ?> 
@@ -17,8 +21,7 @@
     if(empty($_SESSION['username']) || !isset($_SESSION['username']) || $_SESSION['ID'] != 0  ) {
          header("Location: /capb/");
     } else if (isset($_SESSION['ID'])  && $_SESSION['ID'] == 0 && isset($_SESSION['username'])) {
-         echo "Welcome back !";
-        
+         
     $sql = 'SELECT * FROM admin_dashboard';
     $res = mysqli_query($conn,$sql);
     $resarr = mysqli_fetch_assoc($res);
@@ -26,7 +29,105 @@
     ?>
 
   <!-- <div class = "container"> -->
-        <?php include 'adminnav.php'; ?>
+        <?php // include 'adminnav.php'; ?>
+
+        
+
+        <aside>
+            <div class = "top">
+                <span class = "side-bar-title">CapB</span>
+                <img src = "../imgs/logo-blue.png" class = "side-bar-logo logo"> 
+                <div class="close" id = "close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                
+                <a href = "dashboard.php" class = "active">
+                    <span class="material-icons-sharp">
+                        view_list
+                    </span>
+                    <h3>Dashboard</h3>
+                    
+                    
+                </a>       
+                <!--  href = "admform/" target="_blank" class="a-href-ad-form" -->
+                <div class="buttons">
+                    <a href="#">
+                    
+                    <span class="material-icons-sharp">
+                        view_list
+                    </span>
+                    <h3>Admissions Form</h3>          
+                </a>
+                </div>
+                <!-- <a href = "enlform/" target="_blank"> -->
+                <div class="buttons1">
+                    <a href="#">
+                    <span class="material-icons-sharp">
+                        view_list
+                    </span>
+                    <h3>Enlistment Form</h3>
+                </a>
+                </div>
+                <!-- <a href = "reqform/" target="_blank"> -->
+                <div class="buttons2">
+                    <a href="#">
+                    <span class="material-icons-sharp">
+                        view_list
+                    </span>
+                    <h3>Request Form</h3>    
+                </a>
+                </div>
+                <!-- <a href = "financialrec/"  target="_blank"> -->
+                <div class="buttons3">
+                    <a href="#">
+                    <span class="material-icons-sharp">
+                        view_list
+                    </span>
+                    <h3>Financial Records</h3>
+                    </a>
+                </div>
+                    <!-- <a href = "dropdownforms/"  target="_blank"> -->
+                <div class="buttons4">
+                    <a href="#">
+                        <span class="material-icons-sharp">
+                            view_list
+                        </span>
+                        <h3>Drop Downs</h3>
+                    </a>
+                </div>
+                <!-- <a href = "newsnupdates/"  target="_blank"> -->
+                <div class="buttons5">
+                    <a href="#">
+                    <span class="material-icons-sharp">
+                        view_list
+                    </span>
+                    <h3>News and Updates</h3>
+                    </a>
+                </div>
+                
+                <?php // if($_GET['logout']==1) session_destroy(); ?>
+
+                <a href = "../../capb/" onclick="<?php session_destroy(); ?>">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+
+                </a>
+            </div>
+        </aside>
+
+
+
+
+
+
+        
         <div class = "container">
 
         <div class = "panel">
@@ -129,11 +230,59 @@
 
     
 
-    <?php } ?>
+
+<!-- ALL OVERLAYS  -->
+
+<div class="overlay">
+  <div class="content">
+        <iframe src="admform/index.php" height="100%" width="100%" title="description"></iframe>
+
+    <div id="close">&#10799;</div>
+  </div>
+</div>
+    
+
+<div class="overlay1 overlay">
+  <div class="content">
+        <iframe src="enlform/index.php" height="100%" width="100%" title="description"></iframe>
+    <div id="close1">&#10799;</div>
+  </div>
+</div>
+    
+<div class="overlay2 overlay">
+  <div class="content">
+        <iframe src="reqform/index.php" height="100%" width="100%" title="description"></iframe>
+    <div id="close2">&#10799;</div>
+  </div>
+</div>
+    
+
+<div class="overlay3 overlay">
+  <div class="content">
+        <iframe src="financialrec/index.php" height="100%" width="100%" title="description"></iframe>
+    <div id="close3">&#10799;</div>
+  </div>
+</div>
 
 
+<div class="overlay4 overlay">
+  <div class="content">
+        <iframe src="dropdownforms/index.php" height="100%" width="100%" title="description"></iframe>
+    <div id="close4">&#10799;</div>
+  </div>
+</div>
 
-
+<div class="overlay5 overlay">
+  <div class="content">
+        <iframe src="newsnupdates/index.php" height="100%" width="100%" title="description"></iframe>
+    <div id="close5">&#10799;</div>
+  </div>
+</div>
+    
+    
     <script src = "Admin.js"></script>
+    <script src = "newpopups.js"></script>
+    
+<?php } ?>
 </body>
 </html>
