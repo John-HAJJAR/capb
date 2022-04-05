@@ -52,7 +52,7 @@
       </div>
         </div>
   </div>
-
+<br>
     <!-- SECTION 3  --> 
         <div class="s3">
             <div class="s3div s3-1">
@@ -64,7 +64,11 @@
             <p  class="text-ts3-2 fontsize-bs">  EVALUATING PROSPECTS</p>
             </div>
         </div>
+        <br><br><br>
+        <br class="eq-br-bs"> 
+        <br class="eq-br-bs">
 
+        
     <!-- SECTION 4 -->
     <section id="financeEnterprise">
     <div class="container">
@@ -108,7 +112,7 @@
       </div>
     </div>
   </section>
-  <br>
+  <br><br>
 
   <section class="new-div-section">
   <div class="container-newdiv">
@@ -139,6 +143,9 @@
   </section>
 
   <br><br>
+  <br class="eq-br-bs"> 
+  <br class="eq-br-bs"> 
+
   <!-- SECTION 4-2 -->
   <section>
     <div class="s42">
@@ -193,14 +200,18 @@
 
 
 
-  <br><br><br><br><br><br>
+  <br><br><br><br>
+  <br class="eq-br-bs"> 
+  <br class="eq-br-bs"> 
+  <br class="eq-br-bs"> 
+
     <!-- SECTION 5 -->
     <section id="s5">
         <div class="s5-div">
         <img src="imgs/P1-S5.jpg" alt="img" style="width:90%;">
         <div class="s5-centered"> OPPORTUNITY IS ALWAYS SOUGHT AFTER </div>
     </section>
-
+<br><br>
       <!-- SECTION 6 -->
     <div class="s6">
     <p class ="s6-title" align=center>PROFESSIONAL CAREERS</p>
@@ -243,6 +254,9 @@
 
 
 ?>
+<br><br><br>
+<br class="eq-br-bs">
+<br class="eq-br-bs">
 <!-- END DB SEARCH -->
     <div class="s7">
             <br><br>
@@ -295,7 +309,9 @@
         </div>
 
           
-        <br><br><br><br><br><br>
+        <br><br><br><br>
+        <br class="eq-br-bs"> 
+        
 
   <!-- GET NEWS FROM DB -->
   <?php
@@ -322,7 +338,7 @@
 ?>
 </div>
   </section>
-
+  <br>
     <!-- SECTION 11 -->
   <div class="s6">
     <p class ="s6-title" align=center>PUBLIC PORTAL</p>

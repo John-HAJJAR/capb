@@ -268,7 +268,7 @@ if (isset($_POST["action"])){
                     echo '<script>alert("Product successfully deleted.")</script>';
                 }
             }
-       
+    
        
         }
 

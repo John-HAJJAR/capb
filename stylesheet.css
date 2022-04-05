@@ -2412,3 +2412,18 @@ font-weight: normal;
 /* END ENVELOPE CSS */
 
 /* END NEW PAGE PART D */
+
+
+/* EQUIDISTANT SPACES */
+
+.eq-br-bs{
+  display: block;
+}
+
+@media only screen and (max-width: 650px) {
+  .eq-br-bs{
+    display: none;
+  }
+  
+}
+
