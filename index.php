@@ -340,7 +340,7 @@
   </section>
   <br>
     <!-- SECTION 11 -->
-  <div class="s6">
+  <div class="s6">  
     <p class ="s6-title" align=center>PUBLIC PORTAL</p>
     <div class="s6">
       <!-- <img src="icon3.png" width="40%"> -->
