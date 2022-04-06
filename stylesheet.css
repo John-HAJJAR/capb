@@ -24,7 +24,10 @@
     }
 
 
-
+    .unstyled-a{
+      text-decoration: none;
+      color: inherit;
+    }
   /* NAVBAR CSS */
 
   #navbar a {
@@ -1963,6 +1966,7 @@
     margin-bottom: 0px;
     font-size: 17px;
   }
+
 
   .h2-newdiv{
     margin-top: -5%;

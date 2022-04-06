@@ -44,7 +44,7 @@
       </div>
     </div>
 
-
+<br>
      <!-- SECTION 3  --> 
      <div class="s3">
             <div class="s3div s3-1 s3-1part3">
@@ -56,6 +56,12 @@
             <p  class="text-ts3-2 fontsize-bs">  MARKET INTELLIGENCE </p>
             </div>
         </div> 
+
+
+
+        <br><br><br>
+
+
 
     <!-- SECTION 4 -->
     <div class="s6">
@@ -123,7 +129,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
         </div>
       </section>
 
-      <p class = "note">Our brokerage and deal-fixing rates follow a dynamic pattern</p>
+      <p class = "note" id="form3">Our brokerage and deal-fixing rates follow a dynamic pattern</p>
 
     <br><br>
     <!-- SECTION 6 FORM -->
@@ -152,10 +158,11 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
 ?>
 <!-- END DB SEARCH -->
-
+<br><br>
+<br class="eq-br-bs">
 <div class="s7">
             <br><br>
-            <h2 align=center name = "form" style="color:white;">Request Form</h2>
+            <h2 align=center name="form" style="color:white;">Request Form</h2>
             <form class="s7form" method = "post">
                 <div class="s7-left" >
                     <input type="text" name="name" placeholder="First & Last Name"> <br>
@@ -204,9 +211,12 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
 
         <!-- SECTION 7 NEW TO DO  -->
-
+        <br><br><br><br>
+        <br class="eq-br-bs"> 
+        <br class="eq-br-bs"> 
+        <br class="eq-br-bs"> 
+        
         <!-- SECTION 8 -->
-        <br><br>
         <section id="s8-p3">
             <div class="s5-div">
             <!-- <img class="s5-p3-img" src="../imgs/PARTC/P3-S8.jpg"> -->
@@ -216,6 +226,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
         </section>
 
         <!-- SECTION 9  CORPORATE VENTURES-->
+        <br><br>
         <div class="s6">
             <p class ="s6-title" align=center>CORPORATE VENTURES</p>
             <div class="s6">
@@ -235,7 +246,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
             <img src = "../imgs/PARTC/P3-S9.png" alt = "logo" class = "professional-logo" align = "center">
         </div>
-        <br><br>
+        <br><br><br>
         
         <!-- SECTION 10 & 11 NEW -->
         <div class="s10-p3">
@@ -323,6 +334,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
 
 
+<br><br>
         
         <!-- SECTION 12 RESEARCH INITIATIVE -->
         <div class="s6">
@@ -375,7 +387,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
     </div>
         </div>
 
-
+<br>
 
         <section id="s15-p2">
         <div class="s5-div">

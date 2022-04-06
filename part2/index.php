@@ -41,7 +41,7 @@
         </div>
       </div>
     </div>
-
+<br>
     
     <!-- SECTION 3  --> 
     <div class="s3">
@@ -54,6 +54,9 @@
             <p  class="text-ts3-2 fontsize-bs">  EVALUATING PROSPECTS</p>
             </div>
         </div> 
+        <br><br><br>
+        <br class="eq-br-bs"> 
+        <br class="eq-br-bs">
     
     <!-- SECTION 4 -->
     <div class="s6">
@@ -73,6 +76,7 @@
 
       <img src = "../imgs/PARTB/P2-S4.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
+    <br><br>
 
 <!-- SECTION 5 -->
 <section id="p2-s5">
@@ -114,6 +118,7 @@
 </section>
 
 
+<br><br>
 
     <!-- SECTION 6 -->
     <div class="s6">
@@ -133,6 +138,7 @@
 
       <img src = "../imgs/PARTB/P2-S6.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
+    <br>
     
     <!-- SECTION 7 -->
     <section class ="Cols">
@@ -199,17 +205,19 @@
         </div>
       </section>
 
-
-
       <p class = "note">Our brokerage and deal-fixing rates follow a dynamic pattern</p>
 
     <!-- SECTION 8 -->
-    <br><br>
+    <br><br><br><br>
+  <br class="eq-br-bs"> 
+  <br class="eq-br-bs"> 
+  <br class="eq-br-bs"> 
     <section id="s8">
         <div class="s5-div">
         <img class="s5-p2-img" src="../imgs/PARTB/P2-S8.jpg" >
         <div class="s5-centered2"> FACILITATING UNREALIZED BENEFITS </div>
     </section>
+<br><br>
 
     <!-- SECTION 9 -->
     <div class="s6">
@@ -249,6 +257,9 @@
       }
 ?>
 <!-- END DB SEARCH -->
+<br><br><br>
+<br class="eq-br-bs">
+<br class="eq-br-bs">
     
 <div class="s7">
             <br><br>
@@ -289,6 +300,7 @@
         </div>
 
     <!-- SECTION 11 -->
+    <br>
     <div class="s6">
     <p class ="s6-title" align=center>PROPRIETARY INVESTMENTS</p>
     <div class="s6">
@@ -308,7 +320,9 @@
     </div>
 
 <!-- SECTION 12 -->
-<br><br>
+
+<br><br><br>
+<br class="eq-br-bs">
     <div class="s12">
             <h3 align=center> Portfolio Listing, Composition and Research </h3>
             <p align=center>Click the ticker to acces document</p> 
@@ -362,7 +376,9 @@
 
 
     <!-- SECTION 13 -->
-    <br><br><br><br>
+    <br><br><br><br><br>
+<br class="eq-br-bs">
+<br class="eq-br-bs">
     <div class="s13">
         <h3 align=center> FINANCIAL INFORMATION & RECORD </h3>
         <p align=center>Disclosed information are only relevant to the current and ongoing year of 2021</p> 
@@ -411,7 +427,9 @@
     </div>
 
     <!-- SECTION 14 -->
-    <br><br>
+    <br><br><br><br>
+<br class="eq-br-bs">
+<br class="eq-br-bs">
     <div class="s14">
         <h3 align=center> Revenue Composition </h3>
         <br>
@@ -476,7 +494,9 @@
         </p>
 
     </div>
-
+    <br><br><br>
+<br class="eq-br-bs">
+<br class="eq-br-bs">
     <section id="s15-p2">
         <div class="s5-div">
         <img src="../imgs/PARTB/P2-S1511.png" width="100%">

@@ -137,19 +137,17 @@
 </div>
   <p class="new-div-note" align="center">
     For all or any requests, kindly proceed to the following 
-    <span class = "key-word"> <u>form</u> <br>
+    <span class = "key-word">  <a href="part3/#form3" class="unstyled-a"> <u>form</u> </a> <br>
     Selected Service: Digital CDN </strong>
   </p>
   </section>
 
   <br><br>
-  <br class="eq-br-bs"> 
-  <br class="eq-br-bs"> 
 
   <!-- SECTION 4-2 -->
   <section>
     <div class="s42">
-    <h2 class="h2-newdiv" align="center">LEBANON; OPPORTUNITY & INVESTMENT</h2>
+    <h2 class="s6-title" style="padding-top:0% !important;" align="center">LEBANON; OPPORTUNITY & INVESTMENT</h2>
     <p class = "details-professional" style="margin-top:2%;">
     Established as a Lebanese enterprise in origin, <span class = "key-word">CapB</span> has always maintained a
     tremendous focus on the domestic market in matters of business, investment,
@@ -191,7 +189,7 @@
 
       <p class="new-div-note" align="center">
     For all or any requests, kindly proceed to the following 
-    <span class = "key-word"> <u>form</u> <br>
+    <span class = "key-word"> <a href="part3/#form3" class="unstyled-a"><u>form</u></a> <br>
     Selected Service: Lebanon O&I </strong>
   </p>
     </div>
@@ -319,6 +317,9 @@
      $reslist = mysqli_query($conn,$sqlinfo);
 
   ?>
+
+<br class="eq-br-bs"> 
+<br class="eq-br-bs"> 
 
   <!-- SECTION 8-->
   <section id="s8" class="text-center"> 
