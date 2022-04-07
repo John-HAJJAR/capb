@@ -25,7 +25,7 @@
           <!-- SECTION 2 -->
           <div>
             <div class = "container-fluid about" style="opacity: 1 !important;" >
-            <p class = "head-title" align=center> 
+            <p class = "head-title" align=center id="about"> 
               ABOUT
             </p>
 

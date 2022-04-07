@@ -9,22 +9,22 @@
         <script type="text/javascript" src="jquery-comp-3.6.js"></script>
     </head>
     <body>
-        
+            
     <section id="navbar">
     <nav class="navbar py-4 fixed-top navbar-expand-lg navbar-dark">
       <div class="container">
-        <h1><a class="navbar-brand d-lg-none" href="#">CapB</a></h1>
+        <h1><a class="navbar-brand d-lg-none capb" href="#">CapB</a></h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="row collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav nav">
             <li class="nav-item me-lg-2 mb-4 mb-lg-0 mt-4 mt-lg-auto">
-              <a href="#">About</a>
+              <a href="/capb#about">About</a>
             </li>
             <span class="mt-auto me-2 d-none d-lg-block nav-item"> | </span>
             <li class="nav-item me-lg-2 mb-4 mb-lg-0 mt-auto">
-              <a href="#">Contact</a>
+              <a href="#contacts">Contact</a>
             </li>
             <span class="mt-auto me-2 d-none d-lg-block nav-item"> | </span>
             <li class="nav-item me-lg-auto mb-4 mb-lg-0 mt-auto">

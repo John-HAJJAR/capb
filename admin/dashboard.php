@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
       <link rel = "stylesheet" href = "Admin.css">
-      <link rel = "stylesheet" href = "popupstyles.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel = "stylesheet" href = "popupstyles.css">
       <title>Admin Panel</title>
 </head>
 <body>
@@ -109,6 +109,15 @@
                     <h3>News and Updates</h3>
                     </a>
                 </div>
+                <div class="buttons6">
+                    <a href="#">
+                    <span class="material-icons-sharp">
+                        view_list
+                    </span>
+                    <h3>Company Details</h3>
+                    </a>
+                </div>
+
                 
                 <?php // if($_GET['logout']==1) session_destroy(); ?>
 
@@ -278,10 +287,93 @@
     <div id="close5">&#10799;</div>
   </div>
 </div>
+
+<div class="overlay6 overlay">
+  <div class="content">
+        <iframe src="companydet/index.php" height="100%" width="100%" title="description"></iframe>
+    <div id="close6">&#10799;</div>
+  </div>    
+</div>
     
     
     <script src = "Admin.js"></script>
     <script src = "newpopups.js"></script>
+    <script>
+$(".buttons a").on("click", function() {
+    $(".overlay").addClass("is-on");
+    $(".overlay1").removeClass("is-on");
+    $(".overlay2").removeClass("is-on");
+    $(".overlay3").removeClass("is-on");
+    $(".overlay4").removeClass("is-on");
+    $(".overlay5").removeClass("is-on");
+    $(".overlay6").removeClass("is-on");
+
+  });
+  
+  
+  $("#close").on("click", function() {
+    $(".overlay").removeClass("is-on");
+  });
+  
+
+
+  $(".buttons1 a").on("click", function() {
+    $(".overlay1").addClass("is-on");
+  });
+  
+  $("#close1").on("click", function() {
+    $(".overlay1").removeClass("is-on");
+  });
+
+  
+  
+  $(".buttons2 a").on("click", function() {
+    $(".overlay2").addClass("is-on");
+  });
+  
+  $("#close2").on("click", function() {
+    $(".overlay2").removeClass("is-on");
+  });
+
+
+
+  $(".buttons3 a").on("click", function() {
+    $(".overlay3").addClass("is-on");
+  });
+  
+  $("#close3").on("click", function() {
+    $(".overlay3").removeClass("is-on");
+  });
+
+
+  
+  $(".buttons4 a").on("click", function() {
+    $(".overlay4").addClass("is-on");
+  });
+  
+  $("#close4").on("click", function() {
+    $(".overlay4").removeClass("is-on");
+  });
+
+    
+  $(".buttons5 a").on("click", function() {
+    $(".overlay5").addClass("is-on");
+  });
+  
+  $("#close5").on("click", function() {
+    $(".overlay5").removeClass("is-on");
+  });
+
+      
+  $(".buttons6 a").on("click", function() {
+    $(".overlay6").addClass("is-on");
+  });
+  
+  $("#close6").on("click", function() {
+    $(".overlay6").removeClass("is-on");
+  });
+
+    </script>
     
 <?php } ?>
 </body>

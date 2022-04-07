@@ -56,7 +56,7 @@
     transition: all 0.3s ease-in-out;
   }
   
-  #close, #close1, #close2, #close3, #close4, #close5 {
+  #close, #close1, #close2, #close3, #close4, #close5, #close6 {
     position: absolute;
     right: 20px;
     top: 20px;

@@ -18,7 +18,7 @@
           $arr = mysqli_fetch_assoc($reslist)
       ?>
 <!-- Footer -->
-<section class="footer">
+<section class="footer" id="contacts">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 text-center text-lg-start left-footer">
