@@ -87,7 +87,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
           <div class="row">
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTC/P3-S5-1.png" class = "logo-7"></a>
-                <figcaption>No available document</figcaption>
+                <!-- <figcaption>No available document</figcaption> -->
               <p class = "title-7">Consulting & Advisory Services</p>
               <p class = "sub-title-7-1 justifyclass">
               Specific to certain subjects of interest such as: Banking
@@ -100,7 +100,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
             </div>
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTC/P3-S5-2.png" class = "logo-7"></a>
-                <figcaption>Click the above icon to access document</figcaption>
+                <!-- <figcaption>Click the above icon to access document</figcaption> -->
               <p class = "title-7">Financial & Market Research</p>
               <p class = "sub-title-7-2 justifyclass">
               Special topics, of palpable concern, that relate to Banking,
@@ -115,7 +115,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTC/P3-S5-3.png" class = "logo-7"></a>
-                <figcaption>Click the above icon to access document</figcaption>
+                <!-- <figcaption>Click the above icon to access document</figcaption> -->
                 <p class = "title-7">New Market <br> Guidance</p>
                 <p class = "sub-title-7-3 justifyclass">
                     Direct or indirect guidance on penetrating, establishing, and 
@@ -211,7 +211,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
 
          <!-- INSERT MISSING SECTION -->
-
+<!-- CONNECT NEW PDFS ON LEARN MORE -->
 
 
 
