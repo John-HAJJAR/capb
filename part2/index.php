@@ -361,9 +361,8 @@
             </table>
             <br><br>
             <h3 align=center> Information Tab </h3>
-
             <div class="s12-div1">
-                <p class="context"> Swiss-related Investments </p>
+                <p class="context"></p>
             </div>
 
             <!-- <div data-position="left" data-offset="60" class="notViewed animBlock">
@@ -651,35 +650,35 @@ var b = 0;
 $(document).ready(function(){
     //SWRCHF
      $(".table1pink").mouseover(function(){
-         $(".context").text("SWRCHF : 20%")
+         $(".context").text("Swiss-centered Investments")
      });
           $(".table1pink").mouseout(function(){
-         $(".context").text("Swiss-related Investments")
+         $(".context").text("dsfsdfsdf")
      });
 
 
     //SWRUSD
     $(".table1green").mouseover(function(){
-         $(".context").text("SWRUSD : 50%")
+         $(".context").text("USD-relevant Investments")
      });
           $(".table1green").mouseout(function(){
-         $(".context").text("Swiss-related Investments")
+         $(".context").text(" ")
      });
 
     //SWRBTC
     $(".table1yellow").mouseover(function(){
-         $(".context").text("asdafas50%")
+         $(".context").text("Bitcoin Accumulation Portfolio")
      });
           $(".table1yellow").mouseout(function(){
-         $(".context").text("Swiss-related Investments")
+         $(".context").text(" ")
      });
 
      //SWRDEF
      $(".table2blue").mouseover(function(){
-         $(".context").text("SWRDEF : 76%")
+         $(".context").text("Deflation-themed Investments")
      });
           $(".table2blue").mouseout(function(){
-         $(".context").text("Swiss-related Investments")
+         $(".context").text(" ")
      });
 
 });
