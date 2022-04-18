@@ -9,7 +9,7 @@
       <link rel = "stylesheet" href = "Admin.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel = "stylesheet" href = "popupstyles.css">
+      <link rel = "stylesheet" href = "popupstyles2.css">
       <title>Admin Panel</title>
 </head>
 <body>
@@ -297,7 +297,6 @@
     
     
     <script src = "Admin.js"></script>
-    <script src = "newpopups.js"></script>
     <script>
 $(".buttons a").on("click", function() {
     $(".overlay").addClass("is-on");

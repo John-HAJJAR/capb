@@ -82,7 +82,7 @@
 <section id="p2-s5">
     <div class="p2-s5-container">
             <div>
-                <a href = ""><img src = "../imgs/PARTB/P2-S5-1.png" class="p2-s5-img"></a>
+                <a href = "#"><img src = "../imgs/PARTB/P2-S5-1.png" class="p2-s5-img"></a>
                 <figcaption class="p2-s5-figcaption">No available document</figcaption>
                 <div class="p2-s5-title">Responsible Track Record</div>
                 <div class="p2-s5-sub-title">By establishing a mutual sense of trustworthiness, 
@@ -91,7 +91,7 @@
                     deal-making</div>
             </div>
             <div>
-                <a href = ""><img src = "../imgs/PARTB/P2-S5-2.png" class="p2-s5-img"></a>
+                <a href = "../PDFs/Guidelines for Formal Relations - CapB.pdf" target="_blank"><img src = "../imgs/PARTB/P2-S5-2.png" class="p2-s5-img" style="width:30%"></a>
                 <figcaption class="p2-s5-figcaption">Click the icon above to access document</figcaption>
                 <div class="p2-s5-title">Established Guidelines</div>
                 <div class="p2-s5-sub-title">By seeking to forge, nurture and maintain some fruitful 
@@ -104,7 +104,7 @@
             </div>
             <div>
 
-                <a href = ""><img src = "../imgs/PARTB/P2-S5-3.png" class="p2-s5-img"></a>
+                <a href = "../PDFs/Standards of Relations - CapB- .pdf" target="_blank"><img src = "../imgs/PARTB/P2-S5-3.png" class="p2-s5-img"></a>
                 <figcaption class="p2-s5-figcaption">Click the icon above to access document</figcaption>
 
                 <div class="p2-s5-title">Solid Standards</div>
@@ -146,7 +146,7 @@
           <div class="row">
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTB/P2-S7-1.png" class = "logo-7"></a>
-                <figcaption>No available document</figcaption>
+                <!-- <figcaption>No available document</figcaption> -->
               <p class = "title-7">Real Estate</p>
               <p class = "sub-title-7-1">
                 Sizable projects and 
@@ -165,7 +165,7 @@
             </div>
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTB/P2-S7-2.png" class = "logo-7"></a>
-                <figcaption>Click the above icon to access document</figcaption>
+                <!-- <figcaption>Click the above icon to access document</figcaption> -->
               <p class = "title-7">Trade</p>
               <p class = "sub-title-7-2">
                 Financing significant 
@@ -186,7 +186,7 @@
 
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTB/P2-S7-3.png" class = "logo-7"></a>
-                <figcaption>Click the above icon to access document</figcaption>
+                <!-- <figcaption>Click the above icon to access document</figcaption> -->
                 <p class = "title-7">Enterprise</p>
                 <p class = "sub-title-7-3">Funding starting-up, and 
                     scaling young and promising 
@@ -324,28 +324,36 @@
 <br><br><br>
 <br class="eq-br-bs">
     <div class="s12">
-            <h3 align=center> Portfolio Listing, Composition and Research </h3>
+            <h3 align=center class="s6-title"> Portfolio Listing, Composition and Research </h3>
             <p align=center>Click the ticker to acces document</p> 
 
             <table class="s12-table">
                 <tr>
                     <td class="s12-card table1pink">
+                    <a href = "../PDFs/Proprietary Investments - SWRCHF - CapB.pdf"  class="unstyled-a" target="_blank">
                         SWRCHF
+                    </a>                
                     </td>
                     <td width=10%></td>
                     <td class="s12-card table1green">
+                    <a href = "../PDFs/Proprietary Investments - SWRUSD - CapB.pdf" class="unstyled-a" target="_blank">
                         SWRUSD
+                    </a>
                     </td>
                 </tr>
             </table>
             <table class="s12-table">
                 <tr>
                 <td class="s12-card table1yellow">
+                <a href = "../PDFs/Proprietary Investments - SWRBTC - CapB.pdf" class="unstyled-a" target="_blank">
                         SWRBTC
+                </a>
                     </td>
                     <td width="10%"></td>
                     <td class="s12-card table2blue"> 
+                    <a href = "../PDFs/Proprietary Investments - SWRDEF - CapB.pdf" class="unstyled-a"  target="_blank">
                         SWRDEF
+                    </a>
                     </td>
                     
 
@@ -355,23 +363,23 @@
             <h3 align=center> Information Tab </h3>
 
             <div class="s12-div1">
-                <p> Swiss-related Investments </p>
+                <p class="context"> Swiss-related Investments </p>
             </div>
 
-            <div data-position="left" data-offset="60" class="notViewed animBlock">
+            <!-- <div data-position="left" data-offset="60" class="notViewed animBlock">
             <table class="s12-table3">
                 <tr>
                     <td class="s12-t3-card1" align="center">
                         Year-to-Month Performance
                     </td>
                     <td class="s12-t3-card2 block" align="center">
-                        <!-- ADD CONNECTION TO DATABASE -->
+                         ADD CONNECTION TO DATABASE 
                         <span id="s12-txt-1"> SWRCHF | 12.03% </span>  
                         <span id="s12-txt2" > SWRUSD | 5.34%  </span>
                     </td>
                 </tr>
             </table>
-            </div>
+            </div> -->
         </div>
 
 
@@ -639,7 +647,42 @@ var b = 0;
         });
 
 
+      
+$(document).ready(function(){
+    //SWRCHF
+     $(".table1pink").mouseover(function(){
+         $(".context").text("SWRCHF : 20%")
+     });
+          $(".table1pink").mouseout(function(){
+         $(".context").text("Swiss-related Investments")
+     });
 
+
+    //SWRUSD
+    $(".table1green").mouseover(function(){
+         $(".context").text("SWRUSD : 50%")
+     });
+          $(".table1green").mouseout(function(){
+         $(".context").text("Swiss-related Investments")
+     });
+
+    //SWRBTC
+    $(".table1yellow").mouseover(function(){
+         $(".context").text("asdafas50%")
+     });
+          $(".table1yellow").mouseout(function(){
+         $(".context").text("Swiss-related Investments")
+     });
+
+     //SWRDEF
+     $(".table2blue").mouseover(function(){
+         $(".context").text("SWRDEF : 76%")
+     });
+          $(".table2blue").mouseout(function(){
+         $(".context").text("Swiss-related Investments")
+     });
+
+});
 
   
 </script>

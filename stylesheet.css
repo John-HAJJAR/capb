@@ -28,6 +28,9 @@
       text-decoration: none;
       color: inherit;
     }
+    /* .unstyled-a:hover{
+      color: black;
+    } */
   /* NAVBAR CSS */
 
   #navbar a {
@@ -45,9 +48,10 @@
   .nav-item{
     font-size: 20px;
     padding-bottom: 1%;
-    padding-top: 1%;
+    padding-top: 1.5%;
   }
   .capb123{
+    padding-top: 1.5%;
     padding-bottom: 0%;
     margin-left: -3.5%;
   }
@@ -915,6 +919,7 @@
         color:#202789;
     }
 
+
     .investment-cap {
         width: 70%;
         border-radius: 15px;
@@ -928,6 +933,7 @@
         color: white;
         background-color: #0a1867;
     }
+
 
     @media only screen and (max-width: 1401px) and (min-width: 1200px) {
         .sub-title-7-3 {
@@ -1430,6 +1436,8 @@
     .div-text{
       margin-top: auto;
       margin-bottom: auto;
+      padding-top: 5%;
+      padding-bottom: 6%;
     }
 
 
@@ -2443,3 +2451,4 @@ font-weight: normal;
   
 }
 
+/* SECTION 13 */
