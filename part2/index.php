@@ -91,7 +91,7 @@
                     deal-making</div>
             </div>
             <div>
-                <a href = "../PDFs/Guidelines for Formal Relations - CapB.pdf" target="_blank"><img src = "../imgs/PARTB/P2-S5-2.png" class="p2-s5-img" style="width:30%"></a>
+                <a href = "../PDFs/Guidelines for Formal Relations - CapB.pdf" target="_blank"><img src = "../imgs/PARTB/P2-S5-2.png" class="p2-s5-img"></a>
                 <figcaption class="p2-s5-figcaption">Click the icon above to access document</figcaption>
                 <div class="p2-s5-title">Established Guidelines</div>
                 <div class="p2-s5-sub-title">By seeking to forge, nurture and maintain some fruitful 
@@ -653,7 +653,7 @@ $(document).ready(function(){
          $(".context").text("Swiss-centered Investments")
      });
           $(".table1pink").mouseout(function(){
-         $(".context").text("dsfsdfsdf")
+         $(".context").text("")
      });
 
 
