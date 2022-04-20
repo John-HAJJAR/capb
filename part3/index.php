@@ -396,6 +396,92 @@ include advisory-piece products, quasi-financial services, and intelligence base
     </div>
         </div> -->
 
+        <section class="new-div-section-s-13">
+  <div class="container-newdiv-s13 ">
+    <div class="s5-newdiv-s-13">
+        <h2 align="center" class="h2-s13">Topics & Interest</h2>
+        <div class = "container-s13  container">
+            <div class="box-s13">
+                <p class = "topic color">
+                    Monetary Economics
+                </p>
+                <p class = "sub-topic color">
+                    Advanced Economics
+                </p>
+                <p class = "sub-topic color">
+                    Emerging Economies    
+                </p>
+
+                <p class = "last color">
+                    Lebanon
+                </p>
+
+            </div>
+            <div class="box-s13">
+                <p class = "topic color">
+                    Global Banking
+                </p>
+                <p class = "sub-topic color">
+                    Advanced Economies
+                </p>
+                <p class = "sub-topic color">
+                     Emerging Economies    
+                </p>
+
+                <p class = "last color">
+                    Banking Clusters
+                </p>
+
+            </div>
+            <div class="box-s13">
+                <p class = "topic color">
+                    Macroeconomics
+                </p>
+                <p class = "sub-topic color">
+                    Advanced Economics
+                </p>
+                <p class = "sub-topic color">
+                    Emerging Economies    
+                </p>
+
+                
+
+            </div>
+            <div class="box-s13">
+                <p class = "topic color">
+                    Global Macro
+                </p>
+                <p class = "sub-topic color">
+                    Advanced Economics
+                </p>
+                <p class = "sub-topic color">
+                    Emerging Economies    
+                </p>
+            </div>
+            <div class="box-s13">
+                <p class = "topic color">
+                    Monetary Economics
+                </p>
+                <p class = "sub-topic color">
+                    Advanced Economies
+                </p>
+
+            </div>
+            <div class="box-s13">
+                <p class = "topic color">
+                    Venture Capital
+                </p>
+        
+                <p class = "sub-topic color">
+                    Financing Prospects    
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+  </section>
 
 
 <br>

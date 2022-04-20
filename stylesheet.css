@@ -1760,7 +1760,7 @@
 
   }
 
-  .box {
+  .box-s13 {
     margin: auto;
   }
 
@@ -2452,3 +2452,171 @@ font-weight: normal;
 }
 
 /* SECTION 13 */
+
+.new-div-section-s-13 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.container-newdiv-s13 {
+  width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #bec1d4;
+
+}
+
+
+
+.container-s13 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box-s13 {
+  border-radius: 2px;
+  background-color: #0d1668;
+  /* justify-content: flex-end; */
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 10%;
+  width: 220px;
+  /* height: 250px; */
+  border-radius: 10px;
+}
+
+.topic {
+  text-align: center;
+  /* display: flex; */
+  justify-content: center;
+  font-size: 19px;
+  margin-bottom: 0%;
+  
+}
+
+.color {
+  color: #eae8f4;
+}
+
+.sub-topic {
+  text-align: center;
+}
+
+.last {
+  text-align: center;
+}
+
+.h2-s13 {
+  font-size: 30px;
+  padding-bottom: 2%;
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 800px) {
+  
+  .container-newdiv-s13 {
+    width: 700px;
+  }
+
+  .h2-s13 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+
+  .container-newdiv-s13 {
+    width: 600px;
+  }
+  .container-s13 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .box-s13 {
+    width: 180px;
+  }
+
+  .topic {
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+
+  .sub-topic {
+    font-size: 13px;
+    padding-bottom: 2%;
+  }
+
+  .last {
+    font-size: 11px;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+  }
+
+  .h2-s13 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 650px) {
+
+  .container-newdiv-s13 {
+    width: 400px;
+  }
+  .container-s13 {
+    grid-template-columns: 1fr;
+  }
+
+  .box-s13 {
+    width: 160px;
+  }
+
+  .topic {
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+
+  .sub-topic {
+    font-size: 13px;
+    padding-bottom: 2%;
+  }
+
+  .last {
+    font-size: 11px;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+  }
+
+  .h2-s13 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .container-newdiv-s13 {
+    width: 80vw;
+  }
+  .container-s13 {
+    grid-template-columns: 1fr;
+  }
+
+  .h2-s13 {
+    font-size: 20px;
+  }
+
+  .box-s13 {
+    width: 170px;
+  }
+
+  .topic {
+    font-size: 15px;
+  }
+
+  .sub-topic {
+    font-size: 13px;
+  }
+
+  .last {
+    font-size: 11px;
+  }
+}
