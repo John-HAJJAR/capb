@@ -210,9 +210,38 @@ include advisory-piece products, quasi-financial services, and intelligence base
         </div>
 
 
-         <!-- INSERT MISSING SECTION -->
+         <!-- INSERT MISSING SECTION 6 -->
 <!-- CONNECT NEW PDFS ON LEARN MORE -->
 
+
+<div class = "s7-p3">
+            <p class ="s6-title" align=center>SPONSORED INITIATIVES</p>
+            <p class = "details-professional">
+                "Financing Aptitude" forms an integral part of our ongoing 
+                funding operations, and so, <span class = "key-word">CapB</span> intends to fulfill such an 
+                aspiration by discovering, promoting, and financing hopeful 
+                ventures through its sponsored entities.
+            </p>
+          <div class = "parent">
+            <div class = "child-1">
+              <div class = "items-1">
+                <img src = "../imgs/PARTC/P3-S7-1.png" class = "logo-7-3">
+                <p class = "sub-img-1">Sovereign<br> Wealth Reserve</p>
+              </div>
+              <button type = "button" class = "button-7">
+                  <a href="../PDFs/Sovereign Wealth Reserve - Terms & Initiative.pdf" target="_blank" class="unstyled-a"> Learn </a></button>
+
+            </div>
+            <div class = "child-2">
+              <div class = "items-2">
+                <img src = "../imgs/PARTC/P3-S7-2.png" class = "logo-7-3">
+                <p class = "sub-img-2">Hermon Equity<br> SPIV</p>
+              </div>
+              <button type = "button" class = "button-7">
+              <a href="../PDFs/Hermon Equity - Terms & Initiative.pdf" target="_blank" class="unstyled-a">Discover</a></button>
+            </div>
+          </div>
+            
 
 
 
