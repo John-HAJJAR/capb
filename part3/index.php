@@ -7,6 +7,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <script type="text/javascript" src="../jquery-comp-3.6.js"></script>
+        <link rel="icon" type="image/x-icon" href="../imgs/logo-blue.png">
+
     </head>
 
 <body onload="document.body.style.opacity='1'">
@@ -122,8 +124,8 @@ include advisory-piece products, quasi-financial services, and intelligence base
                     maintaining new markets in various geographies, economies, and 
                     jurisdictions for a variety of operating industries.
                 </p>
-                <div class = "investment-cap s5-p3-txt3">
-                    <p class = "div-text">Abbreviation: NM Guidance</p>
+                <div class = "investment-cap ">
+                    <p class = "div-text">Abbreviation: NM <br class="br-s5-p3-txt3"> Guidance</p>
                 </div>
           </div>
         </div>

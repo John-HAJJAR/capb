@@ -86,7 +86,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-size: 100vw 100vh;
+      background-size: 100vw 100vh; 
   }
   /* FOR PART 1 */
   .s1-cpart1{
@@ -95,7 +95,8 @@
 
   /* FOR PART 2 */
   .s1-cpart2{
-    background-image: url("imgs/wallpaper-p2.jpg");
+      /* background-size: 100.5vw 110vh; */
+      background-image: url("imgs/wallpaper-p2.jpg");
   }
   /* FOR PART2 */
   .s1-cpart3{
@@ -384,6 +385,7 @@
     margin-top: -4rem;
     left: 50%;
     margin-left: -3px;
+    width: 100px;
   }
 
   .engage-explore-btn {
@@ -1478,6 +1480,13 @@
           padding: 4%;
         }
 
+    }
+
+    @media only screen and (max-width: 990px) {
+      .br-s5-p3-txt3{
+        display: none;
+      }
+    
     }
 
     @media only screen and (max-width: 991px) and (min-width: 501px) {
