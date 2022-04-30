@@ -12,7 +12,7 @@
     <body>
        <?php include '../db.php'; ?>
     <?php include '../navbar.php'; ?>
-    <div class="s1-container s1-cpart2">  
+    <div class="s1-container s1-cpart2">
         <div class = "text-Box">
             <div class = "centered s1-1 fadeout">Relations, Deals & Investments</div>
             <div class="centered s1-2 fadeout"> Scaling optionality in Finance, Trade, and Commerce </div>
@@ -21,7 +21,7 @@
          <!-- SECTION 2 -->
          <div>
             <div class = "container-fluid about" style="opacity: 1 !important;" >
-            <p class = "head-title" align=center> 
+            <p class = "head-title" align=center>
             OUR BID
             </p>
  <!-- <span class = "key-word"></span> -->
@@ -37,13 +37,13 @@
           </p>
 
           <p class = "logo"><img src = "../imgs/PARTB/P2-S2.png" alt = "logo" class = "About-logo"</p>
-           
+
         </div>
       </div>
     </div>
 <br>
-    
-    <!-- SECTION 3  --> 
+
+    <!-- SECTION 3  -->
     <div class="s3">
             <div class="s3div s3-1 s3-1part2">
             <p class="text-ts3-1 fontsize-bs"> SEEKING OPPORTUNITY</p>
@@ -53,11 +53,11 @@
             <p class="text-ts3-1 fontsize-bs"> MITIGATING RISK </p>
             <p  class="text-ts3-2 fontsize-bs">  EVALUATING PROSPECTS</p>
             </div>
-        </div> 
+        </div>
         <br><br><br>
-        <br class="eq-br-bs"> 
         <br class="eq-br-bs">
-    
+        <br class="eq-br-bs">
+
     <!-- SECTION 4 -->
     <div class="s6">
     <p class ="s6-title" align=center>FORMAL RELATIONS</p>
@@ -69,8 +69,8 @@
         ventures and opportunities of economic, commercial, and intellectual nature.
       </p>
       <p class = "details-professional">
-        <span class = "key-word">CapB</span> proposes certain guidelines and standards in 
-        order to achieve such beneficial relations, assuming that all intentions and 
+        <span class = "key-word">CapB</span> proposes certain guidelines and standards in
+        order to achieve such beneficial relations, assuming that all intentions and
         incentives are genuinely expressed with transparency.
       </p>
 
@@ -85,19 +85,18 @@
                 <a href = "#"><img src = "../imgs/PARTB/P2-S5-1.png" class="p2-s5-img"></a>
                 <figcaption class="p2-s5-figcaption">No available document</figcaption>
                 <div class="p2-s5-title">Responsible Track Record</div>
-                <div class="p2-s5-sub-title">By establishing a mutual sense of trustworthiness, 
+                <div class="p2-s5-sub-title">By establishing a mutual sense of trustworthiness,
                     we invite the relevant and interested subject to demonstrate,
                     or prove, their track record in certain facets of investment or
                     deal-making</div>
             </div>
             <div>
-                <a href = "../PDFs/Guidelines for Formal Relations - CapB.pdf" target="_blank"><img src = "../imgs/PARTB/P2-S5-2.png" class="p2-s5-img"></a>
-                <figcaption class="p2-s5-figcaption">Click the icon above to access document</figcaption>
+                <a href = "../PDFs/Guidelines for Formal Relations - CapB.pdf" target="_blank"><img src = "../imgs/PARTB/P2-S5-2.png" class="p2-s5-img2"></a>                <figcaption class="p2-s5-figcaption">Click the icon above to access document</figcaption>
                 <div class="p2-s5-title">Established Guidelines</div>
-                <div class="p2-s5-sub-title">By seeking to forge, nurture and maintain some fruitful 
-                    relations with our trusted clients, qualified associates, 
+                <div class="p2-s5-sub-title">By seeking to forge, nurture and maintain some fruitful
+                    relations with our trusted clients, qualified associates,
                     and prudent investors, we have set to establish clear and
-                    honest guidelines to organize, navigate, and facilitate 
+                    honest guidelines to organize, navigate, and facilitate
                     business transactions, private deals, and long-lasting ventures.
 
                 </div>
@@ -110,7 +109,7 @@
                 <div class="p2-s5-title">Solid Standards</div>
                 <div class="p2-s5-sub-title">Honesty, prudence,
     and diligence are what qualities we hope to
-                    find on both sides, buyer and seller, 
+                    find on both sides, buyer and seller,
                     of a typical private deal or business transaction.</div>
             </div>
         </div>
@@ -127,7 +126,7 @@
       <!-- <img src="icon3.png" width="40%"> -->
       <p class = "details-professional">
       <span class = "key-word">CapB</span> intends to provide deal-making opportunities that perfectly match
-      and cater to the preferences of our clients and investors. The suitable time horizon, risk tolerance, 
+      and cater to the preferences of our clients and investors. The suitable time horizon, risk tolerance,
       and amount of allocated capital specific to the relevant initiating party of the underlying deal are
      taken into consideration
       </p>
@@ -139,7 +138,7 @@
       <img src = "../imgs/PARTB/P2-S6.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
     <br>
-    
+
     <!-- SECTION 7 -->
     <section class ="Cols">
         <div class="container">
@@ -149,14 +148,14 @@
                 <!-- <figcaption>No available document</figcaption> -->
               <p class = "title-7">Real Estate</p>
               <p class = "sub-title-7-1">
-                Sizable projects and 
-                properties spanning multiple 
-                geographies, in need of 
-                serious and reputable capital. 
-                Our offerings are strictly 
-                purposed for long-term 
-                investment horizons that 
-                compensate the devoted 
+                Sizable projects and
+                properties spanning multiple
+                geographies, in need of
+                serious and reputable capital.
+                Our offerings are strictly
+                purposed for long-term
+                investment horizons that
+                compensate the devoted
                 beneficiary.
               </p>
               <div class = "investment-cap">
@@ -168,34 +167,34 @@
                 <!-- <figcaption>Click the above icon to access document</figcaption> -->
               <p class = "title-7">Trade</p>
               <p class = "sub-title-7-2">
-                Financing significant 
-                commercial operations, with 
-                embedded guarantees, across 
-                multiple industries, markets, 
-                and geographies. Our 
-                offerings include robust 
-                businesses and commercial 
-                entities with reputable 
+                Financing significant
+                commercial operations, with
+                embedded guarantees, across
+                multiple industries, markets,
+                and geographies. Our
+                offerings include robust
+                businesses and commercial
+                entities with reputable
                 economic utility.
               </p>
               <div class = "investment-cap">
                 <p class = "div-text">Investment Cap:<br> In excess of $100,000</p>
             </div>
-              
+
             </div>
 
             <div class="col-lg-4 text-center">
                 <a href = ""><img src = "../imgs/PARTB/P2-S7-3.png" class = "logo-7"></a>
                 <!-- <figcaption>Click the above icon to access document</figcaption> -->
                 <p class = "title-7">Enterprise</p>
-                <p class = "sub-title-7-3">Funding starting-up, and 
-                    scaling young and promising 
-                    enterprises with solid prospects 
-                    of revenue and income 
-                    streams. Our private references 
-                    include some interesting 
-                    initiatives that possess the 
-                    bright idea, capable team, and 
+                <p class = "sub-title-7-3">Funding starting-up, and
+                    scaling young and promising
+                    enterprises with solid prospects
+                    of revenue and income
+                    streams. Our private references
+                    include some interesting
+                    initiatives that possess the
+                    bright idea, capable team, and
                     ideal vision.
                 </p>
                 <div class = "investment-cap">
@@ -209,9 +208,9 @@
 
     <!-- SECTION 8 -->
     <br><br><br><br>
-  <br class="eq-br-bs"> 
-  <br class="eq-br-bs"> 
-  <br class="eq-br-bs"> 
+  <br class="eq-br-bs">
+  <br class="eq-br-bs">
+  <br class="eq-br-bs">
     <section id="s8">
         <div class="s5-div">
         <img class="s5-p2-img" src="../imgs/PARTB/P2-S8.jpg" >
@@ -244,9 +243,9 @@
 <!-- GET DROPDOWN INFO FORM DB -->
 <!-- PART 2 -> Investment CATEGORY (IC)  -->
 <?php
-      $sql= "SELECT * FROM dropdown_form"; 
+      $sql= "SELECT * FROM dropdown_form";
       $arr_IC = array();
-      $iIC = 0; 
+      $iIC = 0;
       $result2 = mysqli_query($conn,$sql);
       while ($arr = mysqli_fetch_assoc($result2)){
         if($arr['Type'] == 'IC') {
@@ -260,7 +259,7 @@
 <br><br><br>
 <br class="eq-br-bs">
 <br class="eq-br-bs">
-    
+
 <div class="s7">
             <br><br>
             <h2 align=center name = "form" style="color:white;">Enlistment Form</h2>
@@ -268,12 +267,12 @@
                 <div class="s7-left" >
                     <input type="text" name="name" placeholder="First & Last Name"> <br>
                     <input type="text" name="email" placeholder="Email Address"> <br>
-                    <input type="text" name="pnumber" placeholder="Phone Number"> <br> 
+                    <input type="text" name="pnumber" placeholder="Phone Number"> <br>
                     <!-- <input type="text" name="investmentcat" placeholder="Investment Category"> -->
-                          
+
                     <select class="selectp2" name="investmentcat" id="invcat">
                         <option value="c">Investment Category</option>
-                        <?php 
+                        <?php
                         for ($i=0; $i<sizeof($arr_IC); $i++){
                             echo '<option value="'.$i.'">'. $arr_IC[$i] . '</option>';
                         }
@@ -281,7 +280,7 @@
                         <!-- <option value="c1">Category 1</option>
                         <option value="c2">Category 2</option>
                         <option value="c3">Category 3</option> -->
-                    </select>  <br>   
+                    </select>  <br>
                     <input type="text" name="prefftimeHorz" placeholder="Preferred Time Horizon">
                 </div>
                 <div class="s7-right s7-right-sm-p2">
@@ -290,13 +289,13 @@
                     <textarea class = "message2" name="usermessage" cols="22.5" rows="10" placeholder="Your Message"></textarea>
                  </div>
 
-      
+
                 <button type="submit" class="s7-apply-btn" name="submit-en-form">Apply</button>
-                
-                
-                
+
+
+
             </form>
-            <br><br><br><br><br><br>    
+            <br><br><br><br><br><br>
         </div>
 
     <!-- SECTION 11 -->
@@ -325,14 +324,14 @@
 <br class="eq-br-bs">
     <div class="s12">
             <h3 align=center class="s6-title"> Portfolio Listing, Composition and Research </h3>
-            <p align=center>Click the ticker to acces document</p> 
+            <p align=center>Click the ticker to acces document</p>
 
             <table class="s12-table">
                 <tr>
                     <td class="s12-card table1pink">
                     <a href = "../PDFs/Proprietary Investments - SWRCHF - CapB.pdf"  class="unstyled-a" target="_blank">
                         SWRCHF
-                    </a>                
+                    </a>
                     </td>
                     <td width=10%></td>
                     <td class="s12-card table1green">
@@ -350,12 +349,12 @@
                 </a>
                     </td>
                     <td width="10%"></td>
-                    <td class="s12-card table2blue"> 
+                    <td class="s12-card table2blue">
                     <a href = "../PDFs/Proprietary Investments - SWRDEF - CapB.pdf" class="unstyled-a"  target="_blank">
                         SWRDEF
                     </a>
                     </td>
-                    
+
 
                 </tr>
             </table>
@@ -372,8 +371,8 @@
                         Year-to-Month Performance
                     </td>
                     <td class="s12-t3-card2 block" align="center">
-                         ADD CONNECTION TO DATABASE 
-                        <span id="s12-txt-1"> SWRCHF | 12.03% </span>  
+                         ADD CONNECTION TO DATABASE
+                        <span id="s12-txt-1"> SWRCHF | 12.03% </span>
                         <span id="s12-txt2" > SWRUSD | 5.34%  </span>
                     </td>
                 </tr>
@@ -388,13 +387,13 @@
 <br class="eq-br-bs">
     <div class="s13">
         <h3 align=center> FINANCIAL INFORMATION & RECORD </h3>
-        <p align=center>Disclosed information are only relevant to the current and ongoing year of 2021</p> 
+        <p align=center>Disclosed information are only relevant to the current and ongoing year of 2021</p>
         <br>
         <h4 align=center> Spotlight Performance </h4>
         <br>
 
-        
-        <?php     //GET THE VALUES FROM DB 
+
+        <?php     //GET THE VALUES FROM DB
           $sqlinfo = "SELECT * FROM financial_records";
           $reslist = mysqli_query($conn,$sqlinfo);
           $arr = mysqli_fetch_assoc($reslist)
@@ -444,16 +443,16 @@
         <div class="cards2">
             <div class="s14-div1">
                 <div class="s14-card card-14-1">
-                <span class = "key-word"> 
-                    Direct Investment: 
+                <span class = "key-word">
+                    Direct Investment:
                 </span>
                 <p> Active/passive income or
                 capital gains harvested and/or
                 realized from investments
                 made by our private fund, the
-                <span class = "key-word"> Sovereign Wealth Reserve </span> 
+                <span class = "key-word"> Sovereign Wealth Reserve </span>
                 </p>
-                
+
                 </div>
                 <div class="s14-numbers s14-n1">
                     <!-- <span class="counter2" data-number="27"></span>% -->
@@ -464,7 +463,7 @@
             <div class="s14-div2">
                 <div class="s14-card card-14-2">
                 <span class = "key-word">
-                    Brokerage, Deal-fixing & Indirect Investment: 
+                    Brokerage, Deal-fixing & Indirect Investment:
                 </span>
                 <p> All activities that generate a commission fee for
                 extending, mediating, and facilitating particular
@@ -479,10 +478,10 @@
             </div>
             <div class="s14-div3">
                 <div class="s14-card card-14-3">
-                <span class = "key-word"> 
+                <span class = "key-word">
                     Research, Consulting & Advisory services:
                 </span>
-                <p> All activities that generate a 
+                <p> All activities that generate a
                 specific fee for a guaranteed service </p>
                 </div>
                 <div class="s14-numbers s14-n3">
@@ -511,13 +510,13 @@
     </section>
     <?php include '../footer.php'; ?>
 
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
         <script>
-                         
+
          $(function () {
             $(document).scroll(function () {
             var $nav = $(".navbar");
@@ -532,9 +531,9 @@ $(function() {
 
   $window.on('scroll', function(e){
     $blocks.each(function(i,elem){
-      if($(this).hasClass('viewed')) 
+      if($(this).hasClass('viewed'))
         return;
-        
+
       isScrolledIntoView($(this));
     });
   });
@@ -544,13 +543,13 @@ function isScrolledIntoView(elem) {
   var docViewTop = $(window).scrollTop();
   var docViewBottom = docViewTop + $(window).height();
   var elemOffset = 0;
-  
+
   if(elem.data('offset') != undefined) {
     elemOffset = elem.data('offset');
   }
   var elemTop = $(elem).offset().top;
   var elemBottom = elemTop + $(elem).height();
-  
+
   if(elemOffset != 0) { // custom offset is updated based on scrolling direction
     if(docViewTop - elemTop >= 0) {
       // scrolling up from bottom
@@ -560,11 +559,11 @@ function isScrolledIntoView(elem) {
       elemBottom = elemTop + $(elem).height() - elemOffset
     }
   }
-  
+
   if((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
     // once an element is visible exchange the classes
     $(elem).removeClass('notViewed').addClass('viewed');
-    
+
     var animElemsLeft = $('.animBlock.notViewed').length;
     if(animElemsLeft == 0){
       // with no animated elements left debind the scroll event
@@ -646,7 +645,7 @@ var b = 0;
         });
 
 
-      
+
 $(document).ready(function(){
     //SWRCHF
      $(".table1pink").mouseover(function(){
@@ -683,7 +682,7 @@ $(document).ready(function(){
 
 });
 
-  
+
 </script>
 
 
