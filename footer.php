@@ -12,7 +12,7 @@
         <?php include 'db.php'; ?>
 
         <!-- GET INFO FROM DATABASE  -->
-        <?php      
+        <?php
           $sqlinfo = "SELECT * FROM companydetails";
           $reslist = mysqli_query($conn,$sqlinfo);
           $arr = mysqli_fetch_assoc($reslist)
@@ -28,14 +28,14 @@
 
           <!-- <h6><strong>Email: <a class="afooter" href="mailto:info@capb.me">info@capb.me</a></strong></h6> -->
           <h6><strong>Email: <a class="afooter" href="mailto:info@capb.me"> <?php echo $arr['Email']; ?> </a></strong></h6>
-            
-          
-          
+
+
+
             <ul>
               <li>
                 <!-- <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a> -->
                 <a href="<?php echo $arr['LinkedIN']; ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-              
+
               </li>
               <li>
                 <!-- <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a> -->
@@ -46,17 +46,17 @@
         </div>
         <div class="col-lg-4 text-center ">
           <!-- <p><u><strong>B</strong></u></p> middle-footer-->
-          <?php 
-          $DIR = basename(getcwd());  
+          <?php
+          $DIR = basename(getcwd());
           if ($DIR == 'capb') {
             echo '<img src="imgs/logo-white.png" width="25%">';
           } else {
             echo '<img src="../imgs/logo-white.png" width="25%">';
-  
+
           }
-    
+
           ?>
-          
+
 
         </div>
         <div class="col-lg-4 text-center text-lg-end pt-md-4 py-lg-0 right-footer">
@@ -73,7 +73,7 @@
   </section>
   <div class="red-banner">
     <p class="red-banner-txt">
-      Certified by <b>CapB</b>; <br class="red-banner-sm"> Developed by <br class="red-banner-sm"> <u>Mr. Elie Jalkh</u> and <u>Mr. John Hajjar</u>
+      Certified by <b>CapB</b>; <br class="red-banner-sm"> Developed by <br class="red-banner-sm"> <u><a href = "https://www.linkedin.com/in/elie-jalkh-2b53a017b/" class = "devs" target = "_blank">Mr. Elie Jalkh</u> and <u><a href = "https://www.linkedin.com/in/john-hajjar-1bbba8209/" class = "devs" target = "_blank">Mr. John Hajjar</u>
     </p>
   </div>
     </body>

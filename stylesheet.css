@@ -27,7 +27,7 @@
     .unstyled-a{
       text-decoration: none;
       color: inherit;
-      
+
     }
     .unstyled-a:hover{
       color: inherit;
@@ -86,7 +86,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-size: 100vw 100vh; 
+      background-size: 100vw 100vh;
   }
   /* FOR PART 1 */
   .s1-cpart1{
@@ -144,7 +144,7 @@
           font-size: 25px;
       }
     }
-    
+
   @media only screen and (max-width: 500px) {
     .s1-container {
       margin-top: -20px;
@@ -406,7 +406,7 @@
     text-align: center;
   }
 
- 
+
 @media only screen and (max-width: 700px) {
     .finance > h1, .enterprise > h1 {
       font-size: 25px;
@@ -435,7 +435,7 @@
 }
 
   @media only screen and (max-width: 400px) {
-    
+
     .engage-explore-btn {
       transform: scale(0.8);
       }
@@ -682,7 +682,7 @@
   .s7 > h2 {
     margin-bottom: 15px;
   }
-  
+
   .s7-right{
     margin-top: 15px;
     margin-left: 7%;
@@ -1007,13 +1007,13 @@
     filter: alpha(opacity=0);
     position: relative;
     -webkit-transition: all 1s ease-in;
-    -moz-transition: all 1s ease-in;  
+    -moz-transition: all 1s ease-in;
     -ms-transition: all 1s ease-in;
     -o-transition: all 1s ease-in;
     transition: all 1s ease-in;
   }
   .animBlock[data-position="left"] { left: -20%; }
-  
+
   .animBlock[data-position="left"].viewed {
     left: 0%;
     opacity: 1;
@@ -1080,7 +1080,7 @@
     font-size: 3.5vw;
     height: 6vw;
     width:60vw;
-    
+
     }
   }
   .s12-table3 {
@@ -1486,7 +1486,7 @@
       .br-s5-p3-txt3{
         display: none;
       }
-    
+
     }
 
     @media only screen and (max-width: 991px) and (min-width: 501px) {
@@ -1906,7 +1906,7 @@
       margin-left: 20%;
       margin-right: 20%;
     }
-    
+
     .About-logo{
       width: 10%;
       height: 10%;
@@ -1915,7 +1915,7 @@
 
 
   @media only screen and (max-width: 550px) {
-    .about > .details { 
+    .about > .details {
       font-size: 16px;
       margin-left: 10%;
       margin-right: 10%;
@@ -1926,9 +1926,9 @@
     }
 
   }
-    
+
   @media only screen and (max-width: 450px) {
-    .about > .details { 
+    .about > .details {
       font-size: 14px;
     }
   }
@@ -2350,7 +2350,7 @@ font-weight: normal;
     text-align: center;
     margin: 3%;
   }
-  
+
   .p4-txts{
     margin: 0;
   }
@@ -2359,7 +2359,7 @@ font-weight: normal;
 
 
 .hr-p4{
-  width: 250px;  
+  width: 250px;
   height: 8px !important;
   background-color: white;
   opacity: 1;
@@ -2370,7 +2370,7 @@ font-weight: normal;
   margin-top: -55px;
   display:flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .p4-p-less-margin{
@@ -2411,7 +2411,7 @@ font-weight: normal;
   justify-content: center;
   align-items: center;
 }
- 
+
 .enveloppe-body div a i{
   font-size: 40px;
   color: #001C57;;
@@ -2437,7 +2437,7 @@ font-weight: normal;
   color: white;
   cursor: pointer;
   background-color: rgba(81,92,148,255);
-  transition: background-color 200ms, color 200ms; 
+  transition: background-color 200ms, color 200ms;
 }
 
 .enveloppe-body div a i:hover{
@@ -2461,7 +2461,7 @@ font-weight: normal;
   .eq-br-bs{
     display: none;
   }
-  
+
 }
 
 /* SECTION 13 part 3*/
@@ -2505,7 +2505,7 @@ font-weight: normal;
   font-size: 19px;
   margin-bottom: 5%;
   margin-top: 5%;
-  
+
 }
 
 .color {
@@ -2527,7 +2527,7 @@ font-weight: normal;
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 800px) {
-  
+
   .container-newdiv-s13 {
     width: 700px;
   }
@@ -2780,22 +2780,22 @@ font-weight: normal;
   .sub-img-2 {
     font-size: 16px;
     padding-left: 10%;
-    padding-right: 10%; 
+    padding-right: 10%;
   }
 
 }
 
 @media only screen and (max-width: 750px) and (min-width: 573px) {
 
-  
-  .p3-text { 
+
+  .p3-text {
     margin-left: 15%;
     margin-right: 15%;
   }
 
   /* .child-1 {
     width: 35%;
-  
+
   }
 
   .child-2 {
@@ -2811,7 +2811,7 @@ font-weight: normal;
     margin-left: 10%;
     margin-right: 10%;
   }
-/* 
+/*
   .child-1 {
     width: 40%;
   }
@@ -2831,12 +2831,12 @@ font-weight: normal;
     padding-right: 10%;
     font-size: 12px;
   }
-  
+
 
 }
 
 @media only screen and (max-width: 439px){
-  .p3-text { 
+  .p3-text {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -2934,7 +2934,7 @@ font-weight: normal;
     margin-left: 0%;
     width: 20%;
   }
-  
+
   .child-2 {
     display: inline-block;
     /* border: 1px solid red; */
@@ -2943,7 +2943,7 @@ font-weight: normal;
     /* margin-left: 5%; */
     width: 20%;
 
-  } 
+  }
 
   .logo-7-3 {
     width: 80%;
@@ -2963,4 +2963,9 @@ font-weight: normal;
     padding-right: 8%;
   }
 
+}
+
+.devs, .devs:hover, .devs:focus, .devs:active {
+  text-decoration: none;
+  color: inherit;
 }
