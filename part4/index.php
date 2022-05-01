@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/x-icon" href="../imgs/logo-blue.png">
-
+        <style type="text/css">.disclaimer { display: none; }</style>
         <!-- <script type="text/javascript" src="../jquery-comp-3.6.js"></script> -->
     </head>
 
@@ -23,10 +23,10 @@
       <p class="p-p4-txt p-p4-txt-home"><a href="/capb/" style="text-decoration:none; color:white ">Home</a></p>
     </div>
     <div class="col-sm-4" align="right">
-      <p class="p-p4-txt">Free Enterprise</p>        
+      <p class="p-p4-txt">Free Enterprise</p>
     </div>
   </div>
-</div>  
+</div>
 
 
     <img src="../imgs/logo-white.png" class="center-img-p4" >

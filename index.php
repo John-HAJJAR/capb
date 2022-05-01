@@ -7,8 +7,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <link rel="icon" type="image/x-icon" href="./imgs/logo-blue.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="jquery-comp-3.6.js"></script>
+        <style type="text/css">.disclaimer { display: none; }</style>
     </head>
 
     <body style="overflow-x:hiddenl" onload="document.body.style.opacity='1'">
@@ -16,7 +17,7 @@
   <?php include 'db.php'; ?>
   <?php include 'navbar.php'; ?>
 
-    <div class="s1-container s1-cpart1">  
+    <div class="s1-container s1-cpart1">
         <div class = "text-Box">
            <div class = "centered s1-1 fadeout">Promises Held Privately</div>
             <div class="centered s1-2 fadeout"> Free Enterprise </div>
@@ -25,35 +26,35 @@
           <!-- SECTION 2 -->
           <div>
             <div class = "container-fluid about" style="opacity: 1 !important;" >
-            <p class = "head-title" align=center id="about"> 
+            <p class = "head-title" align=center id="about">
               ABOUT
             </p>
 
-          <p class = "details">A multifaceted, multipurpose and multinational 
+          <p class = "details">A multifaceted, multipurpose and multinational
             investment office.
              </p>
              <!-- <span class = "key-word">CapB</span> -->
           <p class = "details">
-             <b> CapB </b> is a privately-held enterprise that ventures 
-            into investment opportunities, hosts an online 
-            services-based platform, and sponsors its very own 
+             <b> CapB </b> is a privately-held enterprise that ventures
+            into investment opportunities, hosts an online
+            services-based platform, and sponsors its very own
             research initiative.
           </p>
-            <p class = "details">For all that is deemed 
-              appropriate, we discover, promote and finance 
-              hopeful ventures that serve the interests of our 
+            <p class = "details">For all that is deemed
+              appropriate, we discover, promote and finance
+              hopeful ventures that serve the interests of our
               clients, sponsors and associates.
-            </p> 
+            </p>
 
           <!-- <p class = "logo"><img src = "imgs/logo-blue.png" alt = "logo" class = "About-logo"></p> -->
           <p class = "logo"><img src = "imgs/logo-white.png" alt = "logo" class = "About-logo"></p>
-           
+
     </div>
       </div>
         </div>
   </div>
 <br>
-    <!-- SECTION 3  --> 
+    <!-- SECTION 3  -->
         <div class="s3">
             <div class="s3div s3-1">
             <p class="text-ts3-1 fontsize-bs"> SEEKING OPPORTUNITY</p>
@@ -65,10 +66,10 @@
             </div>
         </div>
         <br><br><br>
-        <br class="eq-br-bs"> 
+        <br class="eq-br-bs">
         <br class="eq-br-bs">
 
-        
+
     <!-- SECTION 4 -->
     <section id="financeEnterprise">
     <div class="container">
@@ -86,7 +87,7 @@
             optionality in Finance, Trade, and
             Commerce
           </h4>
-         
+
            <img src="imgs/P1-S4-1.png" alt="finance-img">
            <br><br>
            <button class="engage-explore-btn"> Engage </button>
@@ -104,7 +105,7 @@
           enablement of entrepreneurship,
           innovation, and scalability.
         </h4><br>
-          
+
           <img src="imgs/P1-S4-2.png" alt="finance-img">
           <br><br>
           <button class="engage-explore-btn"> Explore </button>
@@ -136,7 +137,7 @@
     </div>
 </div>
   <p class="new-div-note" align="center">
-    For all or any requests, kindly proceed to the following 
+    For all or any requests, kindly proceed to the following
     <span class = "key-word">  <a href="part3/#form3" class="unstyled-a"> <u>form</u> </a> <br>
     Selected Service: Digital CDN </strong>
   </p>
@@ -188,20 +189,20 @@
       </div>
 
       <p class="new-div-note" align="center">
-    For all or any requests, kindly proceed to the following 
+    For all or any requests, kindly proceed to the following
     <span class = "key-word"> <a href="part3/#form3" class="unstyled-a"><u>form</u></a> <br>
     Selected Service: Lebanon O&I </strong>
   </p>
     </div>
 
-  </section>  
+  </section>
 
 
 
   <br><br><br><br>
-  <br class="eq-br-bs"> 
-  <br class="eq-br-bs"> 
-  <br class="eq-br-bs"> 
+  <br class="eq-br-bs">
+  <br class="eq-br-bs">
+  <br class="eq-br-bs">
 
     <!-- SECTION 5 -->
     <section id="s5">
@@ -215,13 +216,13 @@
     <p class ="s6-title" align=center>PROFESSIONAL CAREERS</p>
     <div class="s6">
       <!-- <img src="icon3.png" width="40%"> -->
-      <p class = "details-professional"><span class = "key-word">CapB</span> hopefully seek to recruit the disciplined, professional, and elite 
-        candidates of the realm. We continue to offer entry-level jobs, lengthy 
+      <p class = "details-professional"><span class = "key-word">CapB</span> hopefully seek to recruit the disciplined, professional, and elite
+        candidates of the realm. We continue to offer entry-level jobs, lengthy
         internships, and quality apprenticeship positions.
       </p>
       <p class = "details-professional">
-        In our view, the ideal candidate must showcase genuine integrity by holding 
-        up to their word and image. We only encourage the admission of serious and 
+        In our view, the ideal candidate must showcase genuine integrity by holding
+        up to their word and image. We only encourage the admission of serious and
         motivated applicants.
       </p>
 
@@ -232,7 +233,7 @@
 <!-- GET DROPDOWN INFO FORM DB -->
 <!-- PART 1 -> CHOSEN POSITION (CP) & ROLE TYPE (RT)  -->
 <?php
-      $sql= "SELECT * FROM dropdown_form"; 
+      $sql= "SELECT * FROM dropdown_form";
       $arr_CP = array();
       $arr_RT = array();
       $iCP = 0; $iRT = 0;
@@ -242,11 +243,11 @@
           $arr_CP[$iCP] = $arr['Name'];
           $iCP++;
         }
-      
+
         if($arr['Type'] == 'RT') {
           $arr_RT[$iRT] =  $arr['Name'];
           $iRT++;
-        
+
         }
       }
 
@@ -263,17 +264,17 @@
                 <div class="s7-left" >
                     <input type="text" name="name" placeholder="First & Last Name"> <br>
                     <input type="text" name="email" placeholder="Email Address"> <br>
-                    <input type="text" name="pnumber" placeholder="Phone Number"> <br> 
-                    <input type="text" name="nationality" placeholder="Nationality"> <br> 
+                    <input type="text" name="pnumber" placeholder="Phone Number"> <br>
+                    <input type="text" name="nationality" placeholder="Nationality"> <br>
                     <input type="text" name="linkedin" placeholder="LinkedIn Profile (URL)"> <br>
                 </div>
                 <div class="s7-right">
                 <!-- <input type="text" name="position" placeholder="Chosen Position"><br> -->
-             
+
                 <!-- <input type="text" name="roletype" placeholder="Role Type"> <br> -->
                 <select id="chosenpos" name="position" >
                   <option value="p">Chosen Position</option>
-                  <?php 
+                  <?php
                     for ($i=0; $i<sizeof($arr_CP); $i++){
                       echo '<option value="'.$i.'">'. $arr_CP[$i] . '</option>';
                     }
@@ -281,11 +282,11 @@
                   <!-- <option value="p1">Position 1</option>
                   <option value="p2">Position 2</option>
                   <option value="p3">Position 3</option> -->
-                </select> 
+                </select>
                   <br><br>
                   <select class="select2" name="roletype" id="roletp">
                   <option value="r">Role Type</option>
-                  <?php 
+                  <?php
                     for ($j=0; $j<sizeof($arr_RT); $j++){
                       echo '<option value="'.$j.'">'. $arr_RT[$j] . '</option>';
                     }
@@ -297,19 +298,19 @@
                 </select> <br>
                     <textarea class = "message" name="usermessage" cols="23.5" rows="11 " placeholder="Your Message"></textarea>
                  </div>
-                 
-      
+
+
                 <button type="submit" class="s7-apply-btn" name="submit-adm-form">Apply</button>
-              
-                
+
+
             </form>
             <br><br><br><br><br><br>
         </div>
 
-          
+
         <br><br><br><br>
-        <br class="eq-br-bs"> 
-        
+        <br class="eq-br-bs">
+
 
   <!-- GET NEWS FROM DB -->
   <?php
@@ -318,11 +319,11 @@
 
   ?>
 
-<br class="eq-br-bs"> 
-<br class="eq-br-bs"> 
+<br class="eq-br-bs">
+<br class="eq-br-bs">
 
   <!-- SECTION 8-->
-  <section id="s8" class="text-center"> 
+  <section id="s8" class="text-center">
     <h2> NEWS & UPDATES </h2>
     <br>
     <div class="s8-1">
@@ -341,7 +342,7 @@
   </section>
   <br>
     <!-- SECTION 11 -->
-  <div class="s6">  
+  <div class="s6">
     <p class ="s6-title" align=center>PUBLIC PORTAL</p>
     <div class="s6">
       <!-- <img src="icon3.png" width="40%"> -->
@@ -351,7 +352,7 @@
       robust connections with the prominent few, even to the personal extent.
       Access to this noted portal may further facilitate our ideals.
       </p>
-      <p class="smallnote" align="center">Click the icon below to access the Public Portal</small> 
+      <p class="smallnote" align="center">Click the icon below to access the Public Portal</small>
       <a href="/capb/part4" style="text-decoration:none; color:white" target="_blanl">
         <img src = "imgs/P1-S11.png" alt = "logo" class = "professional-logo logo-Portal" align = "center">
   </a>
@@ -369,7 +370,7 @@
 
 
 
-<!-- 
+<!--
 //   if(isset($_POST['submit'])){
 //         $to = "john-hajjar@hotmail.com"; // Admin mail
 //     $from = $_POST['email']; // this is the sender's Email address
@@ -388,7 +389,7 @@
 -->
 
 
-  
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

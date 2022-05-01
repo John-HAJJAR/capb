@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <link rel="icon" type="image/x-icon" href="../imgs/logo-blue.png">
         <script type="text/javascript" src="../jquery-comp-3.6.js"></script>
+        <style type="text/css">.disclaimer { display: none; }</style>
     </head>
     <body>
        <?php include '../db.php'; ?>

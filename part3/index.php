@@ -8,14 +8,15 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <script type="text/javascript" src="../jquery-comp-3.6.js"></script>
         <link rel="icon" type="image/x-icon" href="../imgs/logo-blue.png">
+        <style type="text/css">.disclaimer { display: none; }</style>
 
     </head>
 
 <body onload="document.body.style.opacity='1'">
-          
+
 <?php include '../db.php'; ?>
 <?php include '../navbar.php'; ?>
-    <div class="s1-container s1-cpart3">  
+    <div class="s1-container s1-cpart3">
         <div class = "text-Box">
             <div class = "centered s1-1 fadeout">Services, Initiatives & Ventures</div>
             <div class="centered s1-2 fadeout"> Enabling innovation, scalability, and opportunity </div>
@@ -24,30 +25,30 @@
          <!-- SECTION 2 -->
          <div">
             <div class = "container-fluid about" style="opacity: 1 !important;" >
-            <p class = "head-title" align=center> 
+            <p class = "head-title" align=center>
             OUR STANCE
             </p>
 
             <p class = "details">
             Enterprise is the solution to outright enablement. At <b>CapB</b>, we long for such
             endeavors that facilitate opportunity, prospects, and growth for the
-            beneficiaries that be 
-        
+            beneficiaries that be
+
             </p>
           <p class = "details">
-            Having the complete knowledge of our ecosystem, and that of its intricacies, 
-            granted us the favorable role of providing tailored services, sponsoring 
+            Having the complete knowledge of our ecosystem, and that of its intricacies,
+            granted us the favorable role of providing tailored services, sponsoring
             hopeful initiatives, and forging strategic partnerships.
           </p>
 
           <p class = "logo"><img src = "../imgs/PARTC/P3-S2.png" alt = "logo" class = "About-logo"</p>
-           
+
         </div>
       </div>
     </div>
 
 <br>
-     <!-- SECTION 3  --> 
+     <!-- SECTION 3  -->
      <div class="s3">
             <div class="s3div s3-1 s3-1part3">
             <p class="text-ts3-1 fontsize-bs"> EXTENDING OPPORTUNITY </p>
@@ -57,7 +58,7 @@
             <p class="text-ts3-1 fontsize-bs"> ANTICIPATING CHANGES </p>
             <p  class="text-ts3-2 fontsize-bs">  MARKET INTELLIGENCE </p>
             </div>
-        </div> 
+        </div>
 
 
 
@@ -71,18 +72,18 @@
     <div class="s6">
       <!-- <img src="icon3.png" width="40%"> -->
       <p class = "details-professional">
-      Considering the scope of operations, <span class = "key-word">CapB</span> has sought to devote its serious 
-effort for providing special services tailored to specific market needs. These 
+      Considering the scope of operations, <span class = "key-word">CapB</span> has sought to devote its serious
+effort for providing special services tailored to specific market needs. These
 include advisory-piece products, quasi-financial services, and intelligence based briefings.
       </p>
       <p class = "details-professional">
-        We hope to deliver a fine degree of professionalism, within our field of 
+        We hope to deliver a fine degree of professionalism, within our field of
         expertise, and guard a pleasant experience for our clients and associates.
       </p>
 
       <img src = "../imgs/PARTC/P3-S4.png" alt = "logo" class = "professional-logo" align = "center">
     </div>
-    
+
     <!-- SECTION 5 -->
     <section class ="Cols">
         <div class="container">
@@ -112,7 +113,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
               <div class = "investment-cap">
                 <p class = "div-text">Abbreviation: F & M Services</p>
             </div>
-              
+
             </div>
 
             <div class="col-lg-4 text-center">
@@ -120,8 +121,8 @@ include advisory-piece products, quasi-financial services, and intelligence base
                 <!-- <figcaption>Click the above icon to access document</figcaption> -->
                 <p class = "title-7">New Market <br> Guidance</p>
                 <p class = "sub-title-7-3 justifyclass">
-                    Direct or indirect guidance on penetrating, establishing, and 
-                    maintaining new markets in various geographies, economies, and 
+                    Direct or indirect guidance on penetrating, establishing, and
+                    maintaining new markets in various geographies, economies, and
                     jurisdictions for a variety of operating industries.
                 </p>
                 <div class = "investment-cap ">
@@ -136,12 +137,12 @@ include advisory-piece products, quasi-financial services, and intelligence base
     <br><br>
     <!-- SECTION 6 FORM -->
     <br><br>
-  
-    
+
+
 <!-- GET DROPDOWN INFO FORM DB -->
 <!-- PART 3 -> elected Service (SS) & Defining Entity (DE)  -->
 <?php
-      $sql= "SELECT * FROM dropdown_form"; 
+      $sql= "SELECT * FROM dropdown_form";
       $arr_SS = array();
       $arr_DE = array();
       $iSS = 0; $iDE = 0;
@@ -151,7 +152,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
           $arr_SS[$iSS] = $arr['Name'];
           $iSS++;
         }
-      
+
         if($arr['Type'] == 'DE') {
           $arr_DE[$iDE] =  $arr['Name'];
           $iDE++;
@@ -169,12 +170,12 @@ include advisory-piece products, quasi-financial services, and intelligence base
                 <div class="s7-left" >
                     <input type="text" name="name" placeholder="First & Last Name"> <br>
                     <input type="text" name="email" placeholder="Email Address"> <br>
-                    <input type="text" name="pnumber" placeholder="Phone Number"> <br> 
+                    <input type="text" name="pnumber" placeholder="Phone Number"> <br>
                     <!-- <input type="text" name="selectedServ" placeholder = "Selected Service"> <br>  -->
-                           
+
                     <select class="selectp2" name="selectedServ" id="selserv">
                         <option value="serv0">Selected Service</option>
-                        <?php 
+                        <?php
                         for ($i=0; $i<sizeof($arr_SS); $i++){
                             echo '<option value="'.$i.'">'. $arr_SS[$i] . '</option>';
                         }
@@ -182,15 +183,15 @@ include advisory-piece products, quasi-financial services, and intelligence base
                         <!-- <option value="serv1">Service 1</option>
                         <option value="serv2">Service 2</option>
                         <option value="serv3">Service 3</option> -->
-                    </select>  <br>   
-                    
+                    </select>  <br>
+
                     <input type="text" name="DesPurpose" placeholder="Designated Purpose">
                 </div>
                 <div class="s7-right s7-right-p3 s7-right-sm-p2">
                 <!-- <input type="text" name="DeffEntity" placeholder="Defining Entity"> <br> -->
                 <select class="selectp2" name="DeffEntity" id="invcat">
                         <option value="c0">Defining Entity</option>
-                        <?php 
+                        <?php
                         for ($j=0; $j<sizeof($arr_DE); $j++){
                             echo '<option value="'.$j.'">'. $arr_DE[$j] . '</option>';
                         }
@@ -198,15 +199,15 @@ include advisory-piece products, quasi-financial services, and intelligence base
                         <!-- <option value="c1">Defining 1</option>
                         <option value="c2">Def 2</option>
                         <option value="c3">Deff 3</option> -->
-                    </select>  <br>   
+                    </select>  <br>
                     <textarea class="message message3" name="usermessage" cols="22" rows="19" placeholder="Your Message"></textarea>
                  </div>
 
-      
+
                 <button type="submit" class="s7-apply-btn" name="submit-req-form">Apply</button>
-                
-                
-                
+
+
+
             </form>
             <br><br><br><br><br><br>
         </div>
@@ -219,9 +220,9 @@ include advisory-piece products, quasi-financial services, and intelligence base
 <div class = "s7-p3">
             <p class ="s6-title" align=center>SPONSORED INITIATIVES</p>
             <p class = "details-professional">
-                "Financing Aptitude" forms an integral part of our ongoing 
-                funding operations, and so, <span class = "key-word">CapB</span> intends to fulfill such an 
-                aspiration by discovering, promoting, and financing hopeful 
+                "Financing Aptitude" forms an integral part of our ongoing
+                funding operations, and so, <span class = "key-word">CapB</span> intends to fulfill such an
+                aspiration by discovering, promoting, and financing hopeful
                 ventures through its sponsored entities.
             </p>
           <div class = "parent">
@@ -243,7 +244,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
               <a href="../PDFs/Hermon Equity - Terms & Initiative.pdf" target="_blank" class="unstyled-a">Discover</a></button>
             </div>
           </div>
-            
+
 
 
 
@@ -252,10 +253,10 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
         <!-- SECTION 7 NEW TO DO  -->
         <br><br><br><br>
-        <br class="eq-br-bs"> 
-        <br class="eq-br-bs"> 
-        <br class="eq-br-bs"> 
-        
+        <br class="eq-br-bs">
+        <br class="eq-br-bs">
+        <br class="eq-br-bs">
+
         <!-- SECTION 8 -->
         <section id="s8-p3">
             <div class="s5-div">
@@ -278,8 +279,8 @@ include advisory-piece products, quasi-financial services, and intelligence base
             other private enterprises.
             </p>
             <p class = "details-professional">
-            Through this amalgamation of corporate pursuit, CapB seeks to expand, 
-            deepen, and nourish its web of connections within the private and public 
+            Through this amalgamation of corporate pursuit, CapB seeks to expand,
+            deepen, and nourish its web of connections within the private and public
             domains of profession.
 
             </p>
@@ -287,7 +288,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
             <img src = "../imgs/PARTC/P3-S9.png" alt = "logo" class = "professional-logo" align = "center">
         </div>
         <br><br><br>
-        
+
         <!-- SECTION 10 & 11 NEW -->
         <div class="s10-p3">
         <div class="s10-div1">
@@ -295,13 +296,13 @@ include advisory-piece products, quasi-financial services, and intelligence base
                 Investment Research & Analysis
             </h3>
             <br>
-            <p align=center>           
+            <p align=center>
                 A product of our <span class = "key-word"> Research Initiative. CapB </span>
                 showcases certain reports, analyses, and
                 “thought pieces” to the public in an effort to
                 challenge and engage general consensus.
             </p>
-            
+
             <div class="s10-line1">
                 <div class="s10-p3-divs s10-finance">
                     Finance
@@ -317,7 +318,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
             </div>
         </div>
 
-        <div class="s10-div2"> 
+        <div class="s10-div2">
             <h3 align=center>
             Public Sponsorships & Partnerships
             </h3>
@@ -330,7 +331,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
             </p>
             <img class="centered-img" src="../imgs/PARTC/P3-S10.png" width="50%" >
             <br>
-            
+
             <button class="s10-p3-divs s10-p3-btn centered-img">Visit</button>
         </div>
     </div>
@@ -339,7 +340,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
     <div class="s11-p3">
         <div class="s11-div1">
             <h3 align=center>
-                 Recommended Research & Scholarship 
+                 Recommended Research & Scholarship
             </h3>
             <br>
             <p align=center>
@@ -361,7 +362,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
             <br>
             <p align=center>
             <span class = "key-word"> CapB </span> proud to have established a direct
-            affiliation with <span class = "key-word"> MentorFund</span>, a communitydriven 
+            affiliation with <span class = "key-word"> MentorFund</span>, a communitydriven
             Founder Accelerator that facilitates experience and deal-flow between founders
             and investors.
             </p>
@@ -375,20 +376,20 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
 
 <br><br>
-        
+
         <!-- SECTION 12 RESEARCH INITIATIVE -->
         <div class="s6">
             <p class ="s6-title" align=center>RESEARCH INITIATIVE</p>
             <div class="s6">
             <!-- <img src="icon3.png" width="40%"> -->
             <p class = "details-professional">
-            Initially, a fundamental division of <span class = "key-word">CapB</span>, the "Research Initiative" was 
-            purposed for providing, conducting, and retrieving intelligence on market 
-            activities, economic concerns/conditions, and general enterprise-related 
+            Initially, a fundamental division of <span class = "key-word">CapB</span>, the "Research Initiative" was
+            purposed for providing, conducting, and retrieving intelligence on market
+            activities, economic concerns/conditions, and general enterprise-related
             guidance.
             </p>
             <p class = "details-professional">
-            All relevant topics mentioned below stand within the scope of our research 
+            All relevant topics mentioned below stand within the scope of our research
             efforts and undertakings.
 
             </p>
@@ -440,7 +441,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
                     Advanced Economics
                 </p>
                 <p class = "sub-topic color">
-                    Emerging Economies    
+                    Emerging Economies
                 </p>
 
                 <p class = "last color">
@@ -456,7 +457,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
                     Advanced Economies
                 </p>
                 <p class = "sub-topic color">
-                     Emerging Economies    
+                     Emerging Economies
                 </p>
 
                 <p class = "last color">
@@ -472,10 +473,10 @@ include advisory-piece products, quasi-financial services, and intelligence base
                     Advanced Economics
                 </p>
                 <p class = "sub-topic color">
-                    Emerging Economies    
+                    Emerging Economies
                 </p>
 
-                
+
 
             </div>
             <div class="box-s13">
@@ -486,7 +487,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
                     Advanced Economics
                 </p>
                 <p class = "sub-topic color">
-                    Emerging Economies    
+                    Emerging Economies
                 </p>
             </div>
             <div class="box-s13">
@@ -502,9 +503,9 @@ include advisory-piece products, quasi-financial services, and intelligence base
                 <p class = "topic color">
                     Venture Capital
                 </p>
-        
+
                 <p class = "sub-topic color">
-                    Financing Prospects    
+                    Financing Prospects
                 </p>
 
             </div>
@@ -526,7 +527,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
 
 
 
-        
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
@@ -538,7 +539,7 @@ include advisory-piece products, quasi-financial services, and intelligence base
         });
     });
 
-    
+
  $(function () {
     $(document).scroll(function () {
     var $nav = $(".navbar");
@@ -547,9 +548,9 @@ include advisory-piece products, quasi-financial services, and intelligence base
 });
 
 
- 
 
-    </script>    
+
+    </script>
 
 
 
