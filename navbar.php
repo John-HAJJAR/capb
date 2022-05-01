@@ -9,7 +9,7 @@
         <script type="text/javascript" src="jquery-comp-3.6.js"></script>
     </head>
     <body>
-            
+
     <section id="navbar">
     <nav class="navbar py-4 fixed-top navbar-expand-lg navbar-dark">
       <div class="container">
@@ -32,11 +32,11 @@
             </li>
             <h1 class="d-none capb123 d-lg-block"><a class="mx-lg-auto" href="#">CapB</a></h1>
             <li class="nav-item ms-lg-auto me-lg-2 mb-4 mb-lg-0 mt-auto">
-              <a href="/capb/part2">Finance</a>
+              <a href="/capb/part2/index.php">Finance</a>
             </li>
             <span class="mt-auto me-2 d-none d-lg-block nav-item"> | </span>
             <li class="nav-item mt-auto mb-4 mb-lg-0">
-              <a href="/capb/part3">Enterprise</a>
+              <a href="/capb/part3/index.php">Enterprise</a>
             </li>
           </ul>
         </div>
