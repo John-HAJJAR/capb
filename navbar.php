@@ -28,7 +28,7 @@
             </li>
             <span class="mt-auto me-2 d-none d-lg-block nav-item"> | </span>
             <li class="nav-item me-lg-auto mb-4 mb-lg-0 mt-auto">
-              <a href="../index.php/#s5">Careers</a>
+              <a href="#s5">Careers</a>
             </li>
             <h1 class="d-none capb123 d-lg-block"><a class="mx-lg-auto" href="#">CapB</a></h1>
             <li class="nav-item ms-lg-auto me-lg-2 mb-4 mb-lg-0 mt-auto">
