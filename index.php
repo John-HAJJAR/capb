@@ -353,7 +353,7 @@
       Access to this noted portal may further facilitate our ideals.
       </p>
       <p class="smallnote" align="center">Click the icon below to access the Public Portal</small>
-      <a href="/capb/part4" style="text-decoration:none; color:white" target="_blanl">
+      <a href="part4" style="text-decoration:none; color:white" target="_blanl">
         <img src = "imgs/P1-S11.png" alt = "logo" class = "professional-logo logo-Portal" align = "center">
   </a>
       </div><br>
