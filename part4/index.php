@@ -20,7 +20,7 @@
       <p class="p-p4-txt">Exclusive Insights</p>
     </div>
     <div class="col-sm-4 p4-home-btn" align="center">
-      <p class="p-p4-txt p-p4-txt-home"><a href="/capb/" style="text-decoration:none; color:white ">Home</a></p>
+      <p class="p-p4-txt p-p4-txt-home"><a href="../index.pxp" style="text-decoration:none; color:white ">Home</a></p>
     </div>
     <div class="col-sm-4" align="right">
       <p class="p-p4-txt">Free Enterprise</p>
