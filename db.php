@@ -1,6 +1,6 @@
 <?php
 $errors= [];
-$conn = new mysqli('localhost', 'root', '', 'id18868820_capb');
+$conn = new mysqli('localhost', 'id18868820_capbweb', '', 'id18868820_capb');
 
 error_reporting(0);
 
