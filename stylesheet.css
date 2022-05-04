@@ -809,16 +809,12 @@
     text-align: center;
   }
 
-  @media only screen and (max-width: 3000px) {
-
     .p2-s5-img{
       width: 100px;
     }
     .p2-s5-img2{
-      width: 50px;
+      width: 110px;
     }
-
-  }
 
   .p2-s5-sub-title {
     margin-right: 10%;
