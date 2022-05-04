@@ -810,7 +810,11 @@
   }
 
   .p2-s5-img{
-    width: 25%;
+    width: 100px;
+  }
+
+  .p2-s5-img2{
+    width: 110px;
   }
 
   .p2-s5-sub-title {
