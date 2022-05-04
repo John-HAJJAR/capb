@@ -1,6 +1,6 @@
-<?php 
+<?php
 $errors= [];
-$conn = new mysqli('localhost', 'root', '', 'capb');
+$conn = new mysqli('localhost', 'root', '', 'id18868820_capb');
 
 error_reporting(0);
 
@@ -17,7 +17,7 @@ if (isset($_POST['submit-adm-form'])){
     $roletype = $_POST['roletype'];
     $message = $_POST['usermessage'];
 
-    
+
 
     if (empty($name) || strlen($name) <= 2 ){
         $errors['Name'] = 'Name is required';
@@ -43,10 +43,10 @@ if (isset($_POST['submit-adm-form'])){
 
 
     if (count($errors) === 0 ){
-        $sql= "INSERT INTO admission_form (FullName, Email, Pnumber, Nationality, Linkedin, Position, Role, Message) 
+        $sql= "INSERT INTO admission_form (FullName, Email, Pnumber, Nationality, Linkedin, Position, Role, Message)
             VALUES('".$name."','".$email."','".$pnumber."','".$nationality."','".$linkedin."', '".$position."', '".$roletype."', '".$message."')";
          $result = mysqli_query($conn,$sql);
-    }    
+    }
 
 }
 
@@ -61,7 +61,7 @@ if (isset($_POST['submit-en-form'])){
     $linkedin = $_POST['linkedin'];
     $message = $_POST['usermessage'];
 
-    
+
 
     if (empty($name) || strlen($name) <= 2 ){
         $errors['Name'] = 'Name is required';
@@ -80,7 +80,7 @@ if (isset($_POST['submit-en-form'])){
     }
     if (empty($prefTH)){
 
-    }    
+    }
     if (empty($occupation)){
 
     }
@@ -90,10 +90,10 @@ if (isset($_POST['submit-en-form'])){
 
 
     if (count($errors) === 0 ){
-        $sql= "INSERT INTO enlistment_form (FullName, Email, Pnumber, LinkedIn, InvCat, PreffTH, CurrOcc, Message) 
+        $sql= "INSERT INTO enlistment_form (FullName, Email, Pnumber, LinkedIn, InvCat, PreffTH, CurrOcc, Message)
             VALUES('".$name."','".$email."','".$pnumber."','".$linkedin."','".$invcat."', '".$prefTH."', '".$occupation."', '".$message."')";
          $result = mysqli_query($conn,$sql);
-    }    
+    }
 
 }
 
@@ -109,7 +109,7 @@ if (isset($_POST['submit-req-form'])){
     $deffentity = $_POST['DeffEntity'];
     $message = $_POST['usermessage'];
 
-    
+
 
     if (empty($name) || strlen($name) <= 2 ){
         // $errors['Name'] = 'Name is required';
@@ -128,17 +128,17 @@ if (isset($_POST['submit-req-form'])){
     }
     if (empty($deffentity)){
 
-    }    
+    }
     if (empty($message)){
 
     }
 
 
     if (count($errors) === 0 ){
-        $sql= "INSERT INTO request_form (FullName, Email, Pnumber, SelectedService, Des_Purpose, DefiningEnt, Message) 
+        $sql= "INSERT INTO request_form (FullName, Email, Pnumber, SelectedService, Des_Purpose, DefiningEnt, Message)
             VALUES('".$name."','".$email."','".$pnumber."','".$selectedServ."','".$despurpose."', '".$deffentity."', '".$message."')";
          $result = mysqli_query($conn,$sql);
-    }    
+    }
 
 }
 
