@@ -44,7 +44,7 @@ if (isset($_POST['loginbtn'])) {
 
   if(isset($_SESSION['username'])) {
       //echo "Welcome new user".$_SESSION['username'];
-      echo"<script>   location.href = '../admin/dashboard.php'</script>";
+      echo"<script>   location.href = 'dashboard.php'</script>";
 } else {
   if ($inputuser == $username){
     if (password_verify($inputpass, $hashedpass))
@@ -53,7 +53,7 @@ if (isset($_POST['loginbtn'])) {
         $_SESSION['username'] = $inputuser;
 //        $_SESSION['status'] = 'true';
 
-          header("Location: ../admin/dashboard.php");
+          header("Location: dashboard.php");
           exit();
       } else {
         echo "<script> alert('Username or Password is incorrect')</script>";
